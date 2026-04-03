@@ -1,0 +1,786 @@
+{
+    "ID": "237657463175525341",
+    "Type": 0,
+    "TextureType": 0,
+    "Read\/Write": false,
+    "Mipmaps": 1,
+    "WrapMode": 2,
+    "WrapS": 33071,
+    "WrapT": 33071,
+    "BorderColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+    },
+    "Filter": 0,
+    "Width": 512,
+    "Height": 256,
+    "PixelsPerUnit": 100,
+    "SpriteType": 1,
+    "Sprites": [
+        {
+            "SpriteID": "6818942296745424613",
+            "Rect": {
+                "x": 0,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_0"
+        },
+        {
+            "SpriteID": "12356296608634879426",
+            "Rect": {
+                "x": 48,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_1"
+        },
+        {
+            "SpriteID": "13446081039688286461",
+            "Rect": {
+                "x": 96,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_2"
+        },
+        {
+            "SpriteID": "2347978475406601355",
+            "Rect": {
+                "x": 144,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_3"
+        },
+        {
+            "SpriteID": "9909694940971689516",
+            "Rect": {
+                "x": 192,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_4"
+        },
+        {
+            "SpriteID": "6457366705735077003",
+            "Rect": {
+                "x": 240,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_5"
+        },
+        {
+            "SpriteID": "9331006622200341357",
+            "Rect": {
+                "x": 288,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_6"
+        },
+        {
+            "SpriteID": "10237546609369737390",
+            "Rect": {
+                "x": 336,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_7"
+        },
+        {
+            "SpriteID": "3622388055064540935",
+            "Rect": {
+                "x": 0,
+                "y": 48,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_8"
+        },
+        {
+            "SpriteID": "9686630551858834058",
+            "Rect": {
+                "x": 48,
+                "y": 48,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_9"
+        },
+        {
+            "SpriteID": "1461747865006147924",
+            "Rect": {
+                "x": 96,
+                "y": 48,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_10"
+        },
+        {
+            "SpriteID": "12302241875732954925",
+            "Rect": {
+                "x": 144,
+                "y": 48,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_11"
+        },
+        {
+            "SpriteID": "16915270946509330118",
+            "Rect": {
+                "x": 192,
+                "y": 48,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_12"
+        },
+        {
+            "SpriteID": "3074791870332996527",
+            "Rect": {
+                "x": 240,
+                "y": 48,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_13"
+        },
+        {
+            "SpriteID": "14753146022501158623",
+            "Rect": {
+                "x": 288,
+                "y": 48,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_14"
+        },
+        {
+            "SpriteID": "10045245216942970978",
+            "Rect": {
+                "x": 336,
+                "y": 48,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_15"
+        },
+        {
+            "SpriteID": "12972726066426879626",
+            "Rect": {
+                "x": 0,
+                "y": 96,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_16"
+        },
+        {
+            "SpriteID": "17558844097412516411",
+            "Rect": {
+                "x": 48,
+                "y": 96,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_17"
+        },
+        {
+            "SpriteID": "15765034012539514424",
+            "Rect": {
+                "x": 96,
+                "y": 96,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_18"
+        },
+        {
+            "SpriteID": "17640623489424900690",
+            "Rect": {
+                "x": 144,
+                "y": 96,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_19"
+        },
+        {
+            "SpriteID": "9705701485878167409",
+            "Rect": {
+                "x": 192,
+                "y": 96,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_20"
+        },
+        {
+            "SpriteID": "7238910870234830653",
+            "Rect": {
+                "x": 240,
+                "y": 96,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_21"
+        },
+        {
+            "SpriteID": "2585448370210195584",
+            "Rect": {
+                "x": 288,
+                "y": 96,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_22"
+        },
+        {
+            "SpriteID": "2858987374707091662",
+            "Rect": {
+                "x": 336,
+                "y": 96,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_23"
+        },
+        {
+            "SpriteID": "17019710005029468340",
+            "Rect": {
+                "x": 0,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_24"
+        },
+        {
+            "SpriteID": "16524958786074815334",
+            "Rect": {
+                "x": 48,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_25"
+        },
+        {
+            "SpriteID": "4719488450095630157",
+            "Rect": {
+                "x": 96,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_26"
+        },
+        {
+            "SpriteID": "4664098809641936376",
+            "Rect": {
+                "x": 144,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_27"
+        },
+        {
+            "SpriteID": "5706440613042586397",
+            "Rect": {
+                "x": 192,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_28"
+        },
+        {
+            "SpriteID": "12383602451679149579",
+            "Rect": {
+                "x": 240,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_29"
+        },
+        {
+            "SpriteID": "2116270301866099606",
+            "Rect": {
+                "x": 288,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_30"
+        },
+        {
+            "SpriteID": "17676688212663049155",
+            "Rect": {
+                "x": 336,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_31"
+        },
+        {
+            "SpriteID": "7400734832877848015",
+            "Rect": {
+                "x": 0,
+                "y": 192,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_32"
+        },
+        {
+            "SpriteID": "8006172443231988719",
+            "Rect": {
+                "x": 48,
+                "y": 192,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_33"
+        },
+        {
+            "SpriteID": "17968692075857477608",
+            "Rect": {
+                "x": 96,
+                "y": 192,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_34"
+        },
+        {
+            "SpriteID": "14524524471572488967",
+            "Rect": {
+                "x": 144,
+                "y": 192,
+                "w": 48,
+                "h": 48
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "LightBandit_35"
+        }
+    ],
+    "Platforms Data": [
+        {
+            "Max Size": 2048,
+            "Resize Algorithm": 9737,
+            "Compression Mode": 0
+        }
+    ]
+}
