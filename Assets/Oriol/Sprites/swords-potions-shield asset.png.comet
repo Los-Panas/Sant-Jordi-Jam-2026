@@ -1,0 +1,93 @@
+{
+    "ID": "6497893398844954821",
+    "Type": 0,
+    "TextureType": 0,
+    "Read\/Write": false,
+    "Mipmaps": 1,
+    "WrapMode": 2,
+    "WrapS": 33071,
+    "WrapT": 33071,
+    "BorderColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+    },
+    "Filter": 0,
+    "Width": 94,
+    "Height": 80,
+    "PixelsPerUnit": 100,
+    "SpriteType": 1,
+    "Sprites": [
+        {
+            "SpriteID": "11727151561201786944",
+            "Rect": {
+                "x": 0,
+                "y": 0,
+                "w": 14,
+                "h": 32
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "swords-potions-shield asset_0"
+        },
+        {
+            "SpriteID": "2907196031124484642",
+            "Rect": {
+                "x": 48,
+                "y": 0,
+                "w": 15,
+                "h": 32
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "swords-potions-shield asset_1"
+        },
+        {
+            "SpriteID": "4337975939227607384",
+            "Rect": {
+                "x": 0,
+                "y": 49,
+                "w": 31,
+                "h": 31
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "swords-potions-shield asset_2"
+        }
+    ],
+    "Platforms Data": [
+        {
+            "Max Size": 2048,
+            "Resize Algorithm": 9737,
+            "Compression Mode": 0
+        }
+    ]
+}

@@ -1,0 +1,1927 @@
+{
+    "Entities": [
+        {
+            "Name": "NoteBar",
+            "ID": "4204649995084455413",
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": true,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "14478369678629449642": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 384
+                    },
+                    "Left": -1000.002,
+                    "Right": 920.003,
+                    "Top": -192,
+                    "Bottom": -192,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Bar",
+            "ID": "9642303944136652226",
+            "ParentID": "4204649995084455413",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "1876746725025640431": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 384
+                    },
+                    "Left": 0,
+                    "Right": 0,
+                    "Top": 0,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "17310225172461718586": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 0.525,
+                        "g": 0.525,
+                        "b": 0.525,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                },
+                "5182643020409787428": {
+                    "Type": 62,
+                    "Enabled": true,
+                    "Padding": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 0,
+                        "h": 0
+                    },
+                    "ChildAlignment": 0,
+                    "Spacing": 0,
+                    "FitModeX": 1,
+                    "FitModeY": 1
+                }
+            }
+        },
+        {
+            "Name": "Line",
+            "ID": "9387445323929039178",
+            "ParentID": "4204649995084455413",
+            "ChildIndex": 1,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16747656957874989541": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 1,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 1,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 4,
+                        "y": 384
+                    },
+                    "Left": -4,
+                    "Right": 0,
+                    "Top": 0,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 38,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "12452419367146378808": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 0.656,
+                        "g": 0.656,
+                        "b": 0.656,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                }
+            }
+        },
+        {
+            "Name": "Attack",
+            "ID": "329465346705067780",
+            "ParentID": "9642303944136652226",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16241131847021809467": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 96
+                    },
+                    "Left": -40,
+                    "Right": -40,
+                    "Top": -192,
+                    "Bottom": 96,
+                    "Position": {
+                        "x": 0,
+                        "y": 144,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "14247356562313955941": {
+                    "Type": 62,
+                    "Enabled": true,
+                    "Padding": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 0,
+                        "h": 0
+                    },
+                    "ChildAlignment": 0,
+                    "Spacing": 0,
+                    "FitModeX": 1,
+                    "FitModeY": 1
+                }
+            }
+        },
+        {
+            "Name": "HeavyAttack",
+            "ID": "8511114478833114499",
+            "ParentID": "9642303944136652226",
+            "ChildIndex": 1,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16241131847021809467": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 96
+                    },
+                    "Left": -40,
+                    "Right": -40,
+                    "Top": -96,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 0,
+                        "y": 48,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "14247356562313955941": {
+                    "Type": 62,
+                    "Enabled": true,
+                    "Padding": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 0,
+                        "h": 0
+                    },
+                    "ChildAlignment": 0,
+                    "Spacing": 0,
+                    "FitModeX": 1,
+                    "FitModeY": 1
+                }
+            }
+        },
+        {
+            "Name": "Shield",
+            "ID": "18336735485033891533",
+            "ParentID": "9642303944136652226",
+            "ChildIndex": 2,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16241131847021809467": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 96
+                    },
+                    "Left": -40,
+                    "Right": -40,
+                    "Top": 0,
+                    "Bottom": -96,
+                    "Position": {
+                        "x": 0,
+                        "y": -48,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "14247356562313955941": {
+                    "Type": 62,
+                    "Enabled": true,
+                    "Padding": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 0,
+                        "h": 0
+                    },
+                    "ChildAlignment": 0,
+                    "Spacing": 0,
+                    "FitModeX": 1,
+                    "FitModeY": 1
+                }
+            }
+        },
+        {
+            "Name": "Rosa",
+            "ID": "15334295511715639512",
+            "ParentID": "9642303944136652226",
+            "ChildIndex": 3,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16241131847021809467": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 96
+                    },
+                    "Left": -40,
+                    "Right": -40,
+                    "Top": 96,
+                    "Bottom": -192,
+                    "Position": {
+                        "x": 0,
+                        "y": -144,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "14247356562313955941": {
+                    "Type": 62,
+                    "Enabled": true,
+                    "Padding": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 0,
+                        "h": 0
+                    },
+                    "ChildAlignment": 0,
+                    "Spacing": 0,
+                    "FitModeX": 1,
+                    "FitModeY": 1
+                }
+            }
+        },
+        {
+            "Name": "Fa",
+            "ID": "13377992024127255954",
+            "ParentID": "329465346705067780",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16241131847021809467": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 48
+                    },
+                    "Left": 0,
+                    "Right": 0,
+                    "Top": 0,
+                    "Bottom": 48,
+                    "Position": {
+                        "x": 0,
+                        "y": 24,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "6446334883542407750": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                },
+                "7726886840580829842": {
+                    "Type": 48,
+                    "Enabled": true,
+                    "SelfInteractable": true,
+                    "State": 0,
+                    "Transition": 1,
+                    "Image": {
+                        "EntID": "13377992024127255954",
+                        "EntSharedID": "13377992024127255954",
+                        "OutsideEnt": false,
+                        "Path": [],
+                        "RootShared": "4204649995084455413",
+                        "RootInside": false,
+                        "IsMainInstanciableEntity": false,
+                        "BehaType": 46,
+                        "BehaID": "6446334883542407750"
+                    },
+                    "Normal": {
+                        "r": 0.31,
+                        "g": 0.31,
+                        "b": 0.31,
+                        "a": 1
+                    },
+                    "Highlighted": {
+                        "r": 0.4,
+                        "g": 0.4,
+                        "b": 0.4,
+                        "a": 1
+                    },
+                    "Pressed": {
+                        "r": 0.239,
+                        "g": 0.239,
+                        "b": 0.239,
+                        "a": 1
+                    },
+                    "Selected": {
+                        "r": 0.478,
+                        "g": 0.478,
+                        "b": 0.478,
+                        "a": 1
+                    },
+                    "Disabled": {
+                        "r": 0.79,
+                        "g": 0.79,
+                        "b": 0.79,
+                        "a": 0.5
+                    },
+                    "Fade": 0.1,
+                    "UseScaledTime": false,
+                    "Navigation": 3,
+                    "OnDown": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnLeft": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnRightEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnUpEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Sol",
+            "ID": "3911021408614317029",
+            "ParentID": "329465346705067780",
+            "ChildIndex": 1,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16241131847021809467": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 48
+                    },
+                    "Left": 0,
+                    "Right": 0,
+                    "Top": 48,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 0,
+                        "y": -24,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "6446334883542407750": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                },
+                "7726886840580829842": {
+                    "Type": 48,
+                    "Enabled": true,
+                    "SelfInteractable": true,
+                    "State": 0,
+                    "Transition": 1,
+                    "Image": {
+                        "EntID": "3911021408614317029",
+                        "EntSharedID": "3911021408614317029",
+                        "OutsideEnt": false,
+                        "Path": [],
+                        "RootShared": "4204649995084455413",
+                        "RootInside": false,
+                        "IsMainInstanciableEntity": false,
+                        "BehaType": 46,
+                        "BehaID": "6446334883542407750"
+                    },
+                    "Normal": {
+                        "r": 0.31,
+                        "g": 0.31,
+                        "b": 0.31,
+                        "a": 1
+                    },
+                    "Highlighted": {
+                        "r": 0.4,
+                        "g": 0.4,
+                        "b": 0.4,
+                        "a": 1
+                    },
+                    "Pressed": {
+                        "r": 0.239,
+                        "g": 0.239,
+                        "b": 0.239,
+                        "a": 1
+                    },
+                    "Selected": {
+                        "r": 0.478,
+                        "g": 0.478,
+                        "b": 0.478,
+                        "a": 1
+                    },
+                    "Disabled": {
+                        "r": 0.79,
+                        "g": 0.79,
+                        "b": 0.79,
+                        "a": 0.5
+                    },
+                    "Fade": 0.1,
+                    "UseScaledTime": false,
+                    "Navigation": 3,
+                    "OnDown": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnLeft": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnRightEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnUpEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "La",
+            "ID": "1907370489839101592",
+            "ParentID": "8511114478833114499",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16241131847021809467": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 48
+                    },
+                    "Left": 0,
+                    "Right": 0,
+                    "Top": 0,
+                    "Bottom": 48,
+                    "Position": {
+                        "x": 0,
+                        "y": 24,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "6446334883542407750": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                },
+                "7726886840580829842": {
+                    "Type": 48,
+                    "Enabled": true,
+                    "SelfInteractable": true,
+                    "State": 0,
+                    "Transition": 1,
+                    "Image": {
+                        "EntID": "1907370489839101592",
+                        "EntSharedID": "1907370489839101592",
+                        "OutsideEnt": false,
+                        "Path": [],
+                        "RootShared": "4204649995084455413",
+                        "RootInside": false,
+                        "IsMainInstanciableEntity": false,
+                        "BehaType": 46,
+                        "BehaID": "6446334883542407750"
+                    },
+                    "Normal": {
+                        "r": 0.31,
+                        "g": 0.31,
+                        "b": 0.31,
+                        "a": 1
+                    },
+                    "Highlighted": {
+                        "r": 0.4,
+                        "g": 0.4,
+                        "b": 0.4,
+                        "a": 1
+                    },
+                    "Pressed": {
+                        "r": 0.239,
+                        "g": 0.239,
+                        "b": 0.239,
+                        "a": 1
+                    },
+                    "Selected": {
+                        "r": 0.478,
+                        "g": 0.478,
+                        "b": 0.478,
+                        "a": 1
+                    },
+                    "Disabled": {
+                        "r": 0.79,
+                        "g": 0.79,
+                        "b": 0.79,
+                        "a": 0.5
+                    },
+                    "Fade": 0.1,
+                    "UseScaledTime": false,
+                    "Navigation": 3,
+                    "OnDown": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnLeft": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnRightEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnUpEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Si",
+            "ID": "12204074437654787227",
+            "ParentID": "8511114478833114499",
+            "ChildIndex": 1,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16241131847021809467": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 48
+                    },
+                    "Left": 0,
+                    "Right": 0,
+                    "Top": 48,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 0,
+                        "y": -24,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "6446334883542407750": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                },
+                "7726886840580829842": {
+                    "Type": 48,
+                    "Enabled": true,
+                    "SelfInteractable": true,
+                    "State": 0,
+                    "Transition": 1,
+                    "Image": {
+                        "EntID": "12204074437654787227",
+                        "EntSharedID": "12204074437654787227",
+                        "OutsideEnt": false,
+                        "Path": [],
+                        "RootShared": "4204649995084455413",
+                        "RootInside": false,
+                        "IsMainInstanciableEntity": false,
+                        "BehaType": 46,
+                        "BehaID": "6446334883542407750"
+                    },
+                    "Normal": {
+                        "r": 0.31,
+                        "g": 0.31,
+                        "b": 0.31,
+                        "a": 1
+                    },
+                    "Highlighted": {
+                        "r": 0.4,
+                        "g": 0.4,
+                        "b": 0.4,
+                        "a": 1
+                    },
+                    "Pressed": {
+                        "r": 0.239,
+                        "g": 0.239,
+                        "b": 0.239,
+                        "a": 1
+                    },
+                    "Selected": {
+                        "r": 0.478,
+                        "g": 0.478,
+                        "b": 0.478,
+                        "a": 1
+                    },
+                    "Disabled": {
+                        "r": 0.79,
+                        "g": 0.79,
+                        "b": 0.79,
+                        "a": 0.5
+                    },
+                    "Fade": 0.1,
+                    "UseScaledTime": false,
+                    "Navigation": 3,
+                    "OnDown": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnLeft": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnRightEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnUpEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Do",
+            "ID": "4194630868304521534",
+            "ParentID": "18336735485033891533",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16241131847021809467": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 48
+                    },
+                    "Left": 0,
+                    "Right": 0,
+                    "Top": 0,
+                    "Bottom": 48,
+                    "Position": {
+                        "x": 0,
+                        "y": 24,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "6446334883542407750": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                },
+                "7726886840580829842": {
+                    "Type": 48,
+                    "Enabled": true,
+                    "SelfInteractable": true,
+                    "State": 0,
+                    "Transition": 1,
+                    "Image": {
+                        "EntID": "4194630868304521534",
+                        "EntSharedID": "4194630868304521534",
+                        "OutsideEnt": false,
+                        "Path": [],
+                        "RootShared": "4204649995084455413",
+                        "RootInside": false,
+                        "IsMainInstanciableEntity": false,
+                        "BehaType": 46,
+                        "BehaID": "6446334883542407750"
+                    },
+                    "Normal": {
+                        "r": 0.31,
+                        "g": 0.31,
+                        "b": 0.31,
+                        "a": 1
+                    },
+                    "Highlighted": {
+                        "r": 0.4,
+                        "g": 0.4,
+                        "b": 0.4,
+                        "a": 1
+                    },
+                    "Pressed": {
+                        "r": 0.239,
+                        "g": 0.239,
+                        "b": 0.239,
+                        "a": 1
+                    },
+                    "Selected": {
+                        "r": 0.478,
+                        "g": 0.478,
+                        "b": 0.478,
+                        "a": 1
+                    },
+                    "Disabled": {
+                        "r": 0.79,
+                        "g": 0.79,
+                        "b": 0.79,
+                        "a": 0.5
+                    },
+                    "Fade": 0.1,
+                    "UseScaledTime": false,
+                    "Navigation": 3,
+                    "OnDown": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnLeft": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnRightEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnUpEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Re",
+            "ID": "12224886771579484596",
+            "ParentID": "18336735485033891533",
+            "ChildIndex": 1,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16241131847021809467": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 48
+                    },
+                    "Left": 0,
+                    "Right": 0,
+                    "Top": 48,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 0,
+                        "y": -24,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "6446334883542407750": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                },
+                "7726886840580829842": {
+                    "Type": 48,
+                    "Enabled": true,
+                    "SelfInteractable": true,
+                    "State": 0,
+                    "Transition": 1,
+                    "Image": {
+                        "EntID": "12224886771579484596",
+                        "EntSharedID": "12224886771579484596",
+                        "OutsideEnt": false,
+                        "Path": [],
+                        "RootShared": "4204649995084455413",
+                        "RootInside": false,
+                        "IsMainInstanciableEntity": false,
+                        "BehaType": 46,
+                        "BehaID": "6446334883542407750"
+                    },
+                    "Normal": {
+                        "r": 0.31,
+                        "g": 0.31,
+                        "b": 0.31,
+                        "a": 1
+                    },
+                    "Highlighted": {
+                        "r": 0.4,
+                        "g": 0.4,
+                        "b": 0.4,
+                        "a": 1
+                    },
+                    "Pressed": {
+                        "r": 0.239,
+                        "g": 0.239,
+                        "b": 0.239,
+                        "a": 1
+                    },
+                    "Selected": {
+                        "r": 0.478,
+                        "g": 0.478,
+                        "b": 0.478,
+                        "a": 1
+                    },
+                    "Disabled": {
+                        "r": 0.79,
+                        "g": 0.79,
+                        "b": 0.79,
+                        "a": 0.5
+                    },
+                    "Fade": 0.1,
+                    "UseScaledTime": false,
+                    "Navigation": 3,
+                    "OnDown": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnLeft": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnRightEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnUpEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Mi",
+            "ID": "1043107091365805532",
+            "ParentID": "15334295511715639512",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16241131847021809467": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 48
+                    },
+                    "Left": 0,
+                    "Right": 0,
+                    "Top": 0,
+                    "Bottom": 48,
+                    "Position": {
+                        "x": 0,
+                        "y": 24,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "6446334883542407750": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                },
+                "7726886840580829842": {
+                    "Type": 48,
+                    "Enabled": true,
+                    "SelfInteractable": true,
+                    "State": 0,
+                    "Transition": 1,
+                    "Image": {
+                        "EntID": "1043107091365805532",
+                        "EntSharedID": "1043107091365805532",
+                        "OutsideEnt": false,
+                        "Path": [],
+                        "RootShared": "4204649995084455413",
+                        "RootInside": false,
+                        "IsMainInstanciableEntity": false,
+                        "BehaType": 46,
+                        "BehaID": "6446334883542407750"
+                    },
+                    "Normal": {
+                        "r": 0.31,
+                        "g": 0.31,
+                        "b": 0.31,
+                        "a": 1
+                    },
+                    "Highlighted": {
+                        "r": 0.4,
+                        "g": 0.4,
+                        "b": 0.4,
+                        "a": 1
+                    },
+                    "Pressed": {
+                        "r": 0.239,
+                        "g": 0.239,
+                        "b": 0.239,
+                        "a": 1
+                    },
+                    "Selected": {
+                        "r": 0.478,
+                        "g": 0.478,
+                        "b": 0.478,
+                        "a": 1
+                    },
+                    "Disabled": {
+                        "r": 0.79,
+                        "g": 0.79,
+                        "b": 0.79,
+                        "a": 0.5
+                    },
+                    "Fade": 0.1,
+                    "UseScaledTime": false,
+                    "Navigation": 3,
+                    "OnDown": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnLeft": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnRightEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnUpEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Fa",
+            "ID": "5953757603424788834",
+            "ParentID": "15334295511715639512",
+            "ChildIndex": 1,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16241131847021809467": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 48
+                    },
+                    "Left": 0,
+                    "Right": 0,
+                    "Top": 48,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 0,
+                        "y": -24,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "6446334883542407750": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                },
+                "7726886840580829842": {
+                    "Type": 48,
+                    "Enabled": true,
+                    "SelfInteractable": true,
+                    "State": 0,
+                    "Transition": 1,
+                    "Image": {
+                        "EntID": "5953757603424788834",
+                        "EntSharedID": "5953757603424788834",
+                        "OutsideEnt": false,
+                        "Path": [],
+                        "RootShared": "4204649995084455413",
+                        "RootInside": false,
+                        "IsMainInstanciableEntity": false,
+                        "BehaType": 46,
+                        "BehaID": "6446334883542407750"
+                    },
+                    "Normal": {
+                        "r": 0.31,
+                        "g": 0.31,
+                        "b": 0.31,
+                        "a": 1
+                    },
+                    "Highlighted": {
+                        "r": 0.4,
+                        "g": 0.4,
+                        "b": 0.4,
+                        "a": 1
+                    },
+                    "Pressed": {
+                        "r": 0.239,
+                        "g": 0.239,
+                        "b": 0.239,
+                        "a": 1
+                    },
+                    "Selected": {
+                        "r": 0.478,
+                        "g": 0.478,
+                        "b": 0.478,
+                        "a": 1
+                    },
+                    "Disabled": {
+                        "r": 0.79,
+                        "g": 0.79,
+                        "b": 0.79,
+                        "a": 0.5
+                    },
+                    "Fade": 0.1,
+                    "UseScaledTime": false,
+                    "Navigation": 3,
+                    "OnDown": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnLeft": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnRightEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnUpEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    }
+                }
+            }
+        }
+    ]
+}
