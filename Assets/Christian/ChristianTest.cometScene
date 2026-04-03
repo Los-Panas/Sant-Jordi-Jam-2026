@@ -1,0 +1,124 @@
+{
+    "Name": "ChristianTest",
+    "Path": "Christian\/ChristianTest",
+    "RootID": "3600438314273104228",
+    "Entities": [
+        {
+            "Name": "Empty Entity",
+            "ID": "4509660245513875224",
+            "ParentID": "3600438314273104228",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "17441955891210754912": {
+                    "Type": 0,
+                    "Enabled": true,
+                    "Position": {
+                        "x": 508.233,
+                        "y": 298.459,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "4338619888118604822": {
+                    "Type": 4,
+                    "Enabled": true,
+                    "ScriptID": "6970569327732254578",
+                    "Fields": {
+                        "CometEngine::AudioSample@[]& sample": {
+                            "Length": 13,
+                            "AudioSample": true,
+                            "Array": [
+                                {
+                                    "Resource": "5453875321815066859"
+                                },
+                                {
+                                    "Resource": "3106242722933863541"
+                                },
+                                {
+                                    "Resource": "5097176248145278926"
+                                },
+                                {
+                                    "Resource": "16678667778328077403"
+                                },
+                                {
+                                    "Resource": "3684287102647851959"
+                                },
+                                {
+                                    "Resource": "17289489615104048828"
+                                },
+                                {
+                                    "Resource": "8493386461869180063"
+                                },
+                                {
+                                    "Resource": "3173696956823230284"
+                                },
+                                {
+                                    "Resource": "1365251996496799010"
+                                },
+                                {
+                                    "Resource": "3168909996925966602"
+                                },
+                                {
+                                    "Resource": "18220573273068237101"
+                                },
+                                {
+                                    "Resource": "10870346549376659393"
+                                },
+                                {
+                                    "Resource": "12138210972147901922"
+                                }
+                            ]
+                        },
+                        "float bpm": {
+                            "Value": 220
+                        }
+                    }
+                },
+                "9553557326836243603": {
+                    "Type": 30,
+                    "Enabled": true,
+                    "IgnoreEffects": false,
+                    "IgnoreListenerEffects": false,
+                    "Loop": false,
+                    "Mute": false,
+                    "Play": true,
+                    "Volume": 1,
+                    "Pitch": 1,
+                    "Pan": 0,
+                    "MinDist": 1,
+                    "MaxDist": 10000,
+                    "Mode": 0
+                },
+                "14606438636971043165": {
+                    "Type": 29,
+                    "Enabled": true
+                },
+                "8204877791964191396": {
+                    "Type": 32,
+                    "Enabled": true,
+                    "Level": 0.51
+                }
+            }
+        }
+    ]
+}
