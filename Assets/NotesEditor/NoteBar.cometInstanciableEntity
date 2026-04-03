@@ -2,7 +2,7 @@
     "Entities": [
         {
             "Name": "NoteBar",
-            "ID": "601197114126288049",
+            "ID": "4204649995084455413",
             "Enabled": true,
             "IsUpEnabled": true,
             "IsStatic": false,
@@ -15,9 +15,72 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": true,
-            "InstanciableEntityID": "11942878331752150601",
+            "InstanciableEntityID": "15601305072242255050",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "11942878331752150601",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "14478369678629449642": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 79.999,
+                        "y": 384
+                    },
+                    "Left": -1000.002,
+                    "Right": 920.003,
+                    "Top": -192,
+                    "Bottom": -192,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Bar",
+            "ID": "9642303944136652226",
+            "ParentID": "4204649995084455413",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
             "Behaviours": {
                 "1876746725025640431": {
                     "Type": 44,
@@ -35,7 +98,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 80,
+                        "x": 79.999,
                         "y": 384
                     },
                     "Left": 0,
@@ -91,9 +154,87 @@
             }
         },
         {
+            "Name": "Line",
+            "ID": "9387445323929039178",
+            "ParentID": "4204649995084455413",
+            "ChildIndex": 1,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "15601305072242255050",
+            "Behaviours": {
+                "16747656957874989541": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 1,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 1,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 4,
+                        "y": 384
+                    },
+                    "Left": -4,
+                    "Right": 0,
+                    "Top": 0,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 38,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "12452419367146378808": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 0.656,
+                        "g": 0.656,
+                        "b": 0.656,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                }
+            }
+        },
+        {
             "Name": "Attack",
-            "ID": "15907219808851146832",
-            "ParentID": "601197114126288049",
+            "ID": "329465346705067780",
+            "ParentID": "9642303944136652226",
             "ChildIndex": 0,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -107,9 +248,9 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": false,
-            "InstanciableEntityID": "11942878331752150601",
+            "InstanciableEntityID": "15601305072242255050",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "11942878331752150601",
+            "OuterInstanciableEntityID": "15601305072242255050",
             "Behaviours": {
                 "16241131847021809467": {
                     "Type": 44,
@@ -127,7 +268,7 @@
                         "y": 0.5
                     },
                     "Size": {
-                        "x": 80,
+                        "x": 79.999,
                         "y": 96
                     },
                     "Left": -40,
@@ -169,8 +310,8 @@
         },
         {
             "Name": "HeavyAttack",
-            "ID": "5201796440218310710",
-            "ParentID": "601197114126288049",
+            "ID": "8511114478833114499",
+            "ParentID": "9642303944136652226",
             "ChildIndex": 1,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -184,9 +325,9 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": false,
-            "InstanciableEntityID": "11942878331752150601",
+            "InstanciableEntityID": "15601305072242255050",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "11942878331752150601",
+            "OuterInstanciableEntityID": "15601305072242255050",
             "Behaviours": {
                 "16241131847021809467": {
                     "Type": 44,
@@ -204,7 +345,7 @@
                         "y": 0.5
                     },
                     "Size": {
-                        "x": 80,
+                        "x": 79.999,
                         "y": 96
                     },
                     "Left": -40,
@@ -246,8 +387,8 @@
         },
         {
             "Name": "Shield",
-            "ID": "14867453463644889136",
-            "ParentID": "601197114126288049",
+            "ID": "18336735485033891533",
+            "ParentID": "9642303944136652226",
             "ChildIndex": 2,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -261,9 +402,9 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": false,
-            "InstanciableEntityID": "11942878331752150601",
+            "InstanciableEntityID": "15601305072242255050",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "11942878331752150601",
+            "OuterInstanciableEntityID": "15601305072242255050",
             "Behaviours": {
                 "16241131847021809467": {
                     "Type": 44,
@@ -281,7 +422,7 @@
                         "y": 0.5
                     },
                     "Size": {
-                        "x": 80,
+                        "x": 79.999,
                         "y": 96
                     },
                     "Left": -40,
@@ -323,8 +464,8 @@
         },
         {
             "Name": "Rosa",
-            "ID": "8548456631560287491",
-            "ParentID": "601197114126288049",
+            "ID": "15334295511715639512",
+            "ParentID": "9642303944136652226",
             "ChildIndex": 3,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -338,9 +479,9 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": false,
-            "InstanciableEntityID": "11942878331752150601",
+            "InstanciableEntityID": "15601305072242255050",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "11942878331752150601",
+            "OuterInstanciableEntityID": "15601305072242255050",
             "Behaviours": {
                 "16241131847021809467": {
                     "Type": 44,
@@ -358,7 +499,7 @@
                         "y": 0.5
                     },
                     "Size": {
-                        "x": 80,
+                        "x": 79.999,
                         "y": 96
                     },
                     "Left": -40,
@@ -400,8 +541,8 @@
         },
         {
             "Name": "Fa",
-            "ID": "9054039380406278670",
-            "ParentID": "15907219808851146832",
+            "ID": "13377992024127255954",
+            "ParentID": "329465346705067780",
             "ChildIndex": 0,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -415,9 +556,9 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": false,
-            "InstanciableEntityID": "11942878331752150601",
+            "InstanciableEntityID": "15601305072242255050",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "11942878331752150601",
+            "OuterInstanciableEntityID": "15601305072242255050",
             "Behaviours": {
                 "16241131847021809467": {
                     "Type": 44,
@@ -435,7 +576,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 80,
+                        "x": 79.999,
                         "y": 48
                     },
                     "Left": 0,
@@ -481,11 +622,11 @@
                     "State": 0,
                     "Transition": 1,
                     "Image": {
-                        "EntID": "9054039380406278670",
-                        "EntSharedID": "9054039380406278670",
+                        "EntID": "13377992024127255954",
+                        "EntSharedID": "13377992024127255954",
                         "OutsideEnt": false,
                         "Path": [],
-                        "RootShared": "601197114126288049",
+                        "RootShared": "4204649995084455413",
                         "RootInside": false,
                         "IsMainInstanciableEntity": false,
                         "BehaType": 46,
@@ -573,8 +714,8 @@
         },
         {
             "Name": "Sol",
-            "ID": "6640165017816775473",
-            "ParentID": "15907219808851146832",
+            "ID": "3911021408614317029",
+            "ParentID": "329465346705067780",
             "ChildIndex": 1,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -588,9 +729,9 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": false,
-            "InstanciableEntityID": "11942878331752150601",
+            "InstanciableEntityID": "15601305072242255050",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "11942878331752150601",
+            "OuterInstanciableEntityID": "15601305072242255050",
             "Behaviours": {
                 "16241131847021809467": {
                     "Type": 44,
@@ -608,7 +749,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 80,
+                        "x": 79.999,
                         "y": 48
                     },
                     "Left": 0,
@@ -654,11 +795,11 @@
                     "State": 0,
                     "Transition": 1,
                     "Image": {
-                        "EntID": "6640165017816775473",
-                        "EntSharedID": "6640165017816775473",
+                        "EntID": "3911021408614317029",
+                        "EntSharedID": "3911021408614317029",
                         "OutsideEnt": false,
                         "Path": [],
-                        "RootShared": "601197114126288049",
+                        "RootShared": "4204649995084455413",
                         "RootInside": false,
                         "IsMainInstanciableEntity": false,
                         "BehaType": 46,
@@ -746,8 +887,8 @@
         },
         {
             "Name": "La",
-            "ID": "15077471854084681613",
-            "ParentID": "5201796440218310710",
+            "ID": "1907370489839101592",
+            "ParentID": "8511114478833114499",
             "ChildIndex": 0,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -761,9 +902,9 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": false,
-            "InstanciableEntityID": "11942878331752150601",
+            "InstanciableEntityID": "15601305072242255050",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "11942878331752150601",
+            "OuterInstanciableEntityID": "15601305072242255050",
             "Behaviours": {
                 "16241131847021809467": {
                     "Type": 44,
@@ -781,7 +922,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 80,
+                        "x": 79.999,
                         "y": 48
                     },
                     "Left": 0,
@@ -827,11 +968,11 @@
                     "State": 0,
                     "Transition": 1,
                     "Image": {
-                        "EntID": "15077471854084681613",
-                        "EntSharedID": "15077471854084681613",
+                        "EntID": "1907370489839101592",
+                        "EntSharedID": "1907370489839101592",
                         "OutsideEnt": false,
                         "Path": [],
-                        "RootShared": "601197114126288049",
+                        "RootShared": "4204649995084455413",
                         "RootInside": false,
                         "IsMainInstanciableEntity": false,
                         "BehaType": 46,
@@ -919,8 +1060,8 @@
         },
         {
             "Name": "Si",
-            "ID": "10260087407851694546",
-            "ParentID": "5201796440218310710",
+            "ID": "12204074437654787227",
+            "ParentID": "8511114478833114499",
             "ChildIndex": 1,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -934,9 +1075,9 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": false,
-            "InstanciableEntityID": "11942878331752150601",
+            "InstanciableEntityID": "15601305072242255050",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "11942878331752150601",
+            "OuterInstanciableEntityID": "15601305072242255050",
             "Behaviours": {
                 "16241131847021809467": {
                     "Type": 44,
@@ -954,7 +1095,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 80,
+                        "x": 79.999,
                         "y": 48
                     },
                     "Left": 0,
@@ -1000,11 +1141,11 @@
                     "State": 0,
                     "Transition": 1,
                     "Image": {
-                        "EntID": "10260087407851694546",
-                        "EntSharedID": "10260087407851694546",
+                        "EntID": "12204074437654787227",
+                        "EntSharedID": "12204074437654787227",
                         "OutsideEnt": false,
                         "Path": [],
-                        "RootShared": "601197114126288049",
+                        "RootShared": "4204649995084455413",
                         "RootInside": false,
                         "IsMainInstanciableEntity": false,
                         "BehaType": 46,
@@ -1092,8 +1233,8 @@
         },
         {
             "Name": "Do",
-            "ID": "9749468962741428609",
-            "ParentID": "14867453463644889136",
+            "ID": "4194630868304521534",
+            "ParentID": "18336735485033891533",
             "ChildIndex": 0,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -1107,9 +1248,9 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": false,
-            "InstanciableEntityID": "11942878331752150601",
+            "InstanciableEntityID": "15601305072242255050",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "11942878331752150601",
+            "OuterInstanciableEntityID": "15601305072242255050",
             "Behaviours": {
                 "16241131847021809467": {
                     "Type": 44,
@@ -1127,7 +1268,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 80,
+                        "x": 79.999,
                         "y": 48
                     },
                     "Left": 0,
@@ -1173,11 +1314,11 @@
                     "State": 0,
                     "Transition": 1,
                     "Image": {
-                        "EntID": "9749468962741428609",
-                        "EntSharedID": "9749468962741428609",
+                        "EntID": "4194630868304521534",
+                        "EntSharedID": "4194630868304521534",
                         "OutsideEnt": false,
                         "Path": [],
-                        "RootShared": "601197114126288049",
+                        "RootShared": "4204649995084455413",
                         "RootInside": false,
                         "IsMainInstanciableEntity": false,
                         "BehaType": 46,
@@ -1265,8 +1406,8 @@
         },
         {
             "Name": "Re",
-            "ID": "7388044843446711983",
-            "ParentID": "14867453463644889136",
+            "ID": "12224886771579484596",
+            "ParentID": "18336735485033891533",
             "ChildIndex": 1,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -1280,9 +1421,9 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": false,
-            "InstanciableEntityID": "11942878331752150601",
+            "InstanciableEntityID": "15601305072242255050",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "11942878331752150601",
+            "OuterInstanciableEntityID": "15601305072242255050",
             "Behaviours": {
                 "16241131847021809467": {
                     "Type": 44,
@@ -1300,7 +1441,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 80,
+                        "x": 79.999,
                         "y": 48
                     },
                     "Left": 0,
@@ -1346,11 +1487,11 @@
                     "State": 0,
                     "Transition": 1,
                     "Image": {
-                        "EntID": "7388044843446711983",
-                        "EntSharedID": "7388044843446711983",
+                        "EntID": "12224886771579484596",
+                        "EntSharedID": "12224886771579484596",
                         "OutsideEnt": false,
                         "Path": [],
-                        "RootShared": "601197114126288049",
+                        "RootShared": "4204649995084455413",
                         "RootInside": false,
                         "IsMainInstanciableEntity": false,
                         "BehaType": 46,
@@ -1438,8 +1579,8 @@
         },
         {
             "Name": "Mi",
-            "ID": "4821558735560826856",
-            "ParentID": "8548456631560287491",
+            "ID": "1043107091365805532",
+            "ParentID": "15334295511715639512",
             "ChildIndex": 0,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -1453,9 +1594,9 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": false,
-            "InstanciableEntityID": "11942878331752150601",
+            "InstanciableEntityID": "15601305072242255050",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "11942878331752150601",
+            "OuterInstanciableEntityID": "15601305072242255050",
             "Behaviours": {
                 "16241131847021809467": {
                     "Type": 44,
@@ -1473,7 +1614,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 80,
+                        "x": 79.999,
                         "y": 48
                     },
                     "Left": 0,
@@ -1519,11 +1660,11 @@
                     "State": 0,
                     "Transition": 1,
                     "Image": {
-                        "EntID": "4821558735560826856",
-                        "EntSharedID": "4821558735560826856",
+                        "EntID": "1043107091365805532",
+                        "EntSharedID": "1043107091365805532",
                         "OutsideEnt": false,
                         "Path": [],
-                        "RootShared": "601197114126288049",
+                        "RootShared": "4204649995084455413",
                         "RootInside": false,
                         "IsMainInstanciableEntity": false,
                         "BehaType": 46,
@@ -1611,8 +1752,8 @@
         },
         {
             "Name": "Fa",
-            "ID": "18180882647605816858",
-            "ParentID": "8548456631560287491",
+            "ID": "5953757603424788834",
+            "ParentID": "15334295511715639512",
             "ChildIndex": 1,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -1626,9 +1767,9 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": false,
-            "InstanciableEntityID": "11942878331752150601",
+            "InstanciableEntityID": "15601305072242255050",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "11942878331752150601",
+            "OuterInstanciableEntityID": "15601305072242255050",
             "Behaviours": {
                 "16241131847021809467": {
                     "Type": 44,
@@ -1646,7 +1787,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 80,
+                        "x": 79.999,
                         "y": 48
                     },
                     "Left": 0,
@@ -1692,11 +1833,11 @@
                     "State": 0,
                     "Transition": 1,
                     "Image": {
-                        "EntID": "18180882647605816858",
-                        "EntSharedID": "18180882647605816858",
+                        "EntID": "5953757603424788834",
+                        "EntSharedID": "5953757603424788834",
                         "OutsideEnt": false,
                         "Path": [],
-                        "RootShared": "601197114126288049",
+                        "RootShared": "4204649995084455413",
                         "RootInside": false,
                         "IsMainInstanciableEntity": false,
                         "BehaType": 46,

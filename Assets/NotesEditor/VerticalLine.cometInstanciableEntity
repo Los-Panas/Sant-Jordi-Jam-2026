@@ -1,0 +1,80 @@
+{
+    "Entities": [
+        {
+            "Name": "VerticalLine",
+            "ID": "9394049517238673053",
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": true,
+            "InstanciableEntityID": "13616399121200725717",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "13616399121200725717",
+            "Behaviours": {
+                "5058015638075747124": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 1820.001,
+                        "y": 3
+                    },
+                    "Left": -0.001,
+                    "Right": 0,
+                    "Top": -192,
+                    "Bottom": 189,
+                    "Position": {
+                        "x": 0,
+                        "y": 190.5,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "711170514740448311": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 0.655,
+                        "g": 0.655,
+                        "b": 0.655,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                }
+            }
+        }
+    ]
+}
