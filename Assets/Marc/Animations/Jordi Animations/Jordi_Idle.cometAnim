@@ -1,0 +1,21 @@
+{
+    "Loop": false,
+    "Samples": 60,
+    "Duration": 0,
+    "Properties": [
+        {
+            "PropType": 7,
+            "Path": "",
+            "Beha": 46,
+            "CompTypeIndex": 0,
+            "KeyFrames": [
+                {
+                    "Frame": 0,
+                    "Resource": "237657463175525341",
+                    "SubResource": "6818942296745424613"
+                }
+            ],
+            "CallbackType": 2
+        }
+    ]
+}

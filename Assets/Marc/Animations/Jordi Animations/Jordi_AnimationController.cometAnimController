@@ -1,0 +1,132 @@
+{
+    "Params": [
+        {
+            "Name": "ActivateDeath",
+            "Type": 3,
+            "ID": "7958075804723373428",
+            "Parameter": true
+        }
+    ],
+    "Name": "Base Machine",
+    "Type": 3,
+    "ID": "8512789862956202896",
+    "Position": {
+        "x": 0,
+        "y": 0
+    },
+    "DefaultTransition": 0,
+    "States": [
+        {
+            "Name": "Entry",
+            "Type": 0,
+            "ID": "0",
+            "Position": {
+                "x": 201,
+                "y": 158
+            },
+            "Transitions": [
+                {
+                    "Forced": false,
+                    "Disabled": false,
+                    "Name": "",
+                    "ID": "9159990974954572338",
+                    "HasExitTime": false,
+                    "ExitTime": 0.5,
+                    "To": "6647279801548666693"
+                }
+            ]
+        },
+        {
+            "Name": "Any State",
+            "Type": 1,
+            "ID": "0",
+            "Position": {
+                "x": 201,
+                "y": 102
+            },
+            "Transitions": [
+                {
+                    "Forced": false,
+                    "Disabled": false,
+                    "Name": "",
+                    "ID": "9083665618320511857",
+                    "HasExitTime": false,
+                    "ExitTime": 0.5,
+                    "To": "10792043140935098547"
+                },
+                {
+                    "Forced": false,
+                    "Disabled": false,
+                    "Name": "",
+                    "ID": "17560800511468795587",
+                    "HasExitTime": false,
+                    "ExitTime": 0.5,
+                    "To": "10524381682864392713"
+                },
+                {
+                    "Forced": false,
+                    "Disabled": false,
+                    "Name": "",
+                    "ID": "11182023241957017785",
+                    "HasExitTime": false,
+                    "ExitTime": 0.5,
+                    "To": "17161559429853994125"
+                }
+            ]
+        },
+        {
+            "Name": "Exit",
+            "Type": 2,
+            "ID": "0",
+            "Position": {
+                "x": 201,
+                "y": 30
+            }
+        },
+        {
+            "Name": "Idle",
+            "Type": 4,
+            "ID": "6647279801548666693",
+            "Position": {
+                "x": 201,
+                "y": 238
+            },
+            "Speed": 0.1,
+            "Animation": "5985089961841019309"
+        },
+        {
+            "Name": "Attack",
+            "Type": 4,
+            "ID": "17161559429853994125",
+            "Position": {
+                "x": 505,
+                "y": 174
+            },
+            "Speed": 0.1,
+            "Animation": "712962281937593982"
+        },
+        {
+            "Name": "Hit",
+            "Type": 4,
+            "ID": "10792043140935098547",
+            "Position": {
+                "x": 505,
+                "y": 46
+            },
+            "Speed": 1,
+            "Animation": "16776813721116077676"
+        },
+        {
+            "Name": "Death",
+            "Type": 4,
+            "ID": "10524381682864392713",
+            "Position": {
+                "x": 505,
+                "y": 110
+            },
+            "Speed": 1,
+            "Animation": "12844110459505859518"
+        }
+    ],
+    "ConditionsCheckMode": 0
+}

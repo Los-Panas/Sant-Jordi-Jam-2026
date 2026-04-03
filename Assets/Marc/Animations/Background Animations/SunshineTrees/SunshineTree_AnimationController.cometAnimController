@@ -1,0 +1,40 @@
+{
+    "Name": "Base Machine",
+    "Type": 3,
+    "ID": "8737112601680192404",
+    "Position": {
+        "x": 0,
+        "y": 0
+    },
+    "DefaultTransition": -1,
+    "States": [
+        {
+            "Name": "Entry",
+            "Type": 0,
+            "ID": "0",
+            "Position": {
+                "x": 50,
+                "y": 150
+            }
+        },
+        {
+            "Name": "Any State",
+            "Type": 1,
+            "ID": "0",
+            "Position": {
+                "x": 50,
+                "y": 100
+            }
+        },
+        {
+            "Name": "Exit",
+            "Type": 2,
+            "ID": "0",
+            "Position": {
+                "x": 50,
+                "y": 50
+            }
+        }
+    ],
+    "ConditionsCheckMode": 0
+}
