@@ -1,0 +1,375 @@
+{
+    "Groups": [
+        {
+            "ID": "197262063163126120",
+            "Name": "UI",
+            "Actions": [
+                {
+                    "ID": "6311055504311527634",
+                    "Name": "Submit",
+                    "Bindings": [
+                        {
+                            "Device": 0,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "State": 1,
+                                    "Key": 40
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 0,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "State": 1,
+                                    "Key": 44
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 2,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "Input": 0,
+                                    "Number": 8,
+                                    "State": 1,
+                                    "Key": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ID": "6544688759587859436",
+                    "Name": "Cancel",
+                    "Bindings": [
+                        {
+                            "Device": 0,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "State": 1,
+                                    "Key": 41
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 2,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "Input": 0,
+                                    "Number": 8,
+                                    "State": 1,
+                                    "Key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ID": "3330002776493933390",
+                    "Name": "Left",
+                    "Bindings": [
+                        {
+                            "Device": 0,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "State": 2,
+                                    "Key": 80
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 0,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "State": 2,
+                                    "Key": 4
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 2,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "Input": 0,
+                                    "Number": 8,
+                                    "State": 2,
+                                    "Key": 13
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 2,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "Input": 1,
+                                    "Number": 8,
+                                    "Axis": 0,
+                                    "Type": 1,
+                                    "DeadZone": 0.25,
+                                    "Values": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "InputSettings::Conditions": {
+                                        "x": 1,
+                                        "y": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ID": "6712901528302809891",
+                    "Name": "Up",
+                    "Bindings": [
+                        {
+                            "Device": 0,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "State": 2,
+                                    "Key": 82
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 0,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "State": 2,
+                                    "Key": 26
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 2,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "Input": 0,
+                                    "Number": 8,
+                                    "State": 2,
+                                    "Key": 11
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 2,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "Input": 1,
+                                    "Number": 8,
+                                    "Axis": 1,
+                                    "Type": 1,
+                                    "DeadZone": 0.25,
+                                    "Values": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "InputSettings::Conditions": {
+                                        "x": 0,
+                                        "y": 1
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ID": "3908748482110878991",
+                    "Name": "Down",
+                    "Bindings": [
+                        {
+                            "Device": 0,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "State": 2,
+                                    "Key": 81
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 0,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "State": 2,
+                                    "Key": 22
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 2,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "Input": 0,
+                                    "Number": 8,
+                                    "State": 2,
+                                    "Key": 12
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 2,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "Input": 1,
+                                    "Number": 8,
+                                    "Axis": 1,
+                                    "Type": 1,
+                                    "DeadZone": 0.25,
+                                    "Values": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "InputSettings::Conditions": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ID": "14017386786377550708",
+                    "Name": "Right",
+                    "Bindings": [
+                        {
+                            "Device": 0,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "State": 2,
+                                    "Key": 79
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 0,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "State": 2,
+                                    "Key": 7
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 2,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "Input": 0,
+                                    "Number": 8,
+                                    "State": 2,
+                                    "Key": 14
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 2,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "Input": 1,
+                                    "Number": 8,
+                                    "Axis": 0,
+                                    "Type": 1,
+                                    "DeadZone": 0.25,
+                                    "Values": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "InputSettings::Conditions": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ID": "6614031161999992305",
+                    "Name": "MouseLeftClick",
+                    "Bindings": [
+                        {
+                            "Device": 1,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "Input": 2,
+                                    "State": 2,
+                                    "Key": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ID": "2128844316294618362",
+                    "Name": "MouseMotion",
+                    "Bindings": [
+                        {
+                            "Device": 1,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "Input": 0,
+                                    "Values": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "InputSettings::Conditions": {
+                                        "x": 5,
+                                        "y": 5
+                                    },
+                                    "Axis": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Device": 1,
+                            "Type": 0,
+                            "Bind": [
+                                {
+                                    "Input": 0,
+                                    "Values": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "InputSettings::Conditions": {
+                                        "x": 0,
+                                        "y": 5
+                                    },
+                                    "Axis": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Controller": {
+        "JoystickDeadZone": 0.25,
+        "TriggerDeadZone": 0.25
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "Vsync": true,
+    "StopInBackground": false,
+    "FrameRate": 0,
+    "LoadingBackgroundPriority": 2
+}

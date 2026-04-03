@@ -1,0 +1,9 @@
+{
+    "angelScript": {
+        "implicitMutualInclusion": true
+    },
+    "[angelscript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "Hazelight.unreal-angelscript-clang-format"
+    }
+}
