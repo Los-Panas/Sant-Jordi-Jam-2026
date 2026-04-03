@@ -1,0 +1,11 @@
+{
+    "ID": "2036695991432634798",
+    "Type": 9,
+    "Background": false,
+    "Platforms Data": [
+        {
+            "PreloadData": true,
+            "Stream": false
+        }
+    ]
+}

@@ -1,0 +1,697 @@
+{
+    "Entities": [
+        {
+            "Name": "NotesBar",
+            "ID": "6046276358562341281",
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": true,
+            "InstanciableEntityID": "16558274431046884835",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "16558274431046884835",
+            "Behaviours": {
+                "7930286294705470384": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 0,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 55,
+                        "y": 409
+                    },
+                    "Left": 0,
+                    "Right": -55,
+                    "Top": 0,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": -924.5,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "11330741641971591274": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 0.308,
+                        "g": 0.308,
+                        "b": 0.308,
+                        "a": 0
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                }
+            }
+        },
+        {
+            "Name": "AvailableNotes",
+            "ID": "6213515951267569127",
+            "ParentID": "6046276358562341281",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "16558274431046884835",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "16558274431046884835",
+            "Behaviours": {
+                "9882804447925591968": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 55,
+                        "y": 409
+                    },
+                    "Left": 0,
+                    "Right": 0,
+                    "Top": 0,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "11077662710511776846": {
+                    "Type": 62,
+                    "Enabled": true,
+                    "Padding": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 0,
+                        "h": 0
+                    },
+                    "ChildAlignment": 0,
+                    "Spacing": 0,
+                    "FitModeX": 0,
+                    "FitModeY": 1
+                }
+            }
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "ID": "544181328880025395",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 0,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": -204.5,
+                            "Bottom": 180.441,
+                            "Position": {
+                                "y": 192.471
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "544181328880025395",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note1",
+                    "ID": "15327261034490145219",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 1,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": -180.441,
+                            "Bottom": 156.382,
+                            "Position": {
+                                "y": 168.412
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "15327261034490145219",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note2",
+                    "ID": "15147860462220251724",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 2,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": -156.382,
+                            "Bottom": 132.324,
+                            "Position": {
+                                "y": 144.353
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "15147860462220251724",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note3",
+                    "ID": "670595026265768172",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 3,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": -132.324,
+                            "Bottom": 108.265,
+                            "Position": {
+                                "y": 120.294
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "670595026265768172",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note4",
+                    "ID": "11708978338062774148",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 4,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": -108.265,
+                            "Bottom": 84.206,
+                            "Position": {
+                                "y": 96.235
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "11708978338062774148",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note5",
+                    "ID": "9633373008046427510",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 5,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": -84.206,
+                            "Bottom": 60.147,
+                            "Position": {
+                                "y": 72.177
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "9633373008046427510",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note6",
+                    "ID": "16141660580159945864",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 6,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": -60.147,
+                            "Bottom": 36.088,
+                            "Position": {
+                                "y": 48.118
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "16141660580159945864",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note7",
+                    "ID": "7497057816819865297",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 7,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": -36.088,
+                            "Bottom": 12.029,
+                            "Position": {
+                                "y": 24.059
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "7497057816819865297",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note8",
+                    "ID": "16296594215031391499",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 8,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": -12.029,
+                            "Bottom": -12.029
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "16296594215031391499",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note9",
+                    "ID": "7545337821122387612",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 9,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": 12.029,
+                            "Bottom": -36.088,
+                            "Position": {
+                                "y": -24.059
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "7545337821122387612",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note10",
+                    "ID": "10975923340158625121",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 10,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": 36.088,
+                            "Bottom": -60.147,
+                            "Position": {
+                                "y": -48.118
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "10975923340158625121",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note11",
+                    "ID": "2445760930076427849",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 11,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": 60.147,
+                            "Bottom": -84.206,
+                            "Position": {
+                                "y": -72.176
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "2445760930076427849",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note12",
+                    "ID": "2364359901897274629",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 12,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": 84.206,
+                            "Bottom": -108.265,
+                            "Position": {
+                                "y": -96.235
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "2364359901897274629",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note13",
+                    "ID": "14069769390470601126",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 13,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": 108.265,
+                            "Bottom": -132.324,
+                            "Position": {
+                                "y": -120.294
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "14069769390470601126",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note14",
+                    "ID": "14797575523812371474",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 14,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": 132.324,
+                            "Bottom": -156.382,
+                            "Position": {
+                                "y": -144.353
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "14797575523812371474",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note15",
+                    "ID": "724599949009600664",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 15,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": 156.382,
+                            "Bottom": -180.441,
+                            "Position": {
+                                "y": -168.412
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "724599949009600664",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "6905983374464924705",
+            "Overrides": [
+                {
+                    "Name": "Note16",
+                    "ID": "12709141250557475882",
+                    "SharedID": "13998737430931536762",
+                    "ParentID": "6213515951267569127",
+                    "ChildIndex": 16,
+                    "InsideInstanciableEntityID": "16558274431046884835",
+                    "OuterInstanciableEntityID": "16558274431046884835",
+                    "Behaviours": {
+                        "8723882857393580392": {
+                            "Size": {
+                                "y": 24.059
+                            },
+                            "Top": 180.441,
+                            "Bottom": -204.5,
+                            "Position": {
+                                "y": -192.471
+                            }
+                        },
+                        "16918584975079780563": {
+                            "Image": {
+                                "EntID": "12709141250557475882",
+                                "RootShared": "6046276358562341281"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
