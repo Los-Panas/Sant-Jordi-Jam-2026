@@ -35,11 +35,11 @@
                         "y": 0.5
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 384
                     },
-                    "Left": -1000.002,
-                    "Right": 920.003,
+                    "Left": -1000,
+                    "Right": 920,
                     "Top": -192,
                     "Bottom": -192,
                     "Position": {
@@ -98,7 +98,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 384
                     },
                     "Left": 0,
@@ -268,7 +268,7 @@
                         "y": 0.5
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 96
                     },
                     "Left": -40,
@@ -305,6 +305,35 @@
                     "Spacing": 0,
                     "FitModeX": 1,
                     "FitModeY": 1
+                },
+                "15345544520055335194": {
+                    "Type": 4,
+                    "Enabled": true,
+                    "ScriptID": "10793611517745751442",
+                    "Fields": {
+                        "CometEngine::UI::Image@ imageUp": {
+                            "EntID": "14041522197967909672",
+                            "EntSharedID": "6329647658299616540",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "4204649995084455413",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "BehaType": 46,
+                            "BehaID": "7815339932794369462"
+                        },
+                        "CometEngine::UI::Image@ imageDown": {
+                            "EntID": "14927007480719692621",
+                            "EntSharedID": "9277533640646195360",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "4204649995084455413",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "BehaType": 46,
+                            "BehaID": "8904572085457587458"
+                        }
+                    }
                 }
             }
         },
@@ -345,7 +374,7 @@
                         "y": 0.5
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 96
                     },
                     "Left": -40,
@@ -382,6 +411,35 @@
                     "Spacing": 0,
                     "FitModeX": 1,
                     "FitModeY": 1
+                },
+                "8740770008292166884": {
+                    "Type": 4,
+                    "Enabled": true,
+                    "ScriptID": "10793611517745751442",
+                    "Fields": {
+                        "CometEngine::UI::Image@ imageUp": {
+                            "EntID": "0",
+                            "EntSharedID": "0",
+                            "IsMainInstanciableEntity": false,
+                            "Path": [],
+                            "OutsideEnt": false,
+                            "RootShared": "0",
+                            "RootInside": false,
+                            "BehaType": 0,
+                            "BehaID": "0"
+                        },
+                        "CometEngine::UI::Image@ imageDown": {
+                            "EntID": "0",
+                            "EntSharedID": "0",
+                            "IsMainInstanciableEntity": false,
+                            "Path": [],
+                            "OutsideEnt": false,
+                            "RootShared": "0",
+                            "RootInside": false,
+                            "BehaType": 0,
+                            "BehaID": "0"
+                        }
+                    }
                 }
             }
         },
@@ -422,7 +480,7 @@
                         "y": 0.5
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 96
                     },
                     "Left": -40,
@@ -499,7 +557,7 @@
                         "y": 0.5
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 96
                     },
                     "Left": -40,
@@ -576,7 +634,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 48
                     },
                     "Left": 0,
@@ -618,6 +676,26 @@
                 "7726886840580829842": {
                     "Type": 48,
                     "Enabled": true,
+                    "Events": {
+                        "7217568905710096427": {
+                            "State": 0,
+                            "EntID": "329465346705067780",
+                            "EntSharedID": "329465346705067780",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "4204649995084455413",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "HasData": true,
+                            "ClassName": "TimelineButton",
+                            "ClassNamespace": "",
+                            "MethodName": "void OnImageUpPressed()",
+                            "HasParameter": false,
+                            "IsDynamic": false,
+                            "IsEntity": false,
+                            "CompIndex": 2
+                        }
+                    },
                     "SelfInteractable": true,
                     "State": 0,
                     "Transition": 1,
@@ -749,7 +827,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 48
                     },
                     "Left": 0,
@@ -791,6 +869,26 @@
                 "7726886840580829842": {
                     "Type": 48,
                     "Enabled": true,
+                    "Events": {
+                        "5371426829563686377": {
+                            "State": 0,
+                            "EntID": "329465346705067780",
+                            "EntSharedID": "329465346705067780",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "4204649995084455413",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "HasData": true,
+                            "ClassName": "TimelineButton",
+                            "ClassNamespace": "",
+                            "MethodName": "void OnImageDownPressed()",
+                            "HasParameter": false,
+                            "IsDynamic": false,
+                            "IsEntity": false,
+                            "CompIndex": 2
+                        }
+                    },
                     "SelfInteractable": true,
                     "State": 0,
                     "Transition": 1,
@@ -922,7 +1020,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 48
                     },
                     "Left": 0,
@@ -964,6 +1062,26 @@
                 "7726886840580829842": {
                     "Type": 48,
                     "Enabled": true,
+                    "Events": {
+                        "6799329167300547641": {
+                            "State": 0,
+                            "EntID": "8511114478833114499",
+                            "EntSharedID": "8511114478833114499",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "4204649995084455413",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "HasData": true,
+                            "ClassName": "TimelineButton",
+                            "ClassNamespace": "",
+                            "MethodName": "void OnImageUpPressed()",
+                            "HasParameter": false,
+                            "IsDynamic": false,
+                            "IsEntity": false,
+                            "CompIndex": 2
+                        }
+                    },
                     "SelfInteractable": true,
                     "State": 0,
                     "Transition": 1,
@@ -1095,7 +1213,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 48
                     },
                     "Left": 0,
@@ -1137,6 +1255,26 @@
                 "7726886840580829842": {
                     "Type": 48,
                     "Enabled": true,
+                    "Events": {
+                        "7929425666656418517": {
+                            "State": 0,
+                            "EntID": "8511114478833114499",
+                            "EntSharedID": "8511114478833114499",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "4204649995084455413",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "HasData": true,
+                            "ClassName": "TimelineButton",
+                            "ClassNamespace": "",
+                            "MethodName": "void OnImageDownPressed()",
+                            "HasParameter": false,
+                            "IsDynamic": false,
+                            "IsEntity": false,
+                            "CompIndex": 2
+                        }
+                    },
                     "SelfInteractable": true,
                     "State": 0,
                     "Transition": 1,
@@ -1268,7 +1406,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 48
                     },
                     "Left": 0,
@@ -1441,7 +1579,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 48
                     },
                     "Left": 0,
@@ -1614,7 +1752,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 48
                     },
                     "Left": 0,
@@ -1787,7 +1925,7 @@
                         "y": 1
                     },
                     "Size": {
-                        "x": 79.999,
+                        "x": 80,
                         "y": 48
                     },
                     "Left": 0,
@@ -1920,6 +2058,164 @@
                         "BehaType": 0,
                         "BehaID": "0"
                     }
+                }
+            }
+        },
+        {
+            "Name": "Image",
+            "ID": "14041522197967909672",
+            "SharedID": "6329647658299616540",
+            "ParentID": "13377992024127255954",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "0",
+            "Behaviours": {
+                "9941851226357366944": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 21,
+                        "y": 48
+                    },
+                    "Left": -10.5,
+                    "Right": -10.5,
+                    "Top": -24,
+                    "Bottom": -24,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": -0.21,
+                        "w": 0.978
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "7815339932794369462": {
+                    "Type": 46,
+                    "Enabled": false,
+                    "ResourceSprite": "6497893398844954821",
+                    "Sprite": "11727151561201786944",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                }
+            }
+        },
+        {
+            "Name": "Image",
+            "ID": "14927007480719692621",
+            "SharedID": "9277533640646195360",
+            "ParentID": "3911021408614317029",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "15601305072242255050",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "0",
+            "Behaviours": {
+                "2085929169255408577": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 21,
+                        "y": 48
+                    },
+                    "Left": -10.5,
+                    "Right": -10.5,
+                    "Top": -24,
+                    "Bottom": -24,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": -0.21,
+                        "w": 0.978
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "8904572085457587458": {
+                    "Type": 46,
+                    "Enabled": false,
+                    "ResourceSprite": "6497893398844954821",
+                    "Sprite": "11727151561201786944",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
                 }
             }
         }
