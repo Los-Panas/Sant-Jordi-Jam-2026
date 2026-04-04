@@ -1,5 +1,96 @@
 {
-    "Loop": false,
-    "Samples": 60,
-    "Duration": 0
+    "Loop": true,
+    "Samples": 30,
+    "Duration": 150,
+    "Properties": [
+        {
+            "PropType": 7,
+            "Path": "",
+            "Beha": 46,
+            "CompTypeIndex": 0,
+            "KeyFrames": [
+                {
+                    "Frame": 0,
+                    "Resource": "6656732783303700147",
+                    "SubResource": "1531435542844480580"
+                },
+                {
+                    "Frame": 10,
+                    "Resource": "13502658524035562029",
+                    "SubResource": "15987480608405549069"
+                },
+                {
+                    "Frame": 20,
+                    "Resource": "8198796694751774135",
+                    "SubResource": "12565440680215847584"
+                },
+                {
+                    "Frame": 30,
+                    "Resource": "10816479794841367593",
+                    "SubResource": "11092823615192112244"
+                },
+                {
+                    "Frame": 40,
+                    "Resource": "3375693402553975900",
+                    "SubResource": "9560389250855519514"
+                },
+                {
+                    "Frame": 50,
+                    "Resource": "892989357466423321",
+                    "SubResource": "18215985351971382035"
+                },
+                {
+                    "Frame": 60,
+                    "Resource": "3325860008355380268",
+                    "SubResource": "10565858370633323282"
+                },
+                {
+                    "Frame": 70,
+                    "Resource": "16860738118576823571",
+                    "SubResource": "11465843137009621618"
+                },
+                {
+                    "Frame": 80,
+                    "Resource": "17833992498925678972",
+                    "SubResource": "14418831600733380706"
+                },
+                {
+                    "Frame": 90,
+                    "Resource": "10475330236708705148",
+                    "SubResource": "2473819242648642239"
+                },
+                {
+                    "Frame": 100,
+                    "Resource": "15946189167693460454",
+                    "SubResource": "2400276778151875239"
+                },
+                {
+                    "Frame": 110,
+                    "Resource": "15817227327016394679",
+                    "SubResource": "10339246165398163383"
+                },
+                {
+                    "Frame": 120,
+                    "Resource": "15270970863941860830",
+                    "SubResource": "2295941418880921877"
+                },
+                {
+                    "Frame": 130,
+                    "Resource": "6759177191808463879",
+                    "SubResource": "7812816147295647563"
+                },
+                {
+                    "Frame": 140,
+                    "Resource": "2871781145066998828",
+                    "SubResource": "6783051180636704462"
+                },
+                {
+                    "Frame": 150,
+                    "Resource": "952031035911406880",
+                    "SubResource": "6130155920044229559"
+                }
+            ],
+            "CallbackType": 2
+        }
+    ]
 }

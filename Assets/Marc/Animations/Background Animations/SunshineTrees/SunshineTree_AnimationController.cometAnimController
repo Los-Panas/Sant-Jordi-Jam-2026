@@ -6,7 +6,7 @@
         "x": 0,
         "y": 0
     },
-    "DefaultTransition": -1,
+    "DefaultTransition": 0,
     "States": [
         {
             "Name": "Entry",
@@ -15,7 +15,18 @@
             "Position": {
                 "x": 50,
                 "y": 150
-            }
+            },
+            "Transitions": [
+                {
+                    "Forced": false,
+                    "Disabled": false,
+                    "Name": "",
+                    "ID": "10610115048506414381",
+                    "HasExitTime": false,
+                    "ExitTime": 0.5,
+                    "To": "9221197671353094367"
+                }
+            ]
         },
         {
             "Name": "Any State",
@@ -34,6 +45,50 @@
                 "x": 50,
                 "y": 50
             }
+        },
+        {
+            "Name": "Background",
+            "Type": 4,
+            "ID": "9221197671353094367",
+            "Position": {
+                "x": 356,
+                "y": 159
+            },
+            "Transitions": [
+                {
+                    "Forced": false,
+                    "Disabled": false,
+                    "Name": "",
+                    "ID": "9073893579170433466",
+                    "HasExitTime": false,
+                    "ExitTime": 0.5,
+                    "To": "15429015355491823568"
+                }
+            ],
+            "Speed": 1,
+            "Animation": "482687171328848829"
+        },
+        {
+            "Name": "ReverseBackground",
+            "Type": 4,
+            "ID": "15429015355491823568",
+            "Position": {
+                "x": 352,
+                "y": 70
+            },
+            "Transitions": [
+                {
+                    "Forced": false,
+                    "Disabled": false,
+                    "Name": "",
+                    "ID": "4576583043094925632",
+                    "HasExitTime": false,
+                    "ExitTime": 0.5,
+                    "To": "9221197671353094367"
+                }
+            ],
+            "Speed": -1,
+            "Animation": "482687171328848829"
         }
     ],
     "ConditionsCheckMode": 0

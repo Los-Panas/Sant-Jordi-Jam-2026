@@ -1,7 +1,7 @@
 {
     "Loop": false,
-    "Samples": 60,
-    "Duration": 0,
+    "Samples": 6,
+    "Duration": 1,
     "Properties": [
         {
             "PropType": 7,
@@ -13,6 +13,11 @@
                     "Frame": 0,
                     "Resource": "237657463175525341",
                     "SubResource": "7400734832877848015"
+                },
+                {
+                    "Frame": 1,
+                    "Resource": "237657463175525341",
+                    "SubResource": "8006172443231988719"
                 }
             ],
             "CallbackType": 2

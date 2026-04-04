@@ -1,5 +1,76 @@
 {
     "Loop": false,
-    "Samples": 60,
-    "Duration": 0
+    "Samples": 6,
+    "Duration": 11,
+    "Properties": [
+        {
+            "PropType": 7,
+            "Path": "",
+            "Beha": 46,
+            "CompTypeIndex": 0,
+            "KeyFrames": [
+                {
+                    "Frame": 0,
+                    "Resource": "237657463175525341",
+                    "SubResource": "9909694940971689516"
+                },
+                {
+                    "Frame": 1,
+                    "Resource": "237657463175525341",
+                    "SubResource": "6457366705735077003"
+                },
+                {
+                    "Frame": 2,
+                    "Resource": "237657463175525341",
+                    "SubResource": "9331006622200341357"
+                },
+                {
+                    "Frame": 3,
+                    "Resource": "237657463175525341",
+                    "SubResource": "10237546609369737390"
+                },
+                {
+                    "Frame": 4,
+                    "Resource": "237657463175525341",
+                    "SubResource": "12972726066426879626"
+                },
+                {
+                    "Frame": 5,
+                    "Resource": "237657463175525341",
+                    "SubResource": "17558844097412516411"
+                },
+                {
+                    "Frame": 6,
+                    "Resource": "237657463175525341",
+                    "SubResource": "15765034012539514424"
+                },
+                {
+                    "Frame": 7,
+                    "Resource": "237657463175525341",
+                    "SubResource": "17640623489424900690"
+                },
+                {
+                    "Frame": 8,
+                    "Resource": "237657463175525341",
+                    "SubResource": "9705701485878167409"
+                },
+                {
+                    "Frame": 9,
+                    "Resource": "237657463175525341",
+                    "SubResource": "7238910870234830653"
+                },
+                {
+                    "Frame": 10,
+                    "Resource": "237657463175525341",
+                    "SubResource": "2585448370210195584"
+                },
+                {
+                    "Frame": 11,
+                    "Resource": "237657463175525341",
+                    "SubResource": "2858987374707091662"
+                }
+            ],
+            "CallbackType": 2
+        }
+    ]
 }

@@ -4,7 +4,19 @@
             "Name": "ActivateDeath",
             "Type": 3,
             "ID": "7958075804723373428",
-            "Parameter": true
+            "Parameter": false
+        },
+        {
+            "Name": "ActivateHit",
+            "Type": 3,
+            "ID": "16947406510608827835",
+            "Parameter": false
+        },
+        {
+            "Name": "ActivateAttack",
+            "Type": 3,
+            "ID": "8489347358730191639",
+            "Parameter": false
         }
     ],
     "Name": "Base Machine",
@@ -52,7 +64,13 @@
                     "ID": "9083665618320511857",
                     "HasExitTime": false,
                     "ExitTime": 0.5,
-                    "To": "10792043140935098547"
+                    "To": "10792043140935098547",
+                    "Conditions": [
+                        {
+                            "ConditionType": 3,
+                            "ParameterID": "16947406510608827835"
+                        }
+                    ]
                 },
                 {
                     "Forced": false,
@@ -61,7 +79,13 @@
                     "ID": "17560800511468795587",
                     "HasExitTime": false,
                     "ExitTime": 0.5,
-                    "To": "10524381682864392713"
+                    "To": "10524381682864392713",
+                    "Conditions": [
+                        {
+                            "ConditionType": 3,
+                            "ParameterID": "7958075804723373428"
+                        }
+                    ]
                 },
                 {
                     "Forced": false,
@@ -70,7 +94,13 @@
                     "ID": "11182023241957017785",
                     "HasExitTime": false,
                     "ExitTime": 0.5,
-                    "To": "17161559429853994125"
+                    "To": "17161559429853994125",
+                    "Conditions": [
+                        {
+                            "ConditionType": 3,
+                            "ParameterID": "8489347358730191639"
+                        }
+                    ]
                 }
             ]
         },
@@ -79,8 +109,8 @@
             "Type": 2,
             "ID": "0",
             "Position": {
-                "x": 201,
-                "y": 30
+                "x": -80,
+                "y": -18
             }
         },
         {
@@ -88,10 +118,10 @@
             "Type": 4,
             "ID": "6647279801548666693",
             "Position": {
-                "x": 201,
-                "y": 238
+                "x": 409,
+                "y": 158
             },
-            "Speed": 0.1,
+            "Speed": 1,
             "Animation": "5985089961841019309"
         },
         {
@@ -99,10 +129,21 @@
             "Type": 4,
             "ID": "17161559429853994125",
             "Position": {
-                "x": 505,
-                "y": 174
+                "x": 409,
+                "y": 94
             },
-            "Speed": 0.1,
+            "Transitions": [
+                {
+                    "Forced": false,
+                    "Disabled": false,
+                    "Name": "",
+                    "ID": "8128643086988291487",
+                    "HasExitTime": false,
+                    "ExitTime": 0.5,
+                    "To": "6647279801548666693"
+                }
+            ],
+            "Speed": 1,
             "Animation": "712962281937593982"
         },
         {
@@ -110,9 +151,20 @@
             "Type": 4,
             "ID": "10792043140935098547",
             "Position": {
-                "x": 505,
-                "y": 46
+                "x": 416,
+                "y": -26
             },
+            "Transitions": [
+                {
+                    "Forced": false,
+                    "Disabled": false,
+                    "Name": "",
+                    "ID": "8619807068721702961",
+                    "HasExitTime": false,
+                    "ExitTime": 0.5,
+                    "To": "6647279801548666693"
+                }
+            ],
             "Speed": 1,
             "Animation": "16776813721116077676"
         },
@@ -121,9 +173,20 @@
             "Type": 4,
             "ID": "10524381682864392713",
             "Position": {
-                "x": 505,
-                "y": 110
+                "x": 416,
+                "y": 38
             },
+            "Transitions": [
+                {
+                    "Forced": false,
+                    "Disabled": false,
+                    "Name": "",
+                    "ID": "14964510943627332753",
+                    "HasExitTime": false,
+                    "ExitTime": 0.5,
+                    "To": "6647279801548666693"
+                }
+            ],
             "Speed": 1,
             "Animation": "12844110459505859518"
         }

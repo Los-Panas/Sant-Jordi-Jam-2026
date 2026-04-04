@@ -1,7 +1,7 @@
 {
-    "Loop": false,
-    "Samples": 60,
-    "Duration": 0,
+    "Loop": true,
+    "Samples": 6,
+    "Duration": 3,
     "Properties": [
         {
             "PropType": 7,
@@ -13,6 +13,21 @@
                     "Frame": 0,
                     "Resource": "237657463175525341",
                     "SubResource": "6818942296745424613"
+                },
+                {
+                    "Frame": 1,
+                    "Resource": "237657463175525341",
+                    "SubResource": "12356296608634879426"
+                },
+                {
+                    "Frame": 2,
+                    "Resource": "237657463175525341",
+                    "SubResource": "13446081039688286461"
+                },
+                {
+                    "Frame": 3,
+                    "Resource": "237657463175525341",
+                    "SubResource": "2347978475406601355"
                 }
             ],
             "CallbackType": 2
