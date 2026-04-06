@@ -1,0 +1,231 @@
+{
+    "Name": "moveScene",
+    "Path": "Didac\/moveScene",
+    "RootID": "6237443227690863646",
+    "Entities": [
+        {
+            "Name": "Camera",
+            "ID": "1760768738302027392",
+            "ParentID": "6237443227690863646",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "3719456977880454789": {
+                    "Type": 0,
+                    "Enabled": true,
+                    "Position": {
+                        "x": -0.15,
+                        "y": -0.999,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "11177093112376136614": {
+                    "Type": 1,
+                    "Enabled": true,
+                    "CullingMask": 2147483647,
+                    "BackCol": {
+                        "r": 0.192,
+                        "g": 0.302,
+                        "b": 0.475,
+                        "a": 1
+                    },
+                    "FarPlane": 200,
+                    "NearPlane": 0,
+                    "Size": 5,
+                    "Depth": -1,
+                    "Viewport": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 1,
+                        "w": 1
+                    },
+                    "Texture": "0"
+                }
+            }
+        },
+        {
+            "Name": "Player",
+            "ID": "8051945156733597571",
+            "ParentID": "6237443227690863646",
+            "ChildIndex": 1,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "18239157369597650061": {
+                    "Type": 0,
+                    "Enabled": true,
+                    "Position": {
+                        "x": 1.449,
+                        "y": -3.101,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 0.133,
+                        "y": 0.127,
+                        "z": 1
+                    }
+                },
+                "11853957660657751543": {
+                    "Type": 3,
+                    "Enabled": true,
+                    "ResourceSprite": "15741946109085737411",
+                    "Sprite": "15412531424888379113",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "FlipX": false,
+                    "FlipY": false,
+                    "Sort": true,
+                    "Material": "9",
+                    "OrderInLayer": 0,
+                    "SortingLayerName": "Default"
+                },
+                "10306515602996797135": {
+                    "Type": 4,
+                    "Enabled": true,
+                    "ScriptID": "14097825792174501836",
+                    "Fields": {
+                        "float speed": {
+                            "Value": 5
+                        }
+                    }
+                },
+                "16237399799178215016": {
+                    "Type": 39,
+                    "Enabled": true,
+                    "UpdateTimeMode": 0,
+                    "RootMotion": false,
+                    "Controller": "15906629692273114758",
+                    "KeepStateDisable": false,
+                    "IgnoreAnimationEvents": false,
+                    "Speed": 1
+                },
+                "13375238470060963181": {
+                    "Type": 9,
+                    "Enabled": true,
+                    "Body": 2,
+                    "Simulated": true,
+                    "AutoMass": false,
+                    "Mass": 1,
+                    "LinearDrag": 0,
+                    "AngularDrag": 0.05,
+                    "GravityScale": 0,
+                    "IsBullet": false,
+                    "Sleep": 2,
+                    "FreezeRot": true,
+                    "FreezeX": false,
+                    "FreezeY": false
+                },
+                "3255454137194968508": {
+                    "Type": 10,
+                    "Enabled": true,
+                    "Size": {
+                        "x": 5.722,
+                        "y": 2.297
+                    },
+                    "Radius": 0,
+                    "Trigger": false,
+                    "Offset": {
+                        "x": 0.014,
+                        "y": -0.434
+                    },
+                    "Density": 1,
+                    "Effector": false,
+                    "Packer": false
+                }
+            }
+        },
+        {
+            "Name": "Collider",
+            "ID": "17122965580261470252",
+            "ParentID": "6237443227690863646",
+            "ChildIndex": 2,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "7440682623154881480": {
+                    "Type": 0,
+                    "Enabled": true,
+                    "Position": {
+                        "x": 7.035,
+                        "y": -0.998,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 6.703,
+                        "z": 1
+                    }
+                },
+                "11581504201622042994": {
+                    "Type": 10,
+                    "Enabled": true,
+                    "Size": {
+                        "x": 1,
+                        "y": 1.16
+                    },
+                    "Radius": 0,
+                    "Trigger": false,
+                    "Offset": {
+                        "x": 0,
+                        "y": -0.537
+                    },
+                    "Effector": false,
+                    "Packer": false
+                }
+            }
+        }
+    ]
+}
