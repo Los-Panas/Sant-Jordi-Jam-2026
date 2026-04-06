@@ -64,114 +64,21 @@
             }
         },
         {
-            "Name": "Player",
-            "ID": "8051945156733597571",
-            "ParentID": "6237443227690863646",
-            "ChildIndex": 1,
-            "Enabled": true,
-            "IsUpEnabled": true,
-            "IsStatic": false,
-            "Layer": 1,
-            "Tag": "Untagged",
-            "Valid": true,
-            "Selectable": true,
-            "UpSelectable": true,
-            "Visible": true,
-            "UpVisible": true,
-            "Behaviours": {
-                "18239157369597650061": {
-                    "Type": 0,
-                    "Enabled": true,
-                    "Position": {
-                        "x": 1.449,
-                        "y": -3.101,
-                        "z": 0
-                    },
-                    "Rotation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1
-                    },
-                    "Scale": {
-                        "x": 0.133,
-                        "y": 0.127,
-                        "z": 1
-                    }
-                },
-                "11853957660657751543": {
-                    "Type": 3,
-                    "Enabled": true,
-                    "ResourceSprite": "15741946109085737411",
-                    "Sprite": "15412531424888379113",
-                    "RenderMode": 0,
-                    "Color": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "FlipX": false,
-                    "FlipY": false,
-                    "Sort": true,
-                    "Material": "9",
-                    "OrderInLayer": 0,
-                    "SortingLayerName": "Default"
-                },
-                "10306515602996797135": {
-                    "Type": 4,
-                    "Enabled": true,
-                    "ScriptID": "14097825792174501836",
-                    "Fields": {
-                        "float speed": {
-                            "Value": 5
-                        }
-                    }
-                },
-                "16237399799178215016": {
-                    "Type": 39,
-                    "Enabled": true,
-                    "UpdateTimeMode": 0,
-                    "RootMotion": false,
-                    "Controller": "15906629692273114758",
-                    "KeepStateDisable": false,
-                    "IgnoreAnimationEvents": false,
-                    "Speed": 1
-                },
-                "13375238470060963181": {
-                    "Type": 9,
-                    "Enabled": true,
-                    "Body": 2,
-                    "Simulated": true,
-                    "AutoMass": false,
-                    "Mass": 1,
-                    "LinearDrag": 0,
-                    "AngularDrag": 0.05,
-                    "GravityScale": 0,
-                    "IsBullet": false,
-                    "Sleep": 2,
-                    "FreezeRot": true,
-                    "FreezeX": false,
-                    "FreezeY": false
-                },
-                "3255454137194968508": {
-                    "Type": 10,
-                    "Enabled": true,
-                    "Size": {
-                        "x": 5.722,
-                        "y": 2.297
-                    },
-                    "Radius": 0,
-                    "Trigger": false,
-                    "Offset": {
-                        "x": 0.014,
-                        "y": -0.434
-                    },
-                    "Density": 1,
-                    "Effector": false,
-                    "Packer": false
+            "InstanciableEntity": "7228005160180653293",
+            "Overrides": [
+                {
+                    "Name": "Knight",
+                    "ID": "8051945156733597571",
+                    "SharedID": "1630773785051059829",
+                    "ParentID": "6237443227690863646",
+                    "ChildIndex": 1,
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": true,
+                    "InstanciableEntityID": "7228005160180653293",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "7228005160180653293"
                 }
-            }
+            ]
         },
         {
             "Name": "Collider",

@@ -82,6 +82,37 @@
                     "OuterInstanciableEntityID": "17453474573027175585"
                 }
             ]
+        },
+        {
+            "InstanciableEntity": "7228005160180653293",
+            "Overrides": [
+                {
+                    "ID": "17204181542667911443",
+                    "SharedID": "1630773785051059829",
+                    "ParentID": "6452284061448755589",
+                    "ChildIndex": 2,
+                    "Behaviours": {
+                        "18239157369597650061": {
+                            "Position": {
+                                "x": 1.94,
+                                "y": 2.628,
+                                "z": 0
+                            },
+                            "Rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                            }
+                        }
+                    },
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": true,
+                    "InstanciableEntityID": "7228005160180653293",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "7228005160180653293"
+                }
+            ]
         }
     ]
 }
