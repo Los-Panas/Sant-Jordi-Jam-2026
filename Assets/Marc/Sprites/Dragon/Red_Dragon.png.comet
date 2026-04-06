@@ -17,15 +17,15 @@
     "Width": 1375,
     "Height": 1065,
     "PixelsPerUnit": 100,
-    "SpriteType": 0,
+    "SpriteType": 1,
     "Sprites": [
         {
-            "SpriteID": "7893071040925554095",
+            "SpriteID": "13897594310437744995",
             "Rect": {
-                "x": 0,
-                "y": 0,
-                "w": 1375,
-                "h": 1065
+                "x": 7,
+                "y": 176,
+                "w": 144,
+                "h": 105
             },
             "Border": {
                 "x": 0,
@@ -38,7 +38,7 @@
                 "x": 0,
                 "y": 0
             },
-            "Name": "Red_Dragon"
+            "Name": "Red_Dragon_0"
         }
     ],
     "Platforms Data": [

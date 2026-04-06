@@ -1,0 +1,80 @@
+{
+    "Entities": [
+        {
+            "Name": "Dragon",
+            "ID": "16299747231775460413",
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": true,
+            "InstanciableEntityID": "17453474573027175585",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "17453474573027175585",
+            "Behaviours": {
+                "7838867938346938118": {
+                    "Type": 0,
+                    "Enabled": true,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "10787263704767086187": {
+                    "Type": 3,
+                    "Enabled": true,
+                    "ResourceSprite": "1584757491138561534",
+                    "Sprite": "13897594310437744995",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "FlipX": false,
+                    "FlipY": false,
+                    "Sort": true,
+                    "Material": "9",
+                    "OrderInLayer": 0,
+                    "SortingLayerName": "Default"
+                },
+                "13720878088359851675": {
+                    "Type": 4,
+                    "Enabled": true,
+                    "ScriptID": "5960664414663349951",
+                    "Fields": {
+                        "CometEngine::Entity@ smallBullet": {
+                            "EntID": "17753219165577588512",
+                            "EntSharedID": "0",
+                            "Path": [],
+                            "OutsideEnt": false,
+                            "RootShared": "0",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": true
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

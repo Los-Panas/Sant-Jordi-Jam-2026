@@ -1,0 +1,90 @@
+{
+    "Entities": [
+        {
+            "Name": "SmallFireBall",
+            "ID": "13348462713890704908",
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": true,
+            "InstanciableEntityID": "17753219165577588512",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "17753219165577588512",
+            "Behaviours": {
+                "1017993217968161807": {
+                    "Type": 0,
+                    "Enabled": true,
+                    "Position": {
+                        "x": -2.146,
+                        "y": -0.062,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "1275111679992074436": {
+                    "Type": 3,
+                    "Enabled": true,
+                    "ResourceSprite": "2602289790248286789",
+                    "Sprite": "13259769333849254302",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "FlipX": false,
+                    "FlipY": false,
+                    "Sort": true,
+                    "Material": "9",
+                    "OrderInLayer": 0,
+                    "SortingLayerName": "Default"
+                },
+                "6314011327241617919": {
+                    "Type": 39,
+                    "Enabled": true,
+                    "UpdateTimeMode": 0,
+                    "RootMotion": false,
+                    "Controller": "8831859764498402531",
+                    "KeepStateDisable": false,
+                    "IgnoreAnimationEvents": false,
+                    "Speed": 1
+                },
+                "5228177104310222998": {
+                    "Type": 4,
+                    "Enabled": true,
+                    "ScriptID": "8790909013180926032"
+                },
+                "1250825851168787563": {
+                    "Type": 15,
+                    "Enabled": true,
+                    "Radius": 0.33,
+                    "Trigger": false,
+                    "Offset": {
+                        "x": 0.1,
+                        "y": 0
+                    },
+                    "Effector": false
+                }
+            }
+        }
+    ]
+}

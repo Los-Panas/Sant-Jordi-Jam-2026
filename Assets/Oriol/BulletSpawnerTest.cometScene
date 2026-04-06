@@ -1,0 +1,87 @@
+{
+    "Name": "BulletSpawnerTest",
+    "Path": "Oriol\/BulletSpawnerTest",
+    "RootID": "6452284061448755589",
+    "Entities": [
+        {
+            "Name": "Main Camera",
+            "ID": "14784513993378151117",
+            "ParentID": "6452284061448755589",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "7390492130562874136": {
+                    "Type": 0,
+                    "Enabled": true,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "14972072443151518641": {
+                    "Type": 1,
+                    "Enabled": true,
+                    "CullingMask": 2147483647,
+                    "BackCol": {
+                        "r": 0.192,
+                        "g": 0.302,
+                        "b": 0.475,
+                        "a": 1
+                    },
+                    "FarPlane": 200,
+                    "NearPlane": 0,
+                    "Size": 5.8,
+                    "Depth": -1,
+                    "Viewport": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 1,
+                        "w": 1
+                    },
+                    "Texture": "0"
+                },
+                "9142021060893851832": {
+                    "Type": 29,
+                    "Enabled": true
+                }
+            }
+        },
+        {
+            "InstanciableEntity": "17453474573027175585",
+            "Overrides": [
+                {
+                    "ID": "5276883799690454297",
+                    "SharedID": "16299747231775460413",
+                    "ParentID": "6452284061448755589",
+                    "ChildIndex": 1,
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": true,
+                    "InstanciableEntityID": "17453474573027175585",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "17453474573027175585"
+                }
+            ]
+        }
+    ]
+}

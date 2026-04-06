@@ -1,0 +1,62 @@
+{
+    "Name": "Base Machine",
+    "Type": 3,
+    "ID": "13119900233024353059",
+    "Position": {
+        "x": 0,
+        "y": 0
+    },
+    "DefaultTransition": 0,
+    "States": [
+        {
+            "Name": "Entry",
+            "Type": 0,
+            "ID": "0",
+            "Position": {
+                "x": 50,
+                "y": 150
+            },
+            "Transitions": [
+                {
+                    "Forced": false,
+                    "Disabled": false,
+                    "Name": "",
+                    "ID": "14962374894556307816",
+                    "HasExitTime": false,
+                    "ExitTime": 0.5,
+                    "To": "5790627552604698762"
+                }
+            ]
+        },
+        {
+            "Name": "Any State",
+            "Type": 1,
+            "ID": "0",
+            "Position": {
+                "x": 50,
+                "y": 100
+            }
+        },
+        {
+            "Name": "Exit",
+            "Type": 2,
+            "ID": "0",
+            "Position": {
+                "x": 50,
+                "y": 50
+            }
+        },
+        {
+            "Name": "Idle",
+            "Type": 4,
+            "ID": "5790627552604698762",
+            "Position": {
+                "x": 256,
+                "y": 102
+            },
+            "Speed": 1,
+            "Animation": "18282610150316791000"
+        }
+    ],
+    "ConditionsCheckMode": 0
+}

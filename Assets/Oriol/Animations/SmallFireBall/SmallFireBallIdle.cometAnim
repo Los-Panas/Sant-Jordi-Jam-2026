@@ -1,0 +1,56 @@
+{
+    "Loop": false,
+    "Samples": 25,
+    "Duration": 7,
+    "Properties": [
+        {
+            "PropType": 7,
+            "Path": "",
+            "Beha": 3,
+            "CompTypeIndex": 0,
+            "KeyFrames": [
+                {
+                    "Frame": 0,
+                    "Resource": "2602289790248286789",
+                    "SubResource": "9276073304394369883"
+                },
+                {
+                    "Frame": 1,
+                    "Resource": "2602289790248286789",
+                    "SubResource": "7385021208657077361"
+                },
+                {
+                    "Frame": 2,
+                    "Resource": "2602289790248286789",
+                    "SubResource": "11858924673907242901"
+                },
+                {
+                    "Frame": 3,
+                    "Resource": "2602289790248286789",
+                    "SubResource": "4651379547013930393"
+                },
+                {
+                    "Frame": 4,
+                    "Resource": "2602289790248286789",
+                    "SubResource": "6908104631858138555"
+                },
+                {
+                    "Frame": 5,
+                    "Resource": "2602289790248286789",
+                    "SubResource": "16535570625908204408"
+                },
+                {
+                    "Frame": 6,
+                    "Resource": "2602289790248286789",
+                    "SubResource": "8247522658032536503"
+                },
+                {
+                    "Frame": 7,
+                    "Resource": "2602289790248286789",
+                    "SubResource": "13259769333849254302"
+                }
+            ],
+            "CallbackType": 0
+        }
+    ]
+}

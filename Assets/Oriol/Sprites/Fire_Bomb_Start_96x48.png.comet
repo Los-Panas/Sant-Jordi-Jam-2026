@@ -1,0 +1,198 @@
+{
+    "ID": "2602289790248286789",
+    "Type": 0,
+    "TextureType": 0,
+    "Read\/Write": false,
+    "Mipmaps": 1,
+    "WrapMode": 2,
+    "WrapS": 33071,
+    "WrapT": 33071,
+    "BorderColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+    },
+    "Filter": 0,
+    "Width": 768,
+    "Height": 48,
+    "PixelsPerUnit": 20,
+    "SpriteType": 1,
+    "Sprites": [
+        {
+            "SpriteID": "9276073304394369883",
+            "Rect": {
+                "x": 0,
+                "y": 7,
+                "w": 96,
+                "h": 14
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "Fire_Bomb_Start_96x48_0"
+        },
+        {
+            "SpriteID": "7385021208657077361",
+            "Rect": {
+                "x": 96,
+                "y": 7,
+                "w": 96,
+                "h": 14
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "Fire_Bomb_Start_96x48_1"
+        },
+        {
+            "SpriteID": "11858924673907242901",
+            "Rect": {
+                "x": 192,
+                "y": 7,
+                "w": 96,
+                "h": 14
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "Fire_Bomb_Start_96x48_2"
+        },
+        {
+            "SpriteID": "4651379547013930393",
+            "Rect": {
+                "x": 288,
+                "y": 7,
+                "w": 96,
+                "h": 14
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "Fire_Bomb_Start_96x48_3"
+        },
+        {
+            "SpriteID": "6908104631858138555",
+            "Rect": {
+                "x": 384,
+                "y": 7,
+                "w": 96,
+                "h": 14
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "Fire_Bomb_Start_96x48_4"
+        },
+        {
+            "SpriteID": "16535570625908204408",
+            "Rect": {
+                "x": 480,
+                "y": 7,
+                "w": 96,
+                "h": 14
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "Fire_Bomb_Start_96x48_5"
+        },
+        {
+            "SpriteID": "8247522658032536503",
+            "Rect": {
+                "x": 576,
+                "y": 7,
+                "w": 96,
+                "h": 14
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "Fire_Bomb_Start_96x48_6"
+        },
+        {
+            "SpriteID": "13259769333849254302",
+            "Rect": {
+                "x": 672,
+                "y": 7,
+                "w": 96,
+                "h": 14
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "Fire_Bomb_Start_96x48_7"
+        }
+    ],
+    "Platforms Data": [
+        {
+            "Max Size": 2048,
+            "Resize Algorithm": 9737,
+            "Compression Mode": 0
+        }
+    ]
+}
