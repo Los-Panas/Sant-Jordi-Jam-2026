@@ -17,4 +17,9 @@ class /*@*/ Bullet : CometBehaviour
 			Object::Destroy(entity);
 		}
 	}
+
+	void OnBecameInvisible()
+	{
+		Object::Destroy(entity);
+	}
 }

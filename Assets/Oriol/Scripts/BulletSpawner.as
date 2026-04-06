@@ -2,17 +2,57 @@ using namespace CometEngine;
 
 class /*@*/ BulletSpawner : CometBehaviour
 {
-	[Serialize] private Entity smallBullet;
+	[Serialize] private array<BulletBehaviour> bulletBehaviours;
+
+	private BulletBehaviour currentBehaviour;
+
+	void Start()
+	{
+		array<BulletBehaviour> validBehaviours;
+		for (uint i = 0; i < bulletBehaviours.length(); i++)
+		{
+			if (bulletBehaviours[i] != null)
+			{
+				bulletBehaviours[i].spawner = this;
+				validBehaviours.insertLast(bulletBehaviours[i]);
+			}
+		}
+		bulletBehaviours = validBehaviours;
+
+		ChangeBulletBehaviour();
+	}
 
 	void Update()
 	{
-		if (Input::GetKeyDown(KeyCode::SPACE))
+		if (currentBehaviour != null)
 		{
-			float randomZ = Random::RangeFloat(0.0f, 360.0f);
-			Quaternion randomRotation;
-			randomRotation.SetFromEulerAngles(Vector3(0.0f, 0.0f, randomZ));
+			currentBehaviour.OnUpdate();
+		}
+	}
 
-			Object::Instantiate(smallBullet, transform.position, randomRotation);
+	void ChangeBulletBehaviour()
+	{
+		BulletBehaviour previousBehaviour = currentBehaviour;
+		if (currentBehaviour != null)
+		{
+			currentBehaviour.OnDisabled();
+		}
+
+		if (previousBehaviour != null && bulletBehaviours.length() > 1)
+		{
+			while (currentBehaviour == previousBehaviour)
+			{
+				currentBehaviour = bulletBehaviours[Random::RangeInt(0, bulletBehaviours.length() - 1)];
+			}
+		}
+		else
+		{
+			currentBehaviour = bulletBehaviours[Random::RangeInt(0, bulletBehaviours.length() - 1)];
+		}
+
+		if (currentBehaviour != null)
+		{
+			currentBehaviour.OnEnabled();
 		}
 	}
 }

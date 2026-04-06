@@ -6,8 +6,8 @@
             "Enabled": true,
             "IsUpEnabled": true,
             "IsStatic": false,
-            "Layer": 1,
-            "Tag": "Untagged",
+            "Layer": 2,
+            "Tag": "Bullet",
             "Valid": true,
             "Selectable": true,
             "UpSelectable": true,
@@ -43,7 +43,7 @@
                     "Type": 3,
                     "Enabled": true,
                     "ResourceSprite": "2602289790248286789",
-                    "Sprite": "13259769333849254302",
+                    "Sprite": "9276073304394369883",
                     "RenderMode": 0,
                     "Color": {
                         "r": 1,
@@ -71,7 +71,15 @@
                 "5228177104310222998": {
                     "Type": 4,
                     "Enabled": true,
-                    "ScriptID": "8790909013180926032"
+                    "ScriptID": "8790909013180926032",
+                    "Fields": {
+                        "float speed": {
+                            "Value": 5
+                        },
+                        "float lifetime": {
+                            "Value": 10
+                        }
+                    }
                 },
                 "1250825851168787563": {
                     "Type": 15,
@@ -82,6 +90,7 @@
                         "x": 0.1,
                         "y": 0
                     },
+                    "Density": 1,
                     "Effector": false
                 }
             }

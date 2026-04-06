@@ -2,14 +2,14 @@ using namespace CometEngine;
 
 enum ePlayerDir
 {
-	IdleTop,   // 0
-	MoveTop,   // 1
-	IdleLeft,  // 2
-	MoveLeft,  // 3
-	IdleDown,  // 4
-	MoveDown,  // 5
-	IdleRight, // 6
-	MoveRight  // 7
+	IdleTop = 0,
+	MoveTop = 1,
+	IdleLeft = 2,
+	MoveLeft = 3,
+	IdleDown = 4,
+	MoveDown = 5,
+	IdleRight = 6,
+	MoveRight = 7
 }
 
 class /*@*/ PlayerMovment : CometBehaviour
@@ -30,7 +30,7 @@ class /*@*/ PlayerMovment : CometBehaviour
 	}
 
 	// Called Every Frame
-	void PreUpdate()
+	void FixedUpdate()
 	{
 		Vector2 newPos = Vector2::zero;
 
@@ -82,5 +82,13 @@ class /*@*/ PlayerMovment : CometBehaviour
 		}
 
 		mRigidBody.velocity = newPos * speed;
+	}
+
+	void OnTriggerEnter(Collider collider)
+	{
+		if (collider.tag == "Bullet")
+		{
+			Object::Destroy(collider.entity);
+		}
 	}
 }

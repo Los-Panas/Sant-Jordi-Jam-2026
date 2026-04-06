@@ -1,1 +1,13 @@
-{}
+{
+    "Tags": [
+        {
+            "Tag": "Bullet"
+        }
+    ],
+    "Layers": [
+        {
+            "LayerID": 2,
+            "Name": "BulletLayer"
+        }
+    ]
+}

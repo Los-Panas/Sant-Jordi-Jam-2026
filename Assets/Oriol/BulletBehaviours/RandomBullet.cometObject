@@ -1,0 +1,34 @@
+{
+    "Script": "2585842142924114285",
+    "Fields": {
+        "BulletSpawner@ spawner": {
+            "EntID": "0",
+            "EntSharedID": "0",
+            "IsMainInstanciableEntity": false,
+            "Path": [],
+            "OutsideEnt": false,
+            "RootShared": "0",
+            "RootInside": false,
+            "BehaType": 0,
+            "BehaID": "0"
+        },
+        "CometEngine::Entity@ bullet": {
+            "EntID": "17753219165577588512",
+            "EntSharedID": "0",
+            "Path": [],
+            "OutsideEnt": false,
+            "RootShared": "0",
+            "RootInside": false,
+            "IsMainInstanciableEntity": true
+        },
+        "float fireRate": {
+            "Value": 0.3
+        },
+        "float amountOfBulletsPerShot": {
+            "Value": 2
+        },
+        "float timeToChangeToNewState": {
+            "Value": 3
+        }
+    }
+}

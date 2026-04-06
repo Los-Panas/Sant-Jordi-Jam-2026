@@ -94,22 +94,80 @@
                     "FreezeX": false,
                     "FreezeY": false
                 },
-                "3255454137194968508": {
-                    "Type": 10,
+                "11865856296903978837": {
+                    "Type": 16,
                     "Enabled": true,
                     "Size": {
-                        "x": 5.722,
-                        "y": 2.297
+                        "x": 5.88,
+                        "y": 1.13
                     },
-                    "Radius": 0,
+                    "Dir": 1,
                     "Trigger": false,
                     "Offset": {
-                        "x": 0.014,
-                        "y": -0.434
+                        "x": 0,
+                        "y": -0.46
                     },
                     "Density": 1,
-                    "Effector": false,
-                    "Packer": false
+                    "Effector": false
+                }
+            }
+        },
+        {
+            "Name": "DamageTrigger",
+            "ID": "6545397458572384009",
+            "ParentID": "1630773785051059829",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 2,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "7228005160180653293",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "0",
+            "Behaviours": {
+                "13148741640548390043": {
+                    "Type": 0,
+                    "Enabled": true,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "1390746468281973662": {
+                    "Type": 16,
+                    "Enabled": true,
+                    "Size": {
+                        "x": 6.28,
+                        "y": 7.7
+                    },
+                    "Dir": 0,
+                    "Trigger": true,
+                    "Offset": {
+                        "x": 0,
+                        "y": -0.04
+                    },
+                    "Density": 1,
+                    "Effector": false
                 }
             }
         }

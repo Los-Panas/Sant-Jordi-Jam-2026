@@ -63,14 +63,17 @@
                     "Enabled": true,
                     "ScriptID": "5960664414663349951",
                     "Fields": {
-                        "CometEngine::Entity@ smallBullet": {
-                            "EntID": "17753219165577588512",
-                            "EntSharedID": "0",
-                            "Path": [],
-                            "OutsideEnt": false,
-                            "RootShared": "0",
-                            "RootInside": false,
-                            "IsMainInstanciableEntity": true
+                        "BulletBehaviour@[]& bulletBehaviours": {
+                            "Length": 2,
+                            "BulletBehaviour": true,
+                            "Array": [
+                                {
+                                    "Resource": "17701073781938525887"
+                                },
+                                {
+                                    "Resource": "9079007695130241381"
+                                }
+                            ]
                         }
                     }
                 }
