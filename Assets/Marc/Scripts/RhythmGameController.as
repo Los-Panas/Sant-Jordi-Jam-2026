@@ -2,7 +2,9 @@ using namespace CometEngine;
 
 class RhythmGameController : CometBehaviour
 {
-	string mapFilePath = "Assets/Marc/ss_archive_toby_fox_-_megalovania__sim_gretina_remix_.txt";
+	string mapFilePath = "Assets/Marc/ss_archive_nelward_hi.txt";
+	// DEBUG
+	AudioSample audioSample;
 
 	Entity parserEntity;
 	BeatmapParser @parserHandle;
@@ -19,7 +21,10 @@ class RhythmGameController : CometBehaviour
 	Entity scoreManagerEntity;
 	ScoreManager @scoreHandle;
 
-	float currentAudioTimeMs = 0.0f;
+	Entity @audioSourceEntity;
+	AudioSource @audioSource;
+
+	float currentAudioTimeMs = 2.0f;
 
 	void Start()
 	{
@@ -33,12 +38,15 @@ class RhythmGameController : CometBehaviour
 			spawnerEntity = entity;
 		if (scoreManagerEntity is null)
 			scoreManagerEntity = entity;
+		if (audioSourceEntity is null)
+			audioSourceEntity = entity;
 
 		@parserHandle = cast<BeatmapParser>(BeatmapParser::Get(parserEntity));
 		@gridHandle = cast<RhythmGrid>(RhythmGrid::Get(gridEntity));
 		@hitHandle = cast<HitDetector>(HitDetector::Get(hitDetectorEntity));
 		@spawnerHandle = cast<NoteSpawner>(NoteSpawner::Get(spawnerEntity));
 		@scoreHandle = cast<ScoreManager>(ScoreManager::Get(scoreManagerEntity));
+		@audioSource = cast<AudioSource>(AudioSource::Get(audioSourceEntity));
 
 		if (parserHandle !is null && gridHandle !is null)
 		{
@@ -53,6 +61,12 @@ class RhythmGameController : CometBehaviour
 			{
 				Debug::Log("[RhythmGameController] Error: Map file not found at " + mapFilePath);
 			}
+		}
+
+		if (audioSource !is null)
+		{
+			audioSource.audioSample = audioSample;
+			audioSource.Play();
 		}
 	}
 
@@ -72,10 +86,14 @@ class RhythmGameController : CometBehaviour
 					NoteData note = gridHandle.currentMap.notes[i];
 					if (note.isActive && !note.hasVisual && !note.isHit && !note.isMissed)
 					{
-						spawnerHandle.SpawnNoteFromLogic(note.x, note.y, note.timeMs, gridHandle.approachTimeMs);
+						// Safety Guard: Only spawn visual if the music is within the approach distance
+						if ((note.timeMs - currentAudioTimeMs) <= gridHandle.approachTimeMs)
+						{
+							spawnerHandle.SpawnNoteFromLogic(note.x, note.y, note.timeMs, gridHandle.approachTimeMs);
 
-						note.hasVisual = true;
-						gridHandle.currentMap.notes[i] = note; // Save back modified struct
+							note.hasVisual = true;
+							gridHandle.currentMap.notes[i] = note; // Save back modified struct
+						}
 					}
 				}
 
@@ -83,18 +101,13 @@ class RhythmGameController : CometBehaviour
 			}
 		}
 
-		// Logic of mouse hover interaction within the general manager
-		if (Input::GetMouseButtonDown(MouseCode::LEFT))
+		// Logic of mouse hover interaction (pure mathematical screen distance approach)
+		if (hitHandle !is null && spawnerHandle !is null)
 		{
-			// Placeholder interaction simulating collision
-			// since we don't have screen space 2D projections built into our code yet.
-			// When real mouse positional hover logic is injected here,
-			// you will map Input::GetMousePosition() against the GridManager's UI transforms.
-			if (hitHandle !is null)
-			{
-				// This triggers 'Hover' mathematically for standard testing
-				hitHandle.ProcessHover(1, 1, currentAudioTimeMs, scoreHandle);
-			}
+			Vector2 mousePos = Input::GetMousePosition();
+			mousePos.y = Window::GetHeight() - mousePos.y; // Fix Y-Axis Cartesian Inversion
+
+			hitHandle.ProcessHover(mousePos, currentAudioTimeMs, scoreHandle, spawnerHandle);
 		}
 	}
 }

@@ -8,8 +8,7 @@ class ScoreManager : CometBehaviour
 
 	int MULTIPLIER = 10;
 
-	// We would need references to UI::Text to update visual text, e.g.:
-	// UI::Text@ comboTextHandle;
+	Text @scoreText; // Inspector assigned reference for UI text
 
 	void Start()
 	{
@@ -27,7 +26,6 @@ class ScoreManager : CometBehaviour
 		currentScore += gainedPoints;
 
 		UpdateUI();
-		Debug::Log("[ScoreManager] PERFECT Hit! Combo: " + currentCombo + " | Score: " + currentScore);
 	}
 
 	void OnHitGood()
@@ -40,7 +38,6 @@ class ScoreManager : CometBehaviour
 		currentScore += gainedPoints;
 
 		UpdateUI();
-		Debug::Log("[ScoreManager] GOOD Hit! Combo: " + currentCombo + " | Score: " + currentScore);
 	}
 
 	void OnMiss()
@@ -61,8 +58,9 @@ class ScoreManager : CometBehaviour
 
 	void UpdateUI()
 	{
-		// TODO: Map to actual Comet UI text components.
-		// Example logic:
-		// if (comboTextHandle !is null) comboTextHandle.text = "Combo: " + currentCombo;
+		if (scoreText !is null)
+		{
+			scoreText.text = "" + currentScore;
+		}
 	}
 }

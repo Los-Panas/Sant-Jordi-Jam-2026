@@ -32,8 +32,8 @@ class GridManager : CometBehaviour
             RectTransform@ rect = RectTransform::Get(anchorEntity);
             if (rect !is null)
             {
-                // Extraemos pos local, las de world dan NaN en UIs que no han calculado su layout!
-                return Vector3(rect.anchoredPosition.x, rect.anchoredPosition.y, 0.0f); 
+                // Devolvemos la posición global del canvas para alinear distintos padres
+                return rect.position; 
             }
         }
         
@@ -45,7 +45,7 @@ class GridManager : CometBehaviour
         if (centerOrigin !is null)
         {
             RectTransform@ rect = RectTransform::Get(centerOrigin);
-            if (rect !is null) return Vector3(rect.anchoredPosition.x, rect.anchoredPosition.y, 0.0f);
+            if (rect !is null) return rect.position;
         }
         return Vector3(0, 0, 0);
     }

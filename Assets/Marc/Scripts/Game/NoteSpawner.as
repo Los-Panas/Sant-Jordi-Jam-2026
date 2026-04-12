@@ -24,14 +24,15 @@ class NoteSpawner : CometBehaviour
 
 		for (int i = 0; i < POOL_SIZE; i++)
 		{
-			Entity @newNoteEntity = Object::Instantiate(templateNotePrefab, parentCanvas);
-			notePool.insertLast(newNoteEntity);
-
-			NoteVisual @nv = cast<NoteVisual>(NoteVisual::Get(newNoteEntity));
-			if (nv !is null)
+			Entity @noteInstance = Object::Instantiate(templateNotePrefab, parentCanvas);
+			if (noteInstance !is null)
 			{
-				// Force to hide instanced raw entity
-				nv.Deactivate();
+				NoteVisual @nv = cast<NoteVisual>(NoteVisual::Get(noteInstance));
+				if (nv !is null)
+				{
+					nv.Deactivate(); // Explicitly hide newly pooled object visually
+				}
+				notePool.insertLast(noteInstance);
 			}
 		}
 
@@ -103,5 +104,23 @@ class NoteSpawner : CometBehaviour
 			}
 		}
 		return null;
+	}
+
+	void NotifyHit(int x, int y, float timeMs)
+	{
+		for (uint i = 0; i < notePool.length(); i++)
+		{
+			Entity @e = notePool[i];
+			if (e !is null)
+			{
+				NoteVisual @nv = NoteVisual::Get(e);
+				// Uniquely track and pop the visual Note by its signature
+				if (nv !is null && nv.isAlive && nv.gridX == x && nv.gridY == y && nv.targetTimeMs == timeMs)
+				{
+					nv.SetHit();
+					return;
+				}
+			}
+		}
 	}
 }

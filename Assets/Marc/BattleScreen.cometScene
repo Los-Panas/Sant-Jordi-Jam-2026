@@ -60,6 +60,25 @@
                         "w": 1
                     },
                     "Texture": "0"
+                },
+                "13057256720229944750": {
+                    "Type": 30,
+                    "Enabled": true,
+                    "IgnoreEffects": false,
+                    "IgnoreListenerEffects": false,
+                    "Loop": false,
+                    "Mute": false,
+                    "Play": true,
+                    "Volume": 1,
+                    "Pitch": 1,
+                    "Pan": 0,
+                    "MinDist": 1,
+                    "MaxDist": 10000,
+                    "Mode": 0
+                },
+                "12717260523452437234": {
+                    "Type": 29,
+                    "Enabled": true
                 }
             }
         },
@@ -228,6 +247,12 @@
                             "IsMainInstanciableEntity": false,
                             "BehaType": 4,
                             "BehaID": "7393715916132814451"
+                        },
+                        "int lastHoveredX": {
+                            "Value": -1
+                        },
+                        "int lastHoveredY": {
+                            "Value": -1
                         }
                     }
                 },
@@ -247,6 +272,17 @@
                         },
                         "int MULTIPLIER": {
                             "Value": 10
+                        },
+                        "CometEngine::UI::Text@ scoreText": {
+                            "EntID": "9952866610792015406",
+                            "EntSharedID": "9952866610792015406",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "0",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "BehaType": 47,
+                            "BehaID": "935204587345153112"
                         }
                     }
                 },
@@ -309,15 +345,15 @@
                             "IsMainInstanciableEntity": false
                         },
                         "GridManager@ gridManagerHandle": {
-                            "EntID": "0",
-                            "EntSharedID": "0",
-                            "IsMainInstanciableEntity": false,
-                            "Path": [],
+                            "EntID": "6558196700321787631",
+                            "EntSharedID": "6558196700321787631",
                             "OutsideEnt": false,
+                            "Path": [],
                             "RootShared": "0",
                             "RootInside": false,
-                            "BehaType": 0,
-                            "BehaID": "0"
+                            "IsMainInstanciableEntity": false,
+                            "BehaType": 4,
+                            "BehaID": "13769540413391095770"
                         }
                     }
                 },
@@ -328,6 +364,9 @@
                     "Fields": {
                         "string& mapFilePath": {
                             "Value": "Assets\/Marc\/ss_archive_toby_fox_-_megalovania__sim_gretina_remix_.txt"
+                        },
+                        "CometEngine::AudioSample@ audioSample": {
+                            "Resource": "7208109912091703433"
                         },
                         "CometEngine::Entity@ parserEntity": {
                             "EntID": "1353965549562825778",
@@ -428,6 +467,26 @@
                             "IsMainInstanciableEntity": false,
                             "BehaType": 4,
                             "BehaID": "14635255105801539591"
+                        },
+                        "CometEngine::Entity@ audioSourceEntity": {
+                            "EntID": "2154218325022399440",
+                            "EntSharedID": "2154218325022399440",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "0",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false
+                        },
+                        "CometEngine::AudioSource@ audioSource": {
+                            "EntID": "2154218325022399440",
+                            "EntSharedID": "2154218325022399440",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "0",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "BehaType": 30,
+                            "BehaID": "13057256720229944750"
                         },
                         "float currentAudioTimeMs": {
                             "Value": 0
@@ -829,6 +888,29 @@
                     "Material": "11",
                     "MouseFilter": 0
                 },
+                "11476702935056924788": {
+                    "Type": 63,
+                    "Enabled": true,
+                    "Padding": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 0,
+                        "h": 0
+                    },
+                    "ChildAlignment": 0,
+                    "CellSize": {
+                        "x": 266,
+                        "y": 266
+                    },
+                    "Spacing": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "StartCorner": 0,
+                    "StartAxis": 0,
+                    "Constraint": 0,
+                    "FixedConstraint": 2
+                },
                 "13769540413391095770": {
                     "Type": 4,
                     "Enabled": true,
@@ -930,72 +1012,180 @@
                             "IsMainInstanciableEntity": false
                         }
                     }
-                },
-                "11476702935056924788": {
-                    "Type": 63,
-                    "Enabled": true,
-                    "Padding": {
-                        "x": 0,
-                        "y": 0,
-                        "w": 0,
-                        "h": 0
-                    },
-                    "ChildAlignment": 0,
-                    "CellSize": {
-                        "x": 266,
-                        "y": 266
-                    },
-                    "Spacing": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "StartCorner": 0,
-                    "StartAxis": 0,
-                    "Constraint": 0,
-                    "FixedConstraint": 2
                 }
             }
         },
         {
-            "InstanciableEntity": "4225913234987226819",
-            "Overrides": [
-                {
-                    "ID": "6881584835968195994",
-                    "SharedID": "16674238839722693954",
-                    "ParentID": "6318824621031536748",
-                    "ChildIndex": 4,
-                    "Enabled": false,
-                    "Behaviours": {
-                        "10656634553039648311": {
-                            "Left": -296.388,
-                            "Right": 196.388,
-                            "Top": -83.276,
-                            "Bottom": -16.724,
-                            "Position": {
-                                "x": -246.388,
-                                "y": 33.276,
-                                "z": 0
-                            },
-                            "Scale": {
-                                "x": 2,
-                                "y": 2,
-                                "z": 2.892
-                            },
-                            "Rotation": {
-                                "x": 0,
-                                "y": 0,
-                                "z": 0,
-                                "w": 1
-                            }
-                        }
+            "Name": "Score",
+            "ID": "9952866610792015406",
+            "ParentID": "6318824621031536748",
+            "ChildIndex": 4,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "7491826813340424901": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
                     },
-                    "IsInstanciableEntity": true,
-                    "IsRootInstanciableEntity": true,
-                    "InstanciableEntityID": "4225913234987226819",
-                    "InsideInstanciableEntityID": "0",
-                    "OuterInstanciableEntityID": "4225913234987226819"
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 200,
+                        "y": 49.999
+                    },
+                    "Left": 494.921,
+                    "Right": -694.921,
+                    "Top": -401.676,
+                    "Bottom": 351.677,
+                    "Position": {
+                        "x": 594.921,
+                        "y": 376.677,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 4,
+                        "y": 4,
+                        "z": 4
+                    }
+                },
+                "935204587345153112": {
+                    "Type": 47,
+                    "Enabled": true,
+                    "Text": "0",
+                    "Font": "14",
+                    "FontSize": 36,
+                    "AutoFontSize": false,
+                    "MinAutoFontSize": 1,
+                    "MaxAutoFontSize": 200,
+                    "HorizontalAlignment": 1,
+                    "VerticalAlignment": 1,
+                    "Overflow": 0,
+                    "Wrapping": true,
+                    "AutoContentSizeMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "12",
+                    "MouseFilter": 0
                 }
-            ]
+            }
+        },
+        {
+            "Name": "CustomCursor",
+            "ID": "18386337746828138520",
+            "ParentID": "6318824621031536748",
+            "ChildIndex": 5,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "6014476468321666448": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 100,
+                        "y": 100
+                    },
+                    "Left": -50,
+                    "Right": -50,
+                    "Top": -50,
+                    "Bottom": -50,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "3792877527877241503": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "10046526798213935063",
+                    "Sprite": "543314091642663370",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                },
+                "14290265020784830310": {
+                    "Type": 4,
+                    "Enabled": true,
+                    "ScriptID": "7226758693606719877",
+                    "Fields": {
+                        "CometEngine::RectTransform@ myTransform": {
+                            "EntID": "18386337746828138520",
+                            "EntSharedID": "18386337746828138520",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "0",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "BehaType": 44,
+                            "BehaID": "6014476468321666448"
+                        }
+                    }
+                }
+            }
         },
         {
             "Name": "Player",
