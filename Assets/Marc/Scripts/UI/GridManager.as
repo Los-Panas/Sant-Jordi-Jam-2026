@@ -47,6 +47,28 @@ class GridManager : CometBehaviour
             RectTransform@ rect = RectTransform::Get(centerOrigin);
             if (rect !is null) return rect.position;
         }
+        
+        // Fallback: Dynamically average the 9 anchors to find the exact center!
+        Vector3 avg(0.0f, 0.0f, 0.0f);
+        int validCount = 0;
+        for (int i = 0; i < 9; i++) {
+            Entity@ a = gridAnchors[i];
+            if (a !is null) {
+                RectTransform@ r = RectTransform::Get(a);
+                if (r !is null) {
+                    avg = avg + r.position;
+                    validCount++;
+                }
+            }
+        }
+        
+        if (validCount > 0) {
+            avg.x /= float(validCount);
+            avg.y /= float(validCount);
+            avg.z /= float(validCount);
+            return avg;
+        }
+        
         return Vector3(0, 0, 0);
     }
 }

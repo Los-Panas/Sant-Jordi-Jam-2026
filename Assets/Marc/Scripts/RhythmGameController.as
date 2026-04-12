@@ -24,7 +24,12 @@ class RhythmGameController : CometBehaviour
 	Entity @audioSourceEntity;
 	AudioSource @audioSource;
 
-	float currentAudioTimeMs = 2.0f;
+	float notesDelaySeconds = 0.0f;   // Visual delay before visual spawning loop starts tracking (0 means it starts now)
+	float audioDelaySeconds = 2.0f;   // Absolute delay before audio blasts
+
+	bool isAudioStarted = false;
+	bool isNotesStarted = false;
+	float currentAudioTimeMs = 0.0f;
 
 	void Start()
 	{
@@ -66,17 +71,48 @@ class RhythmGameController : CometBehaviour
 		if (audioSource !is null)
 		{
 			audioSource.audioSample = audioSample;
-			audioSource.Play();
 		}
+
+		currentAudioTimeMs = -notesDelaySeconds * 1000.0f;
+		isAudioStarted = false;
+		isNotesStarted = false;
 	}
 
 	void Update()
 	{
-		currentAudioTimeMs += Time::GetDeltaTime() * 1000.0f;
+		// 1. Audio Countdown Tracker
+		if (!isAudioStarted)
+		{
+			audioDelaySeconds -= Time::GetDeltaTime();
+			if (audioDelaySeconds <= 0.0f)
+			{
+				isAudioStarted = true;
+				if (audioSource !is null)
+				{
+					audioSource.Play();
+				}
+			}
+		}
+
+		// 2. Visual Notes & Math Sync Tracker
+		if (!isNotesStarted)
+		{
+			notesDelaySeconds -= Time::GetDeltaTime();
+			currentAudioTimeMs = -notesDelaySeconds * 1000.0f; 
+			
+			if (notesDelaySeconds <= 0.0f)
+			{
+				isNotesStarted = true;
+			}
+		}
+		else
+		{
+			currentAudioTimeMs += Time::GetDeltaTime() * 1000.0f;
+		}
 
 		if (gridHandle !is null)
 		{
-			gridHandle.UpdateGridState(currentAudioTimeMs);
+			gridHandle.UpdateGridState(currentAudioTimeMs, scoreHandle);
 
 			// Check for new Spawns
 			if (spawnerHandle !is null)
@@ -105,7 +141,21 @@ class RhythmGameController : CometBehaviour
 		if (hitHandle !is null && spawnerHandle !is null)
 		{
 			Vector2 mousePos = Input::GetMousePosition();
-			mousePos.y = Window::GetHeight() - mousePos.y; // Fix Y-Axis Cartesian Inversion
+			
+			// Correccion Ratio Resolucion Pantalla vs ScreenSpace Canvas (Referencia Estandar HD)
+			float canvasRefWidth = 1920.0f;
+			float canvasRefHeight = 1080.0f;
+			
+			float screenRatioX = mousePos.x / float(Window::GetWidth());
+			float screenRatioY = mousePos.y / float(Window::GetHeight());
+			
+			float virtualX = screenRatioX * canvasRefWidth;
+			float virtualY = screenRatioY * canvasRefHeight;
+			
+			virtualY = canvasRefHeight - virtualY; // Fix Y-Axis Cartesian Inversion
+			
+			mousePos.x = virtualX;
+			mousePos.y = virtualY;
 
 			hitHandle.ProcessHover(mousePos, currentAudioTimeMs, scoreHandle, spawnerHandle);
 		}

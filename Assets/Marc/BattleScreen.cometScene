@@ -68,7 +68,7 @@
                     "IgnoreListenerEffects": false,
                     "Loop": false,
                     "Mute": false,
-                    "Play": true,
+                    "Play": false,
                     "Volume": 1,
                     "Pitch": 1,
                     "Pan": 0,
@@ -213,7 +213,7 @@
                             }
                         },
                         "float approachTimeMs": {
-                            "Value": 1500
+                            "Value": 1000
                         }
                     }
                 },
@@ -363,10 +363,10 @@
                     "ScriptID": "16191813735620984180",
                     "Fields": {
                         "string& mapFilePath": {
-                            "Value": "Assets\/Marc\/ss_archive_toby_fox_-_megalovania__sim_gretina_remix_.txt"
+                            "Value": "Assets\/Marc\/Maps\/ss_archive_toby_fox_-_megalovania__sim_gretina_remix_.txt"
                         },
                         "CometEngine::AudioSample@ audioSample": {
-                            "Resource": "7208109912091703433"
+                            "Resource": "15669634055321782940"
                         },
                         "CometEngine::Entity@ parserEntity": {
                             "EntID": "1353965549562825778",
@@ -487,6 +487,18 @@
                             "IsMainInstanciableEntity": false,
                             "BehaType": 30,
                             "BehaID": "13057256720229944750"
+                        },
+                        "float notesDelaySeconds": {
+                            "Value": 3
+                        },
+                        "float audioDelaySeconds": {
+                            "Value": 2.6
+                        },
+                        "bool isAudioStarted": {
+                            "Value": false
+                        },
+                        "bool isNotesStarted": {
+                            "Value": false
                         },
                         "float currentAudioTimeMs": {
                             "Value": 0
@@ -1056,7 +1068,7 @@
                     "Bottom": 351.677,
                     "Position": {
                         "x": 594.921,
-                        "y": 376.677,
+                        "y": 376.676,
                         "z": 0
                     },
                     "Rotation": {

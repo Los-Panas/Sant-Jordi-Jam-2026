@@ -12,7 +12,7 @@ class RhythmGrid : CometBehaviour
         Debug::Log("[RhythmGrid] Map assigned. Total notes: " + currentMap.GetTotalNotes());
     }
 
-    void UpdateGridState(float audioTimeMs)
+    void UpdateGridState(float audioTimeMs, ScoreManager@ scoreManager)
     {
         for (uint i = 0; i < currentMap.notes.length(); i++)
         {
@@ -22,6 +22,8 @@ class RhythmGrid : CometBehaviour
             {
                 note.isMissed = true;
                 note.isActive = false;
+                
+                if (scoreManager !is null) scoreManager.OnMiss();
                 
                 currentMap.notes[i] = note; 
                 continue;

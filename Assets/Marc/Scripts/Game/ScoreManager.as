@@ -18,6 +18,10 @@ class ScoreManager : CometBehaviour
 	void OnHitPerfect()
 	{
 		currentCombo++;
+		if (currentCombo > 0 && currentCombo % 5 == 0) {
+			AnimatorManagerSingleton::get.SetPlayerState("ActivateAttack");
+		}
+		
 		if (currentCombo > maxCombo)
 			maxCombo = currentCombo;
 
@@ -31,6 +35,10 @@ class ScoreManager : CometBehaviour
 	void OnHitGood()
 	{
 		currentCombo++;
+		if (currentCombo > 0 && currentCombo % 5 == 0) {
+			AnimatorManagerSingleton::get.SetPlayerState("ActivateAttack");
+		}
+		
 		if (currentCombo > maxCombo)
 			maxCombo = currentCombo;
 
@@ -45,6 +53,7 @@ class ScoreManager : CometBehaviour
 		currentCombo = 0; // Break combo
 
 		UpdateUI();
+		AnimatorManagerSingleton::get.SetPlayerState("ActivateHit");
 		Debug::Log("[ScoreManager] MISSED Note... Combo Broken!");
 	}
 
