@@ -1,0 +1,496 @@
+{
+    "Name": "MainMenu",
+    "Path": "MainMenuStuff\/MainMenu",
+    "RootID": "11848644020139705124",
+    "Entities": [
+        {
+            "Name": "Main Camera",
+            "ID": "7554944393403955772",
+            "ParentID": "11848644020139705124",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "8512947680459396": {
+                    "Type": 0,
+                    "Enabled": true,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "13331922247240418113": {
+                    "Type": 1,
+                    "Enabled": true,
+                    "CullingMask": 2147483647,
+                    "BackCol": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "FarPlane": 200,
+                    "NearPlane": 0,
+                    "Size": 5,
+                    "Depth": -1,
+                    "Viewport": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 1,
+                        "w": 1
+                    },
+                    "Texture": "0"
+                },
+                "10055559399139252589": {
+                    "Type": 29,
+                    "Enabled": true
+                }
+            }
+        },
+        {
+            "Name": "Canvas",
+            "ID": "9735109382390532468",
+            "ParentID": "11848644020139705124",
+            "ChildIndex": 1,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "14167235232580631890": {
+                    "Type": 44,
+                    "Enabled": true
+                },
+                "12398003081899080595": {
+                    "Type": 45,
+                    "Enabled": true,
+                    "RenderMode": 0,
+                    "OverrideSorting": false,
+                    "ScreenType": 0,
+                    "SortingOrder": 0,
+                    "ScaleMode": 1,
+                    "ReferenceResolution": {
+                        "x": 1920,
+                        "y": 1080
+                    },
+                    "MatchMode": 0,
+                    "Value": 0
+                },
+                "16756953290185033294": {
+                    "Type": 4,
+                    "Enabled": true,
+                    "ScriptID": "6394307944957679969",
+                    "Fields": {
+                        "CometEngine::Entity@ exitButton": {
+                            "EntID": "6574504618357187889",
+                            "EntSharedID": "128591062546574297",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "128591062546574297",
+                            "RootInside": true,
+                            "IsMainInstanciableEntity": false
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Input Handler",
+            "ID": "2181820937123768508",
+            "ParentID": "11848644020139705124",
+            "ChildIndex": 2,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "12000079199030134142": {
+                    "Type": 0,
+                    "Enabled": true,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "10388714644624177851": {
+                    "Type": 49,
+                    "Enabled": true,
+                    "RepeatDelay": 0.5,
+                    "RepeatRate": 0.1,
+                    "Selected": {
+                        "EntID": "15164129548222468146",
+                        "EntSharedID": "128591062546574297",
+                        "OutsideEnt": false,
+                        "Path": [],
+                        "RootShared": "128591062546574297",
+                        "RootInside": false,
+                        "IsMainInstanciableEntity": false,
+                        "BehaType": 48,
+                        "BehaID": "15077681446421164271"
+                    },
+                    "MouseLeftClickGroup": "197262063163126120",
+                    "MouseLeftClickAction": "6614031161999992305",
+                    "MouseMotionGroup": "197262063163126120",
+                    "MouseMotionAction": "2128844316294618362",
+                    "LeftNavigationGroup": "197262063163126120",
+                    "LeftNavigationAction": "3330002776493933390",
+                    "RightNavigationGroup": "197262063163126120",
+                    "RightNavigationAction": "14017386786377550708",
+                    "UpNavigationGroup": "197262063163126120",
+                    "UpNavigationAction": "6712901528302809891",
+                    "DownNavigationGroup": "197262063163126120",
+                    "DownNavigationAction": "3908748482110878991",
+                    "SubmitGroup": "197262063163126120",
+                    "SubmitAction": "6311055504311527634",
+                    "CancelGroup": "197262063163126120",
+                    "CancelAction": "6544688759587859436"
+                }
+            }
+        },
+        {
+            "Name": "Panel",
+            "ID": "16248588734535661773",
+            "ParentID": "9735109382390532468",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "6832463782431838451": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 500,
+                        "y": 700
+                    },
+                    "Left": -250,
+                    "Right": -250,
+                    "Top": -350,
+                    "Bottom": -350,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "7417694783032264309": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "15",
+                    "Sprite": "1",
+                    "RenderMode": 1,
+                    "FillCenter": true,
+                    "PixelsPerUnitMultiplier": 1,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0.392
+                    },
+                    "Material": "11",
+                    "MouseFilter": 1
+                }
+            }
+        },
+        {
+            "InstanciableEntity": "5195249413888819671",
+            "Overrides": [
+                {
+                    "Name": "Play",
+                    "ID": "15164129548222468146",
+                    "SharedID": "128591062546574297",
+                    "ParentID": "16248588734535661773",
+                    "ChildIndex": 0,
+                    "Behaviours": {
+                        "1811956102631388020": {
+                            "Top": 72.482,
+                            "Bottom": -112.482,
+                            "Position": {
+                                "x": 0,
+                                "y": 257.518,
+                                "z": 0
+                            },
+                            "Rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                            }
+                        },
+                        "15077681446421164271": {
+                            "Events": {
+                                "2309870148823391430": {
+                                    "State": 0,
+                                    "EntID": "9735109382390532468",
+                                    "EntSharedID": "9735109382390532468",
+                                    "OutsideEnt": false,
+                                    "Path": [],
+                                    "RootShared": "0",
+                                    "RootInside": false,
+                                    "IsMainInstanciableEntity": false,
+                                    "HasData": true,
+                                    "ClassName": "MainMenuManager",
+                                    "ClassNamespace": "",
+                                    "MethodName": "void LoadGameScene()",
+                                    "HasParameter": false,
+                                    "IsDynamic": false,
+                                    "IsEntity": false,
+                                    "CompIndex": 2
+                                }
+                            },
+                            "Image": {
+                                "EntID": "15164129548222468146",
+                                "EntSharedID": "128591062546574297",
+                                "RootShared": "128591062546574297",
+                                "BehaType": 46,
+                                "BehaID": "15594719671087782042"
+                            }
+                        }
+                    },
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": true,
+                    "InstanciableEntityID": "5195249413888819671",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "5195249413888819671"
+                },
+                {
+                    "ID": "14128103127510725306",
+                    "SharedID": "8543416725044071448",
+                    "ParentID": "15164129548222468146",
+                    "ParentSharedID": "128591062546574297",
+                    "Behaviours": {
+                        "9712504886508430700": {
+                            "Text": "Play"
+                        }
+                    },
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": false,
+                    "InstanciableEntityID": "5195249413888819671",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "5195249413888819671"
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "5195249413888819671",
+            "Overrides": [
+                {
+                    "Name": "Exit",
+                    "ID": "6574504618357187889",
+                    "SharedID": "128591062546574297",
+                    "ParentID": "16248588734535661773",
+                    "ChildIndex": 1,
+                    "Behaviours": {
+                        "1811956102631388020": {
+                            "Top": 134.804,
+                            "Bottom": -174.804,
+                            "Position": {
+                                "x": 0,
+                                "y": 195.196,
+                                "z": 0
+                            },
+                            "Rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                            }
+                        },
+                        "15077681446421164271": {
+                            "Events": {
+                                "13638028638263879865": {
+                                    "State": 0,
+                                    "EntID": "9735109382390532468",
+                                    "EntSharedID": "9735109382390532468",
+                                    "OutsideEnt": false,
+                                    "Path": [],
+                                    "RootShared": "0",
+                                    "RootInside": false,
+                                    "IsMainInstanciableEntity": false,
+                                    "HasData": true,
+                                    "ClassName": "MainMenuManager",
+                                    "ClassNamespace": "",
+                                    "MethodName": "void QuitGame()",
+                                    "HasParameter": false,
+                                    "IsDynamic": false,
+                                    "IsEntity": false,
+                                    "CompIndex": 2
+                                }
+                            },
+                            "Image": {
+                                "EntID": "6574504618357187889",
+                                "EntSharedID": "128591062546574297",
+                                "RootShared": "128591062546574297",
+                                "BehaType": 46,
+                                "BehaID": "15594719671087782042"
+                            }
+                        }
+                    },
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": true,
+                    "InstanciableEntityID": "5195249413888819671",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "5195249413888819671"
+                },
+                {
+                    "ID": "4749857499149107786",
+                    "SharedID": "8543416725044071448",
+                    "ParentID": "6574504618357187889",
+                    "ParentSharedID": "128591062546574297",
+                    "Behaviours": {
+                        "9712504886508430700": {
+                            "Text": "Exit"
+                        }
+                    },
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": false,
+                    "InstanciableEntityID": "5195249413888819671",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "5195249413888819671"
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "5195249413888819671",
+            "Overrides": [
+                {
+                    "Name": "Credits",
+                    "ID": "13067629099520020323",
+                    "SharedID": "128591062546574297",
+                    "ParentID": "16248588734535661773",
+                    "ChildIndex": 2,
+                    "Behaviours": {
+                        "1811956102631388020": {
+                            "Pivot": {
+                                "y": 0
+                            },
+                            "AnchorMin": {
+                                "y": 0
+                            },
+                            "AnchorMax": {
+                                "y": 0
+                            },
+                            "Top": -86.41,
+                            "Bottom": 46.41,
+                            "Position": {
+                                "x": 0,
+                                "y": -283.59,
+                                "z": 0
+                            },
+                            "Rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                            }
+                        },
+                        "15077681446421164271": {
+                            "Image": {
+                                "EntID": "13067629099520020323",
+                                "EntSharedID": "128591062546574297",
+                                "RootShared": "128591062546574297",
+                                "BehaType": 46,
+                                "BehaID": "15594719671087782042"
+                            }
+                        }
+                    },
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": true,
+                    "InstanciableEntityID": "5195249413888819671",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "5195249413888819671"
+                },
+                {
+                    "ID": "17142254715053360548",
+                    "SharedID": "8543416725044071448",
+                    "ParentID": "13067629099520020323",
+                    "ParentSharedID": "128591062546574297",
+                    "Behaviours": {
+                        "9712504886508430700": {
+                            "Text": "Credits\n"
+                        }
+                    },
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": false,
+                    "InstanciableEntityID": "5195249413888819671",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "5195249413888819671"
+                }
+            ]
+        }
+    ]
+}

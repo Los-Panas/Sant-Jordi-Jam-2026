@@ -1,0 +1,265 @@
+{
+    "Entities": [
+        {
+            "Name": "MainMenuButton",
+            "ID": "128591062546574297",
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": true,
+            "InstanciableEntityID": "5195249413888819671",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "5195249413888819671",
+            "IsNodeOpen": false,
+            "Behaviours": {
+                "1811956102631388020": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 1
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 1
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 300,
+                        "y": 40
+                    },
+                    "Left": -150,
+                    "Right": -150,
+                    "Top": -291.856,
+                    "Bottom": 251.856,
+                    "Position": {
+                        "x": 0,
+                        "y": 811.856,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "15077681446421164271": {
+                    "Type": 48,
+                    "Enabled": true,
+                    "SelfInteractable": true,
+                    "State": 0,
+                    "Transition": 1,
+                    "Image": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "Normal": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Highlighted": {
+                        "r": 0.92,
+                        "g": 0.92,
+                        "b": 0.92,
+                        "a": 1
+                    },
+                    "Pressed": {
+                        "r": 0.79,
+                        "g": 0.79,
+                        "b": 0.79,
+                        "a": 1
+                    },
+                    "Selected": {
+                        "r": 0.92,
+                        "g": 0.92,
+                        "b": 0.92,
+                        "a": 1
+                    },
+                    "Disabled": {
+                        "r": 0.79,
+                        "g": 0.79,
+                        "b": 0.79,
+                        "a": 0.5
+                    },
+                    "Fade": 0.1,
+                    "UseScaledTime": false,
+                    "Navigation": 3,
+                    "OnDown": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnLeft": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnRightEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnUpEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    }
+                },
+                "15594719671087782042": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "13",
+                    "Sprite": "1",
+                    "RenderMode": 1,
+                    "FillCenter": true,
+                    "PixelsPerUnitMultiplier": 1,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                }
+            }
+        },
+        {
+            "Name": "Text",
+            "ID": "8543416725044071448",
+            "ParentID": "128591062546574297",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "5195249413888819671",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "5195249413888819671",
+            "IsNodeOpen": false,
+            "Behaviours": {
+                "12825272939313818757": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 240,
+                        "y": 40
+                    },
+                    "Left": 30,
+                    "Right": 30,
+                    "Top": 0,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "9712504886508430700": {
+                    "Type": 47,
+                    "Enabled": true,
+                    "Text": "Text",
+                    "Font": "14",
+                    "FontSize": 22,
+                    "AutoFontSize": false,
+                    "MinAutoFontSize": 1,
+                    "MaxAutoFontSize": 200,
+                    "HorizontalAlignment": 1,
+                    "VerticalAlignment": 1,
+                    "Overflow": 0,
+                    "Wrapping": true,
+                    "AutoContentSizeMode": 0,
+                    "Color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "Material": "12",
+                    "MouseFilter": 2
+                }
+            }
+        }
+    ]
+}

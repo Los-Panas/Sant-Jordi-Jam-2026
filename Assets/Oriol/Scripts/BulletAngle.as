@@ -40,7 +40,7 @@ using namespace CometEngine;
 				Quaternion rotation;
 				rotation.SetFromEulerAngles(Vector3(0.0f, 0.0f, currentAngle));
 
-				Object::Instantiate(bullet, spawner.transform.position, rotation);
+				Entity::Instantiate(bullet, spawner.transform.position, rotation);
 			}
 		}
 

@@ -28,7 +28,7 @@ using namespace CometEngine;
 				Quaternion randomRotation;
 				randomRotation.SetFromEulerAngles(Vector3(0.0f, 0.0f, randomZ));
 
-				Object::Instantiate(bullet, spawner.transform.position, randomRotation);
+				Entity::Instantiate(bullet, spawner.transform.position, randomRotation);
 			}
 		}
 
