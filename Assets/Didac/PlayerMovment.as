@@ -26,6 +26,9 @@ class /*@*/ PlayerMovment : CometBehaviour
 	private bool hasHarp = true;
 	[Serialize] private float spawnHarpMinDist = 4.0f;
 	[Serialize] Entity deathMenu;
+	[Serialize] private float immortalTimeAfterHitSeconds = 0.8F;
+	bool isImmortal = false;
+	float immortalStartTime = 0.0f;
 
 	// Called before first frame
 	void Start()
@@ -39,6 +42,15 @@ class /*@*/ PlayerMovment : CometBehaviour
 	// Called Every Frame
 	void FixedUpdate()
 	{
+		if (isImmortal)
+		{
+			float timeSinceHit = Time::GetGameTime() - immortalStartTime;
+			if (timeSinceHit >= immortalTimeAfterHitSeconds)
+			{
+				isImmortal = false;
+			}
+		}
+
 		Vector2 newPos = Vector2::zero;
 
 		ePlayerDir LastDir = mCurrentDir;
@@ -139,13 +151,19 @@ class /*@*/ PlayerMovment : CometBehaviour
 		if (collider.tag == "Bullet")
 		{
 			Object::Destroy(collider.entity);
-			if (hasHarp)
+			if (!isImmortal)
 			{
-				DropHarp();
-			}
-			else
-			{
-				Die();
+				if (hasHarp)
+				{
+					immortalStartTime = Time::GetGameTime();
+					isImmortal = true;
+
+					DropHarp();
+				}
+				else
+				{
+					Die();
+				}
 			}
 		}
 		else if (collider.tag == "Harp")
