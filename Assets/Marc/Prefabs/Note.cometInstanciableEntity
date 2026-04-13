@@ -1,0 +1,252 @@
+{
+    "Entities": [
+        {
+            "Name": "Note",
+            "ID": "16674238839722693954",
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": true,
+            "InstanciableEntityID": "4225913234987226819",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "4225913234987226819",
+            "Behaviours": {
+                "10656634553039648311": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 100,
+                        "y": 100
+                    },
+                    "Left": -50,
+                    "Right": -50,
+                    "Top": -50,
+                    "Bottom": -50,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "3362770464611052679": {
+                    "Type": 46,
+                    "Enabled": false,
+                    "ResourceSprite": "9470695873638465125",
+                    "Sprite": "625471120465391338",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                },
+                "7088944079950149420": {
+                    "Type": 4,
+                    "Enabled": true,
+                    "ScriptID": "1230065066451423158",
+                    "Fields": {
+                        "float targetTimeMs": {
+                            "Value": 0
+                        },
+                        "float approachRateMs": {
+                            "Value": 1500
+                        },
+                        "CometEngine::Vector3 startPos": {
+                            "Vector3": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            }
+                        },
+                        "CometEngine::Vector3 targetPos": {
+                            "Vector3": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            }
+                        },
+                        "CometEngine::Transform@ myTransform": {
+                            "EntID": "16674238839722693954",
+                            "EntSharedID": "16674238839722693954",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "16674238839722693954",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "BehaType": 44,
+                            "BehaID": "10656634553039648311"
+                        },
+                        "CometEngine::UI::Image@ myImage": {
+                            "EntID": "17784748335265155773",
+                            "EntSharedID": "17784748335265155773",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "16674238839722693954",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "BehaType": 46,
+                            "BehaID": "7431524364490437556"
+                        },
+                        "int gridX": {
+                            "Value": 0
+                        },
+                        "int gridY": {
+                            "Value": 0
+                        },
+                        "bool isAlive": {
+                            "Value": false
+                        },
+                        "bool isColliderActive": {
+                            "Value": false
+                        },
+                        "bool randomColor": {
+                            "Value": false
+                        },
+                        "CometEngine::Color baseColor": {
+                            "Color": {
+                                "r": 0,
+                                "g": 0,
+                                "b": 0,
+                                "a": 1
+                            }
+                        },
+                        "bool hasBeenHit": {
+                            "Value": false
+                        },
+                        "bool hasMissed": {
+                            "Value": false
+                        }
+                    }
+                },
+                "2830705936410667114": {
+                    "Type": 10,
+                    "Enabled": true,
+                    "Size": {
+                        "x": 2.4,
+                        "y": 2.4
+                    },
+                    "Radius": 0,
+                    "Trigger": false,
+                    "Offset": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "Effector": false,
+                    "Packer": false
+                }
+            }
+        },
+        {
+            "Name": "Visual",
+            "ID": "17784748335265155773",
+            "ParentID": "16674238839722693954",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "4225913234987226819",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "0",
+            "Behaviours": {
+                "12110385413315467535": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 100,
+                        "y": 100
+                    },
+                    "Left": -50,
+                    "Right": -50,
+                    "Top": -50,
+                    "Bottom": -50,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 2.4,
+                        "y": 2.4,
+                        "z": 2.4
+                    }
+                },
+                "7431524364490437556": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "9470695873638465125",
+                    "Sprite": "625471120465391338",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                }
+            }
+        }
+    ]
+}
