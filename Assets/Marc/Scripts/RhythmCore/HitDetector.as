@@ -30,7 +30,37 @@ class HitDetector : CometBehaviour
         int hoveredX = -1;
         int hoveredY = -1;
         
-        // Find which anchor the mouse is actively hovering over (100 pixels radius squared = 10000)
+        // --- MOTOR DIAGNOSTIC TEST ---
+        if (Input::GetKeyDown(KeyCode::T))
+        {
+            Vector3 anchor00 = spawnerHandle.gridManagerHandle.GetAnchorPosition(0, 0);
+            
+            Debug::Log("==== DIAGNOSTICO DEL MOTOR (Pulso T) ====");
+            Debug::Log("1. Input::GetMousePos() (Hardware Bruto): X:" + Input::GetMousePosition().x + " Y:" + Input::GetMousePosition().y);
+            Debug::Log("2. Mouse Mapeado (El que usa el juego): X:" + mousePos.x + " Y:" + mousePos.y);
+            Debug::Log("3. Posición UI Motor (Ancla Celda 0,0): X:" + anchor00.x + " Y:" + anchor00.y);
+            Debug::Log("4. Window::GetWidth() / GetHeight(): " + Window::GetWidth() + "x" + Window::GetHeight());
+            
+            // Intentar desenterrar el tamaño real del Canvas si lo tenemos vinculado
+            if (spawnerHandle.parentCanvas !is null) {
+                RectTransform@ cRect = RectTransform::Get(spawnerHandle.parentCanvas);
+                if (cRect !is null) {
+                    Debug::Log("5. Canvas Real Size: " + cRect.size.x + "x" + cRect.size.y);
+                }
+            }
+            Debug::Log("=========================================");
+        }
+        // -----------------------------
+        
+        // --- CALCULO DEL RADIO DINAMICO DEL HITBOX ---
+        Vector3 a1 = spawnerHandle.gridManagerHandle.GetAnchorPosition(0, 0);
+        Vector3 a2 = spawnerHandle.gridManagerHandle.GetAnchorPosition(1, 0);
+        float diffX = a2.x - a1.x;
+        float diffY = a2.y - a1.y;
+        float cellDistSqr = (diffX * diffX) + (diffY * diffY);
+        float maxDistSqr = cellDistSqr * 0.2025f; // Radio equivalente al 45% del espacio real entre celdas
+        
+        // Find which anchor the mouse is actively hovering over
         for (int x = 0; x < 3; x++)
         {
             for (int y = 0; y < 3; y++)
@@ -40,7 +70,7 @@ class HitDetector : CometBehaviour
                 float dy = mousePos.y - anchorPos3D.y;
                 float distSqr = (dx * dx) + (dy * dy);
                 
-                if (distSqr < 15000.0f) // Threshold of ~122 pixels
+                if (distSqr <= maxDistSqr) 
                 {
                     hoveredX = x;
                     hoveredY = y;

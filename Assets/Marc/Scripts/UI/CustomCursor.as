@@ -16,19 +16,8 @@ class CustomCursor : CometBehaviour
 		if (myTransform !is null)
 		{
 			Vector2 mousePos = Input::GetMousePosition();
-			
-			// Screen space to Canvas Reference scale mapping
-			float canvasRefWidth = 1920.0f;
-			float canvasRefHeight = 1080.0f;
-			
-			float screenRatioX = mousePos.x / float(Window::GetWidth());
-			float screenRatioY = mousePos.y / float(Window::GetHeight());
-			
-			float virtualX = screenRatioX * canvasRefWidth;
-			float virtualY = screenRatioY * canvasRefHeight;
-
-			float invertedY = canvasRefHeight - virtualY;
-			myTransform.position = Vector3(virtualX, invertedY, 0.0f);
+			float invertedY = Window::GetHeight() - mousePos.y;
+			myTransform.position = Vector3(mousePos.x, invertedY, 0.0f);
 		}
 	}
 

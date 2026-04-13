@@ -100,15 +100,15 @@
                             }
                         },
                         "CometEngine::Transform@ myTransform": {
-                            "EntID": "16674238839722693954",
-                            "EntSharedID": "16674238839722693954",
-                            "OutsideEnt": false,
-                            "Path": [],
-                            "RootShared": "16674238839722693954",
-                            "RootInside": false,
+                            "EntID": "0",
+                            "EntSharedID": "0",
                             "IsMainInstanciableEntity": false,
-                            "BehaType": 44,
-                            "BehaID": "10656634553039648311"
+                            "Path": [],
+                            "OutsideEnt": false,
+                            "RootShared": "0",
+                            "RootInside": false,
+                            "BehaType": 0,
+                            "BehaID": "0"
                         },
                         "CometEngine::UI::Image@ myImage": {
                             "EntID": "17784748335265155773",
@@ -226,9 +226,9 @@
                         "w": 1
                     },
                     "Scale": {
-                        "x": 2.4,
-                        "y": 2.4,
-                        "z": 2.4
+                        "x": 1.4,
+                        "y": 1.4,
+                        "z": 1.4
                     }
                 },
                 "7431524364490437556": {
