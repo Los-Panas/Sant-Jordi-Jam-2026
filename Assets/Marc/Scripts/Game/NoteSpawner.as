@@ -24,7 +24,7 @@ class NoteSpawner : CometBehaviour
 
 		for (int i = 0; i < POOL_SIZE; i++)
 		{
-			Entity @noteInstance = Object::Instantiate(templateNotePrefab, parentCanvas);
+			Entity @noteInstance = Entity::Instantiate(templateNotePrefab, parentCanvas);
 			if (noteInstance !is null)
 			{
 				NoteVisual @nv = cast<NoteVisual>(NoteVisual::Get(noteInstance));
