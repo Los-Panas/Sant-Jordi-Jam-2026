@@ -18,7 +18,6 @@
             "InstanciableEntityID": "7228005160180653293",
             "InsideInstanciableEntityID": "0",
             "OuterInstanciableEntityID": "7228005160180653293",
-            "IsNodeOpen": false,
             "Behaviours": {
                 "18239157369597650061": {
                     "Type": 0,
@@ -163,7 +162,6 @@
             "InstanciableEntityID": "7228005160180653293",
             "InsideInstanciableEntityID": "0",
             "OuterInstanciableEntityID": "0",
-            "IsNodeOpen": false,
             "Behaviours": {
                 "13148741640548390043": {
                     "Type": 0,
