@@ -25,10 +25,10 @@ class /*@*/ PlayerMovment : CometBehaviour
 
 	private bool hasHarp = true;
 	[Serialize] private float spawnHarpMinDist = 4.0f;
-	[Serialize] Entity deathMenu;
+	[Serialize] private Entity deathMenu;
 	[Serialize] private float immortalTimeAfterHitSeconds = 0.8F;
-	bool isImmortal = false;
-	float immortalStartTime = 0.0f;
+	private bool isImmortal = false;
+	private float immortalStartTime = 0.0f;
 
 	// Called before first frame
 	void Start()
