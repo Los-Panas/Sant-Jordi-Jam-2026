@@ -7,7 +7,7 @@ class /*@*/ MainMenuManager : CometBehaviour
 
 	void Start()
 	{
-#ifndef COMET_WEB
+#ifdef COMET_WEB
 		if (exitButton !is null)
 		{
 			exitButton.enabled = false;
@@ -18,6 +18,11 @@ class /*@*/ MainMenuManager : CometBehaviour
 	void LoadGameScene()
 	{
 		SceneManager::LoadScene(1);
+	}
+
+	void LoadCreditsScene()
+	{
+		SceneManager::LoadScene(2);
 	}
 
 	void QuitGame()

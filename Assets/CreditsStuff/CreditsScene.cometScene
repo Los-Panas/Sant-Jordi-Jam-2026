@@ -1,12 +1,12 @@
 {
-    "Name": "MainMenu",
-    "Path": "MainMenuStuff\/MainMenu",
-    "RootID": "11848644020139705124",
+    "Name": "CreditsScene",
+    "Path": "CreditsStuff\/CreditsScene",
+    "RootID": "685004685108569598",
     "Entities": [
         {
             "Name": "Main Camera",
-            "ID": "7554944393403955772",
-            "ParentID": "11848644020139705124",
+            "ID": "10307685496750562194",
+            "ParentID": "685004685108569598",
             "ChildIndex": 0,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -19,7 +19,7 @@
             "Visible": true,
             "UpVisible": true,
             "Behaviours": {
-                "8512947680459396": {
+                "494863355195993875": {
                     "Type": 0,
                     "Enabled": true,
                     "Position": {
@@ -39,7 +39,7 @@
                         "z": 1
                     }
                 },
-                "13331922247240418113": {
+                "7135134435623610005": {
                     "Type": 1,
                     "Enabled": true,
                     "CullingMask": 2147483647,
@@ -61,7 +61,7 @@
                     },
                     "Texture": "0"
                 },
-                "10055559399139252589": {
+                "7276855910298941693": {
                     "Type": 29,
                     "Enabled": true
                 }
@@ -70,7 +70,7 @@
         {
             "Name": "Canvas",
             "ID": "9735109382390532468",
-            "ParentID": "11848644020139705124",
+            "ParentID": "685004685108569598",
             "ChildIndex": 1,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -102,28 +102,17 @@
                     "MatchMode": 0,
                     "Value": 0
                 },
-                "16756953290185033294": {
+                "7588383429759651881": {
                     "Type": 4,
                     "Enabled": true,
-                    "ScriptID": "6394307944957679969",
-                    "Fields": {
-                        "CometEngine::Entity@ exitButton": {
-                            "EntID": "6574504618357187889",
-                            "EntSharedID": "128591062546574297",
-                            "OutsideEnt": false,
-                            "Path": [],
-                            "RootShared": "128591062546574297",
-                            "RootInside": true,
-                            "IsMainInstanciableEntity": false
-                        }
-                    }
+                    "ScriptID": "2915939120507689905"
                 }
             }
         },
         {
             "Name": "Input Handler",
-            "ID": "2181820937123768508",
-            "ParentID": "11848644020139705124",
+            "ID": "17383604355891057857",
+            "ParentID": "685004685108569598",
             "ChildIndex": 2,
             "Enabled": true,
             "IsUpEnabled": true,
@@ -136,12 +125,12 @@
             "Visible": true,
             "UpVisible": true,
             "Behaviours": {
-                "12000079199030134142": {
+                "9594390351144562051": {
                     "Type": 0,
                     "Enabled": true,
                     "Position": {
-                        "x": 0,
-                        "y": 0,
+                        "x": 530.249,
+                        "y": 306.553,
                         "z": 0
                     },
                     "Rotation": {
@@ -156,13 +145,13 @@
                         "z": 1
                     }
                 },
-                "10388714644624177851": {
+                "18152379225712431757": {
                     "Type": 49,
                     "Enabled": true,
                     "RepeatDelay": 0.5,
                     "RepeatRate": 0.1,
                     "Selected": {
-                        "EntID": "15164129548222468146",
+                        "EntID": "13067629099520020323",
                         "EntSharedID": "128591062546574297",
                         "OutsideEnt": false,
                         "Path": [],
@@ -270,90 +259,11 @@
             "InstanciableEntity": "5195249413888819671",
             "Overrides": [
                 {
-                    "Name": "Play",
-                    "ID": "15164129548222468146",
-                    "SharedID": "128591062546574297",
-                    "ParentID": "16248588734535661773",
-                    "ChildIndex": 0,
-                    "Behaviours": {
-                        "1811956102631388020": {
-                            "Top": 72.482,
-                            "Bottom": -112.482,
-                            "Position": {
-                                "x": 0,
-                                "y": 257.518,
-                                "z": 0
-                            },
-                            "Rotation": {
-                                "x": 0,
-                                "y": 0,
-                                "z": 0,
-                                "w": 1
-                            }
-                        },
-                        "15077681446421164271": {
-                            "Events": {
-                                "2309870148823391430": {
-                                    "State": 0,
-                                    "EntID": "9735109382390532468",
-                                    "EntSharedID": "9735109382390532468",
-                                    "OutsideEnt": false,
-                                    "Path": [],
-                                    "RootShared": "0",
-                                    "RootInside": false,
-                                    "IsMainInstanciableEntity": false,
-                                    "HasData": true,
-                                    "ClassName": "MainMenuManager",
-                                    "ClassNamespace": "",
-                                    "MethodName": "void LoadGameScene()",
-                                    "HasParameter": false,
-                                    "IsDynamic": false,
-                                    "IsEntity": false,
-                                    "CompIndex": 2
-                                }
-                            },
-                            "Image": {
-                                "EntID": "15164129548222468146",
-                                "EntSharedID": "128591062546574297",
-                                "RootShared": "128591062546574297",
-                                "BehaType": 46,
-                                "BehaID": "15594719671087782042"
-                            }
-                        }
-                    },
-                    "IsInstanciableEntity": true,
-                    "IsRootInstanciableEntity": true,
-                    "InstanciableEntityID": "5195249413888819671",
-                    "InsideInstanciableEntityID": "0",
-                    "OuterInstanciableEntityID": "5195249413888819671"
-                },
-                {
-                    "ID": "14128103127510725306",
-                    "SharedID": "8543416725044071448",
-                    "ParentID": "15164129548222468146",
-                    "ParentSharedID": "128591062546574297",
-                    "Behaviours": {
-                        "9712504886508430700": {
-                            "Text": "Play"
-                        }
-                    },
-                    "IsInstanciableEntity": true,
-                    "IsRootInstanciableEntity": false,
-                    "InstanciableEntityID": "5195249413888819671",
-                    "InsideInstanciableEntityID": "0",
-                    "OuterInstanciableEntityID": "5195249413888819671"
-                }
-            ]
-        },
-        {
-            "InstanciableEntity": "5195249413888819671",
-            "Overrides": [
-                {
-                    "Name": "Credits",
+                    "Name": "ReturnMainMenu",
                     "ID": "13067629099520020323",
                     "SharedID": "128591062546574297",
                     "ParentID": "16248588734535661773",
-                    "ChildIndex": 1,
+                    "ChildIndex": 0,
                     "Behaviours": {
                         "1811956102631388020": {
                             "Pivot": {
@@ -391,9 +301,9 @@
                                     "RootInside": false,
                                     "IsMainInstanciableEntity": false,
                                     "HasData": true,
-                                    "ClassName": "MainMenuManager",
+                                    "ClassName": "CreditsManager",
                                     "ClassNamespace": "",
-                                    "MethodName": "void LoadCreditsScene()",
+                                    "MethodName": "void LoadMainMenu()",
                                     "HasParameter": false,
                                     "IsDynamic": false,
                                     "IsEntity": false,
@@ -422,86 +332,7 @@
                     "ParentSharedID": "128591062546574297",
                     "Behaviours": {
                         "9712504886508430700": {
-                            "Text": "Credits\n"
-                        }
-                    },
-                    "IsInstanciableEntity": true,
-                    "IsRootInstanciableEntity": false,
-                    "InstanciableEntityID": "5195249413888819671",
-                    "InsideInstanciableEntityID": "0",
-                    "OuterInstanciableEntityID": "5195249413888819671"
-                }
-            ]
-        },
-        {
-            "InstanciableEntity": "5195249413888819671",
-            "Overrides": [
-                {
-                    "Name": "Exit",
-                    "ID": "6574504618357187889",
-                    "SharedID": "128591062546574297",
-                    "ParentID": "16248588734535661773",
-                    "ChildIndex": 2,
-                    "Behaviours": {
-                        "1811956102631388020": {
-                            "Top": 134.804,
-                            "Bottom": -174.804,
-                            "Position": {
-                                "x": 0,
-                                "y": 195.196,
-                                "z": 0
-                            },
-                            "Rotation": {
-                                "x": 0,
-                                "y": 0,
-                                "z": 0,
-                                "w": 1
-                            }
-                        },
-                        "15077681446421164271": {
-                            "Events": {
-                                "13638028638263879865": {
-                                    "State": 0,
-                                    "EntID": "9735109382390532468",
-                                    "EntSharedID": "9735109382390532468",
-                                    "OutsideEnt": false,
-                                    "Path": [],
-                                    "RootShared": "0",
-                                    "RootInside": false,
-                                    "IsMainInstanciableEntity": false,
-                                    "HasData": true,
-                                    "ClassName": "MainMenuManager",
-                                    "ClassNamespace": "",
-                                    "MethodName": "void QuitGame()",
-                                    "HasParameter": false,
-                                    "IsDynamic": false,
-                                    "IsEntity": false,
-                                    "CompIndex": 2
-                                }
-                            },
-                            "Image": {
-                                "EntID": "6574504618357187889",
-                                "EntSharedID": "128591062546574297",
-                                "RootShared": "128591062546574297",
-                                "BehaType": 46,
-                                "BehaID": "15594719671087782042"
-                            }
-                        }
-                    },
-                    "IsInstanciableEntity": true,
-                    "IsRootInstanciableEntity": true,
-                    "InstanciableEntityID": "5195249413888819671",
-                    "InsideInstanciableEntityID": "0",
-                    "OuterInstanciableEntityID": "5195249413888819671"
-                },
-                {
-                    "ID": "4749857499149107786",
-                    "SharedID": "8543416725044071448",
-                    "ParentID": "6574504618357187889",
-                    "ParentSharedID": "128591062546574297",
-                    "Behaviours": {
-                        "9712504886508430700": {
-                            "Text": "Exit"
+                            "Text": "Return Main Menu"
                         }
                     },
                     "IsInstanciableEntity": true,

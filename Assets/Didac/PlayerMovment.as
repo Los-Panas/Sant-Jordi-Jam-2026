@@ -15,6 +15,7 @@ enum ePlayerDir
 class /*@*/ PlayerMovment : CometBehaviour
 {
 	[Serialize] private float speed = 300.0f;
+	[Serialize] private Entity harp;
 
 	private Animator mAnim;
 	private RigidBody mRigidBody;
@@ -22,9 +23,15 @@ class /*@*/ PlayerMovment : CometBehaviour
 	private ePlayerDir mCurrentDir = ePlayerDir::IdleTop;
 	private bool isMoving = false;
 
+	private bool hasHarp = true;
+	[Serialize] private float spawnHarpMinDist = 4.0f;
+	[Serialize] Entity deathMenu;
+
 	// Called before first frame
 	void Start()
 	{
+		deathMenu.enabled = false;
+
 		mAnim = Animator::Get(entity);
 		mRigidBody = RigidBody::Get(entity);
 	}
@@ -84,11 +91,68 @@ class /*@*/ PlayerMovment : CometBehaviour
 		mRigidBody.velocity = newPos * speed;
 	}
 
+	void DropHarp()
+	{
+		hasHarp = false;
+		Camera @cam = Camera::GetAllCameras()[0];
+
+		Vector3 camPos = cam.entity.transform.position;
+		Vector2 size = cam.worldSize;
+
+		float halfWidth = size.x / 2.0f;
+		float halfHeight = size.y / 2.0f;
+
+		float minX = camPos.x - halfWidth;
+		float maxX = camPos.x + halfWidth;
+		float minY = camPos.y - halfHeight;
+		float maxY = camPos.y + halfHeight;
+
+		Vector3 spawnPos;
+		bool positionValid = false;
+
+		for (int i = 0; i < 10; i++)
+		{
+			spawnPos.x = Random::RangeFloat(minX + (halfWidth * 0.1f), maxX - (halfWidth * 0.1f));
+			spawnPos.y = Random::RangeFloat(minY + (halfHeight * 0.1f), maxY - (halfHeight * 0.1f));
+			spawnPos.z = 0.0f;
+
+			float dist = (spawnPos - this.entity.transform.position).Length();
+
+			if (dist > spawnHarpMinDist)
+			{
+				positionValid = true;
+				break;
+			}
+		}
+
+		Entity::Instantiate(harp, spawnPos, Quaternion::identity);
+	}
+
+	void Die()
+	{
+		Time::SetTimeScale(0.0f);
+		deathMenu.enabled = true;
+	}
+
 	void OnTriggerEnter(Collider collider)
 	{
 		if (collider.tag == "Bullet")
 		{
 			Object::Destroy(collider.entity);
+			if (hasHarp)
+			{
+				DropHarp();
+			}
+			else
+			{
+				Die();
+			}
 		}
+		else if (collider.tag == "Harp")
+		{
+			hasHarp = true;
+			Object::Destroy(collider.entity);
+		}
+		print("Collided with " + collider.tag);
 	}
 }

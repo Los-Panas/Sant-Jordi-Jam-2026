@@ -1,13 +1,13 @@
 {
     "Entities": [
         {
-            "Name": "Dragon",
-            "ID": "16299747231775460413",
+            "Name": "harp",
+            "ID": "3481465869403406308",
             "Enabled": true,
             "IsUpEnabled": true,
             "IsStatic": false,
-            "Layer": 1,
-            "Tag": "Untagged",
+            "Layer": 2,
+            "Tag": "Harp",
             "Valid": true,
             "Selectable": true,
             "UpSelectable": true,
@@ -15,16 +15,16 @@
             "UpVisible": true,
             "IsInstanciableEntity": true,
             "IsRootInstanciableEntity": true,
-            "InstanciableEntityID": "17453474573027175585",
+            "InstanciableEntityID": "10758584795930432077",
             "InsideInstanciableEntityID": "0",
-            "OuterInstanciableEntityID": "17453474573027175585",
+            "OuterInstanciableEntityID": "10758584795930432077",
             "Behaviours": {
-                "7838867938346938118": {
+                "8332471894393425176": {
                     "Type": 0,
                     "Enabled": true,
                     "Position": {
-                        "x": 0,
-                        "y": 0,
+                        "x": 0.582,
+                        "y": 2.616,
                         "z": 0
                     },
                     "Rotation": {
@@ -39,11 +39,11 @@
                         "z": 1
                     }
                 },
-                "10787263704767086187": {
+                "2052285863543736945": {
                     "Type": 3,
                     "Enabled": true,
-                    "ResourceSprite": "1584757491138561534",
-                    "Sprite": "13897594310437744995",
+                    "ResourceSprite": "11031661964470706609",
+                    "Sprite": "14103058710314090717",
                     "RenderMode": 0,
                     "Color": {
                         "r": 1,
@@ -58,24 +58,20 @@
                     "OrderInLayer": 0,
                     "SortingLayerName": "Default"
                 },
-                "13720878088359851675": {
-                    "Type": 4,
+                "7475294612804412992": {
+                    "Type": 16,
                     "Enabled": true,
-                    "ScriptID": "5960664414663349951",
-                    "Fields": {
-                        "BulletBehaviour@[]& bulletBehaviours": {
-                            "Length": 2,
-                            "BulletBehaviour": true,
-                            "Array": [
-                                {
-                                    "Resource": "17701073781938525887"
-                                },
-                                {
-                                    "Resource": "9079007695130241381"
-                                }
-                            ]
-                        }
-                    }
+                    "Size": {
+                        "x": 0.42,
+                        "y": 0.68
+                    },
+                    "Dir": 0,
+                    "Trigger": true,
+                    "Offset": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "Effector": false
                 }
             }
         }
