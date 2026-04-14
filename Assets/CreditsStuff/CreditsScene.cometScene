@@ -181,10 +181,53 @@
             }
         },
         {
+            "InstanciableEntity": "9220197492300927528",
+            "Overrides": [
+                {
+                    "ID": "12759976896168622938",
+                    "SharedID": "14575919195050188200",
+                    "ParentID": "9735109382390532468",
+                    "ChildIndex": 0,
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": true,
+                    "InstanciableEntityID": "9220197492300927528",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "9220197492300927528"
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "4530795431395861888",
+            "Overrides": [
+                {
+                    "ID": "15475246465781742795",
+                    "SharedID": "15304180570046591912",
+                    "ParentID": "9735109382390532468",
+                    "ChildIndex": 1,
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": true,
+                    "InstanciableEntityID": "4530795431395861888",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "4530795431395861888"
+                },
+                {
+                    "ID": "6526447695117540717",
+                    "SharedID": "4641352388000589464",
+                    "ParentID": "15475246465781742795",
+                    "ParentSharedID": "15304180570046591912",
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": false,
+                    "InstanciableEntityID": "4530795431395861888",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "4530795431395861888"
+                }
+            ]
+        },
+        {
             "Name": "Panel",
             "ID": "16248588734535661773",
             "ParentID": "9735109382390532468",
-            "ChildIndex": 0,
+            "ChildIndex": 2,
             "Enabled": true,
             "IsUpEnabled": true,
             "IsStatic": false,
@@ -217,11 +260,11 @@
                     },
                     "Left": -250,
                     "Right": -250,
-                    "Top": -350,
-                    "Bottom": -350,
+                    "Top": -307,
+                    "Bottom": -393,
                     "Position": {
                         "x": 0,
-                        "y": 0,
+                        "y": -43,
                         "z": 0
                     },
                     "Rotation": {
@@ -239,16 +282,16 @@
                 "7417694783032264309": {
                     "Type": 46,
                     "Enabled": true,
-                    "ResourceSprite": "15",
-                    "Sprite": "1",
+                    "ResourceSprite": "6453435072813158197",
+                    "Sprite": "2215108310610427328",
                     "RenderMode": 1,
                     "FillCenter": true,
-                    "PixelsPerUnitMultiplier": 1,
+                    "PixelsPerUnitMultiplier": 0.5,
                     "Color": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
-                        "a": 0.392
+                        "a": 0.9
                     },
                     "Material": "11",
                     "MouseFilter": 1
@@ -340,6 +383,45 @@
                     "InstanciableEntityID": "5195249413888819671",
                     "InsideInstanciableEntityID": "0",
                     "OuterInstanciableEntityID": "5195249413888819671"
+                }
+            ]
+        },
+        {
+            "InstanciableEntity": "11130286038635145799",
+            "Overrides": [
+                {
+                    "ID": "15768421198007506716",
+                    "SharedID": "8000533929010957435",
+                    "ParentID": "16248588734535661773",
+                    "ChildIndex": 1,
+                    "Behaviours": {
+                        "12261159265596583893": {
+                            "Left": -50,
+                            "Right": -50,
+                            "Top": -27.95,
+                            "Bottom": -72.05,
+                            "Position": {
+                                "x": 0,
+                                "y": -22.05,
+                                "z": 0
+                            },
+                            "Scale": {
+                                "x": 3,
+                                "y": 3
+                            },
+                            "Rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                            }
+                        }
+                    },
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": true,
+                    "InstanciableEntityID": "11130286038635145799",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "11130286038635145799"
                 }
             ]
         }

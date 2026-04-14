@@ -1,0 +1,114 @@
+{
+    "ID": "13673741132586777142",
+    "Type": 0,
+    "TextureType": 0,
+    "Read\/Write": false,
+    "Mipmaps": 1,
+    "WrapMode": 2,
+    "WrapS": 33071,
+    "WrapT": 33071,
+    "BorderColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+    },
+    "Filter": 0,
+    "Width": 400,
+    "Height": 35,
+    "PixelsPerUnit": 100,
+    "SpriteType": 1,
+    "Sprites": [
+        {
+            "SpriteID": "10327824157982998689",
+            "Rect": {
+                "x": 304,
+                "y": 4,
+                "w": 92,
+                "h": 27
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "20240709dragonButtonA-Sheet_0"
+        },
+        {
+            "SpriteID": "359095430039143880",
+            "Rect": {
+                "x": 203,
+                "y": 3,
+                "w": 94,
+                "h": 29
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "20240709dragonButtonA-Sheet_1"
+        },
+        {
+            "SpriteID": "20428461243486462",
+            "Rect": {
+                "x": 2,
+                "y": 2,
+                "w": 96,
+                "h": 31
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "20240709dragonButtonA-Sheet_2"
+        },
+        {
+            "SpriteID": "10365968860836968895",
+            "Rect": {
+                "x": 101,
+                "y": 1,
+                "w": 98,
+                "h": 33
+            },
+            "Border": {
+                "x": 11,
+                "y": 7,
+                "w": 12,
+                "h": 8
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "20240709dragonButtonA-Sheet_3"
+        }
+    ],
+    "Platforms Data": [
+        {
+            "Max Size": 2048,
+            "Resize Algorithm": 9737,
+            "Compression Mode": 0
+        }
+    ]
+}

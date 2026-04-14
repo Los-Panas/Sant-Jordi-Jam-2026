@@ -18,7 +18,6 @@
             "InstanciableEntityID": "9100963568725542786",
             "InsideInstanciableEntityID": "0",
             "OuterInstanciableEntityID": "9100963568725542786",
-            "IsNodeOpen": false,
             "Behaviours": {
                 "1183525347178631460": {
                     "Type": 44,
@@ -87,7 +86,6 @@
             "InstanciableEntityID": "9100963568725542786",
             "InsideInstanciableEntityID": "0",
             "OuterInstanciableEntityID": "9100963568725542786",
-            "IsNodeOpen": false,
             "Behaviours": {
                 "7289369959810846851": {
                     "Type": 44,
@@ -166,7 +164,6 @@
             "InstanciableEntityID": "9100963568725542786",
             "InsideInstanciableEntityID": "0",
             "OuterInstanciableEntityID": "9100963568725542786",
-            "IsNodeOpen": false,
             "Behaviours": {
                 "1907220435952405409": {
                     "Type": 44,
@@ -247,7 +244,6 @@
             "InstanciableEntityID": "9100963568725542786",
             "InsideInstanciableEntityID": "0",
             "OuterInstanciableEntityID": "9100963568725542786",
-            "IsNodeOpen": false,
             "Behaviours": {
                 "8929316289545834688": {
                     "Type": 44,
@@ -443,7 +439,6 @@
             "InstanciableEntityID": "9100963568725542786",
             "InsideInstanciableEntityID": "0",
             "OuterInstanciableEntityID": "9100963568725542786",
-            "IsNodeOpen": false,
             "Behaviours": {
                 "13645544481943310489": {
                     "Type": 44,
@@ -530,7 +525,6 @@
             "InstanciableEntityID": "9100963568725542786",
             "InsideInstanciableEntityID": "0",
             "OuterInstanciableEntityID": "9100963568725542786",
-            "IsNodeOpen": false,
             "Behaviours": {
                 "2445744932528153151": {
                     "Type": 44,

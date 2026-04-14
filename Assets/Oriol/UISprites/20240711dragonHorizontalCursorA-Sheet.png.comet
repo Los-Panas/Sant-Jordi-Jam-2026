@@ -1,0 +1,51 @@
+{
+    "ID": "17575801972418969979",
+    "Type": 0,
+    "TextureType": 0,
+    "Read\/Write": false,
+    "Mipmaps": 1,
+    "WrapMode": 2,
+    "WrapS": 33071,
+    "WrapT": 33071,
+    "BorderColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+    },
+    "Filter": 0,
+    "Width": 130,
+    "Height": 26,
+    "PixelsPerUnit": 100,
+    "SpriteType": 0,
+    "Sprites": [
+        {
+            "SpriteID": "4797402470137280099",
+            "Rect": {
+                "x": 0,
+                "y": 0,
+                "w": 130,
+                "h": 26
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "20240711dragonHorizontalCursorA-Sheet"
+        }
+    ],
+    "Platforms Data": [
+        {
+            "Max Size": 2048,
+            "Resize Algorithm": 9737,
+            "Compression Mode": 0
+        }
+    ]
+}

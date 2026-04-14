@@ -1,0 +1,170 @@
+{
+    "Entities": [
+        {
+            "Name": "BackgroundTitle",
+            "ID": "15304180570046591912",
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": true,
+            "InstanciableEntityID": "4530795431395861888",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "4530795431395861888",
+            "IsNodeOpen": false,
+            "Behaviours": {
+                "3959838323877824899": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 1
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 1
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 898.1,
+                        "y": 101.5
+                    },
+                    "Left": -449.05,
+                    "Right": -449.05,
+                    "Top": 62.8,
+                    "Bottom": -164.3,
+                    "Position": {
+                        "x": 0,
+                        "y": 426.45,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "4557537817186320068": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "13309409658329925240",
+                    "Sprite": "8731284002377658706",
+                    "RenderMode": 1,
+                    "FillCenter": true,
+                    "PixelsPerUnitMultiplier": 0.6,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                }
+            }
+        },
+        {
+            "Name": "Text",
+            "ID": "4641352388000589464",
+            "ParentID": "15304180570046591912",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": false,
+            "InstanciableEntityID": "4530795431395861888",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "4530795431395861888",
+            "IsNodeOpen": false,
+            "Behaviours": {
+                "6874977309023590497": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 779.893,
+                        "y": 68.101
+                    },
+                    "Left": -389.946,
+                    "Right": -389.946,
+                    "Top": -39.456,
+                    "Bottom": -28.644,
+                    "Position": {
+                        "x": 0,
+                        "y": 5.406,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "10256335494159725555": {
+                    "Type": 47,
+                    "Enabled": true,
+                    "Text": "NO TENIM NOM DEL JOC ENCARA",
+                    "Font": "14",
+                    "FontSize": 50,
+                    "AutoFontSize": false,
+                    "MinAutoFontSize": 1,
+                    "MaxAutoFontSize": 200,
+                    "HorizontalAlignment": 0,
+                    "VerticalAlignment": 0,
+                    "Overflow": 0,
+                    "Wrapping": true,
+                    "AutoContentSizeMode": 3,
+                    "Color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "Material": "12",
+                    "MouseFilter": 0
+                }
+            }
+        }
+    ]
+}

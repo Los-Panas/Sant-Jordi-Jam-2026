@@ -158,8 +158,8 @@
                 "15594719671087782042": {
                     "Type": 46,
                     "Enabled": true,
-                    "ResourceSprite": "13",
-                    "Sprite": "1",
+                    "ResourceSprite": "13673741132586777142",
+                    "Sprite": "10365968860836968895",
                     "RenderMode": 1,
                     "FillCenter": true,
                     "PixelsPerUnitMultiplier": 1,
@@ -217,11 +217,11 @@
                     },
                     "Left": 30,
                     "Right": 30,
-                    "Top": 0,
-                    "Bottom": 0,
+                    "Top": -1.129,
+                    "Bottom": 1.129,
                     "Position": {
                         "x": 0,
-                        "y": 0,
+                        "y": 1.129,
                         "z": 0
                     },
                     "Rotation": {
@@ -241,7 +241,7 @@
                     "Enabled": true,
                     "Text": "Text",
                     "Font": "14",
-                    "FontSize": 22,
+                    "FontSize": 20,
                     "AutoFontSize": false,
                     "MinAutoFontSize": 1,
                     "MaxAutoFontSize": 200,

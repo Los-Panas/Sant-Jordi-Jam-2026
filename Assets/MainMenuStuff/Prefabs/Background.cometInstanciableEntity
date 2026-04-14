@@ -1,0 +1,91 @@
+{
+    "Entities": [
+        {
+            "Name": "Background",
+            "ID": "14575919195050188200",
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "IsInstanciableEntity": true,
+            "IsRootInstanciableEntity": true,
+            "InstanciableEntityID": "9220197492300927528",
+            "InsideInstanciableEntityID": "0",
+            "OuterInstanciableEntityID": "9220197492300927528",
+            "IsNodeOpen": false,
+            "Behaviours": {
+                "11001826173912599021": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 1920,
+                        "y": 1080
+                    },
+                    "Left": 0,
+                    "Right": 0,
+                    "Top": 0,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "10552694988851811466": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "6656732783303700147",
+                    "Sprite": "1531435542844480580",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                },
+                "10692924682378163935": {
+                    "Type": 39,
+                    "Enabled": true,
+                    "UpdateTimeMode": 0,
+                    "RootMotion": false,
+                    "Controller": "8782630073235816258",
+                    "KeepStateDisable": false,
+                    "IgnoreAnimationEvents": false,
+                    "Speed": 1
+                }
+            }
+        }
+    ]
+}

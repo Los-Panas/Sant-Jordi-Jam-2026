@@ -125,19 +125,19 @@
                     "Fields": {
                         "CometEngine::Entity@ player": {
                             "EntID": "9239153399521788649",
-                            "EntSharedID": "9239153399521788649",
+                            "EntSharedID": "8000533929010957435",
                             "OutsideEnt": false,
                             "Path": [],
-                            "RootShared": "0",
+                            "RootShared": "8000533929010957435",
                             "RootInside": false,
                             "IsMainInstanciableEntity": false
                         },
                         "CometEngine::Animator@ playerAnimator": {
                             "EntID": "9239153399521788649",
-                            "EntSharedID": "9239153399521788649",
+                            "EntSharedID": "8000533929010957435",
                             "OutsideEnt": false,
                             "Path": [],
-                            "RootShared": "0",
+                            "RootShared": "8000533929010957435",
                             "RootInside": false,
                             "IsMainInstanciableEntity": false,
                             "BehaType": 39,
@@ -1155,87 +1155,20 @@
             }
         },
         {
-            "Name": "Avatar",
-            "ID": "9239153399521788649",
-            "ParentID": "6318824621031536748",
-            "ChildIndex": 3,
-            "Enabled": true,
-            "IsUpEnabled": true,
-            "IsStatic": false,
-            "Layer": 1,
-            "Tag": "Untagged",
-            "Valid": true,
-            "Selectable": true,
-            "UpSelectable": true,
-            "Visible": true,
-            "UpVisible": true,
-            "Behaviours": {
-                "12261159265596583893": {
-                    "Type": 44,
-                    "Enabled": true,
-                    "Pivot": {
-                        "x": 0.5,
-                        "y": 0.5
-                    },
-                    "AnchorMin": {
-                        "x": 0.5,
-                        "y": 0.5
-                    },
-                    "AnchorMax": {
-                        "x": 0.5,
-                        "y": 0.5
-                    },
-                    "Size": {
-                        "x": 100,
-                        "y": 100
-                    },
-                    "Left": 804.293,
-                    "Right": -904.293,
-                    "Top": -175.612,
-                    "Bottom": 75.612,
-                    "Position": {
-                        "x": 854.293,
-                        "y": 125.612,
-                        "z": 0
-                    },
-                    "Rotation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1
-                    },
-                    "Scale": {
-                        "x": 2,
-                        "y": 2,
-                        "z": 1
-                    }
-                },
-                "4751608973860303275": {
-                    "Type": 46,
-                    "Enabled": true,
-                    "ResourceSprite": "237657463175525341",
-                    "Sprite": "6818942296745424613",
-                    "RenderMode": 0,
-                    "Color": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "Material": "11",
-                    "MouseFilter": 0
-                },
-                "13664430141873998521": {
-                    "Type": 39,
-                    "Enabled": true,
-                    "UpdateTimeMode": 0,
-                    "RootMotion": false,
-                    "Controller": "3987239214796434037",
-                    "KeepStateDisable": false,
-                    "IgnoreAnimationEvents": false,
-                    "Speed": 1
+            "InstanciableEntity": "11130286038635145799",
+            "Overrides": [
+                {
+                    "ID": "9239153399521788649",
+                    "SharedID": "8000533929010957435",
+                    "ParentID": "6318824621031536748",
+                    "ChildIndex": 3,
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": true,
+                    "InstanciableEntityID": "11130286038635145799",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "11130286038635145799"
                 }
-            }
+            ]
         },
         {
             "Name": "Score Text",
@@ -1277,8 +1210,8 @@
                     "Top": -512.246,
                     "Bottom": 462.247,
                     "Position": {
-                        "x": 662.523,
-                        "y": 487.247,
+                        "x": 662.524,
+                        "y": 487.246,
                         "z": 0
                     },
                     "Rotation": {
@@ -1449,8 +1382,8 @@
                     "Top": 0.001,
                     "Bottom": 0,
                     "Position": {
-                        "x": -0.001,
-                        "y": 0,
+                        "x": 0,
+                        "y": -0.001,
                         "z": 0
                     },
                     "Rotation": {

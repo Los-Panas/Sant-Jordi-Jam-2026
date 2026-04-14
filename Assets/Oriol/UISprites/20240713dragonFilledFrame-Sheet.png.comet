@@ -1,0 +1,51 @@
+{
+    "ID": "15696725079657692884",
+    "Type": 0,
+    "TextureType": 0,
+    "Read\/Write": false,
+    "Mipmaps": 1,
+    "WrapMode": 2,
+    "WrapS": 33071,
+    "WrapT": 33071,
+    "BorderColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+    },
+    "Filter": 0,
+    "Width": 128,
+    "Height": 32,
+    "PixelsPerUnit": 100,
+    "SpriteType": 0,
+    "Sprites": [
+        {
+            "SpriteID": "13836985741181274973",
+            "Rect": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 32
+            },
+            "Border": {
+                "x": 0,
+                "y": 0,
+                "w": 0,
+                "h": 0
+            },
+            "PivotType": 3,
+            "Pivot": {
+                "x": 0,
+                "y": 0
+            },
+            "Name": "20240713dragonFilledFrame-Sheet"
+        }
+    ],
+    "Platforms Data": [
+        {
+            "Max Size": 2048,
+            "Resize Algorithm": 9737,
+            "Compression Mode": 0
+        }
+    ]
+}
