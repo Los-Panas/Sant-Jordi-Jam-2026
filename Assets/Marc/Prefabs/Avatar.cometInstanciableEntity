@@ -18,7 +18,6 @@
             "InstanciableEntityID": "11130286038635145799",
             "InsideInstanciableEntityID": "0",
             "OuterInstanciableEntityID": "11130286038635145799",
-            "IsNodeOpen": false,
             "Behaviours": {
                 "12261159265596583893": {
                     "Type": 44,
