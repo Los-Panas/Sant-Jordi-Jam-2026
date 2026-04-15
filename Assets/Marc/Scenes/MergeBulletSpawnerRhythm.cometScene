@@ -715,6 +715,72 @@
             }
         },
         {
+            "Name": "StoneSpawner",
+            "ID": "7632102262766568474",
+            "ParentID": "6452284061448755589",
+            "ChildIndex": 8,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "5879222434972481168": {
+                    "Type": 0,
+                    "Enabled": true,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "18123858011052896039": {
+                    "Type": 4,
+                    "Enabled": true,
+                    "ScriptID": "5808441888300434241",
+                    "Fields": {
+                        "CometEngine::Entity@ stonePrefab": {
+                            "EntID": "874052294633368858",
+                            "EntSharedID": "0",
+                            "Path": [],
+                            "OutsideEnt": false,
+                            "RootShared": "0",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": true
+                        },
+                        "CometEngine::Vector2 spawnTimeRange": {
+                            "Vector2": {
+                                "x": 5,
+                                "y": 5
+                            }
+                        },
+                        "CometEngine::Vector2 spawnPositionRange": {
+                            "Vector2": {
+                                "x": 2.5,
+                                "y": 5.5
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
             "InstanciableEntity": "9100963568725542786",
             "Overrides": [
                 {
@@ -759,10 +825,7 @@
                         "985840361594385259": {
                             "Events": {
                                 "70770709772343870": {
-                                    "EntID": "8044084955212222824",
-                                    "EntSharedID": "9287022013520813752",
-                                    "RootShared": "9287022013520813752",
-                                    "IsMainInstanciableEntity": false
+                                    "EntID": "8044084955212222824"
                                 }
                             },
                             "Image": {
@@ -1210,7 +1273,7 @@
                     "Top": -512.246,
                     "Bottom": 462.247,
                     "Position": {
-                        "x": 662.524,
+                        "x": 662.523,
                         "y": 487.246,
                         "z": 0
                     },
