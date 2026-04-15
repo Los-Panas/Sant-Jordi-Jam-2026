@@ -795,8 +795,6 @@
                     "OuterInstanciableEntityID": "9100963568725542786"
                 },
                 {
-                    "ID": "6828409401074762956",
-                    "SharedID": "8058227559854879784",
                     "ParentID": "8044084955212222824",
                     "ParentSharedID": "9287022013520813752",
                     "IsInstanciableEntity": true,
@@ -806,8 +804,6 @@
                     "OuterInstanciableEntityID": "9100963568725542786"
                 },
                 {
-                    "ID": "9575420575566613218",
-                    "SharedID": "1717517894274393889",
                     "ParentID": "8044084955212222824",
                     "ParentSharedID": "9287022013520813752",
                     "IsInstanciableEntity": true,
@@ -817,10 +813,8 @@
                     "OuterInstanciableEntityID": "9100963568725542786"
                 },
                 {
-                    "ID": "10435544093259005655",
+                    "ID": "15887305213839145385",
                     "SharedID": "7406052813324269660",
-                    "ParentID": "9575420575566613218",
-                    "ParentSharedID": "1717517894274393889",
                     "Behaviours": {
                         "985840361594385259": {
                             "Events": {
@@ -829,7 +823,7 @@
                                 }
                             },
                             "Image": {
-                                "EntID": "10435544093259005655"
+                                "EntID": "15887305213839145385"
                             }
                         }
                     },
@@ -840,10 +834,8 @@
                     "OuterInstanciableEntityID": "9100963568725542786"
                 },
                 {
-                    "ID": "5207933997212436066",
+                    "ID": "150067527769269846",
                     "SharedID": "8367981349229451959",
-                    "ParentID": "9575420575566613218",
-                    "ParentSharedID": "1717517894274393889",
                     "IsInstanciableEntity": true,
                     "IsRootInstanciableEntity": false,
                     "InstanciableEntityID": "9100963568725542786",
@@ -851,9 +843,9 @@
                     "OuterInstanciableEntityID": "9100963568725542786"
                 },
                 {
-                    "ID": "8079069812523550467",
+                    "ID": "4638299921049155963",
                     "SharedID": "10707332723606115440",
-                    "ParentID": "10435544093259005655",
+                    "ParentID": "15887305213839145385",
                     "ParentSharedID": "7406052813324269660",
                     "IsInstanciableEntity": true,
                     "IsRootInstanciableEntity": false,
@@ -1273,8 +1265,8 @@
                     "Top": -512.246,
                     "Bottom": 462.247,
                     "Position": {
-                        "x": 662.523,
-                        "y": 487.246,
+                        "x": 662.524,
+                        "y": 487.247,
                         "z": 0
                     },
                     "Rotation": {
@@ -1445,8 +1437,8 @@
                     "Top": 0.001,
                     "Bottom": 0,
                     "Position": {
-                        "x": 0,
-                        "y": -0.001,
+                        "x": -0.001,
+                        "y": 0,
                         "z": 0
                     },
                     "Rotation": {

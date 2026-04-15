@@ -1,9 +1,10 @@
 using namespace CometEngine;
+using namespace CometEngine::ParticleSystemModule;
 
 class /*@*/ Stone : CometBehaviour
 {
 	private Collider _collider;
-	// private ParticleSystemModule::ParticleSystem _particleSystem;
+	private ParticleSystem _particleSystem;
 
 	float duration = 3.f;
 	float percentSize = 1.5f; // How much bigger the stone should be at the initial state
@@ -17,13 +18,13 @@ class /*@*/ Stone : CometBehaviour
 	void Awake()
 	{
 		_collider = Collider::Get(this.entity);
-		//_particleSystem = ParticleSystemModule::ParticleSystem::Get(this.entity);
+		_particleSystem = ParticleSystem::Get(this.entity);
 	}
 
 	void Start()
 	{
 		_collider.enabled = false;
-		// _particleSystem.enabled = false;
+		_particleSystem.enabled = false;
 		_initialSize = this.entity.transform.scale.x;
 	}
 
@@ -41,8 +42,8 @@ class /*@*/ Stone : CometBehaviour
 		{
 			_falling = false;
 			_collider.enabled = true;
-			// _particleSystem.enabled = true;
-			// _particleSystem.Play();
+			_particleSystem.enabled = true;
+			_particleSystem.Play();
 		}
 	}
 }

@@ -13,7 +13,7 @@ class /*@*/ StoneSpawner : CometBehaviour
 
 	void Start()
 	{
-		RandomizeSpawnTime();
+		timer = spawnTime;
 	}
 
 	void Update()

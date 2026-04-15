@@ -291,13 +291,13 @@
                     "Events": {
                         "70770709772343870": {
                             "State": 0,
-                            "EntID": "9100963568725542786",
-                            "EntSharedID": "0",
-                            "Path": [],
+                            "EntID": "9287022013520813752",
+                            "EntSharedID": "9287022013520813752",
                             "OutsideEnt": false,
-                            "RootShared": "0",
+                            "Path": [],
+                            "RootShared": "9287022013520813752",
                             "RootInside": false,
-                            "IsMainInstanciableEntity": true,
+                            "IsMainInstanciableEntity": false,
                             "HasData": true,
                             "ClassName": "DeadMenuManager",
                             "ClassNamespace": "",
