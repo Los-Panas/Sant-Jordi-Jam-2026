@@ -80,7 +80,7 @@ class NoteVisual : CometBehaviour
 		{
 			// Initial Alpha set to 0.0f, disable native raycasts
 			myImage.color = Color(baseColor.r, baseColor.g, baseColor.b, 0.0f);
-			myImage.mouseFilter = UI::MouseFilter::IGNORE; 
+			myImage.mouseFilter = UI::MouseFilter::IGNORE;
 		}
 	}
 
@@ -98,8 +98,9 @@ class NoteVisual : CometBehaviour
 		{
 			// Extremely fast fade out upon successful hit (~5 frames)
 			float currentAlpha = 0.0f;
-			if (myImage !is null) currentAlpha = myImage.color.a - (Time::GetDeltaTime() * 15.0f);
-			
+			if (myImage !is null)
+				currentAlpha = myImage.color.a - (Time::GetDeltaTime() * 15.0f);
+
 			if (currentAlpha <= 0.0f)
 			{
 				Deactivate();
@@ -109,7 +110,7 @@ class NoteVisual : CometBehaviour
 				myImage.color = Color(baseColor.r, baseColor.g, baseColor.b, currentAlpha);
 				myImage.mouseFilter = UI::MouseFilter::IGNORE; // Keep it dead to interactions
 			}
-			return; // Stop matrix interpolation while dying
+			return;											   // Stop matrix interpolation while dying
 		}
 
 		if (approachRateMs <= 0.0001f)
@@ -120,19 +121,19 @@ class NoteVisual : CometBehaviour
 
 		if (progress < 0.0f)
 			progress = 0.0f;
-			
+
 		// Physical Collision / UI Raycast window allowance (between 80% and 160% scale)
 		bool shouldCollide = (progress >= 0.8f && progress <= 1.6f);
 		if (shouldCollide != isColliderActive)
 		{
-		    isColliderActive = shouldCollide;
-		    if (myImage !is null)
-		    {
-		        if (isColliderActive)
-		            myImage.mouseFilter = UI::MouseFilter::STOP; // Becomes interactable/clickable
-		        else
-		            myImage.mouseFilter = UI::MouseFilter::IGNORE; // Ghosted through mouse events
-		    }
+			isColliderActive = shouldCollide;
+			if (myImage !is null)
+			{
+				if (isColliderActive)
+					myImage.mouseFilter = UI::MouseFilter::STOP;   // Becomes interactable/clickable
+				else
+					myImage.mouseFilter = UI::MouseFilter::IGNORE; // Ghosted through mouse events
+			}
 		}
 
 		// Maximum allowed scale: 160%. Triggers immediate miss and destruction.
@@ -165,7 +166,7 @@ class NoteVisual : CometBehaviour
 		{
 			if (!hasMissed && progress <= 1.0f)
 			{
-			    // Normal approach phase: alpha climbs up simulating depth
+				// Normal approach phase: alpha climbs up simulating depth
 				myImage.color = Color(baseColor.r, baseColor.g, baseColor.b, progress);
 			}
 			else
@@ -175,9 +176,9 @@ class NoteVisual : CometBehaviour
 				float missAlpha = 1.0f - ((progress - 1.0f) / 0.6f);
 				if (missAlpha < 0.0f)
 					missAlpha = 0.0f;
-					
+
 				myImage.color = Color(baseColor.r, baseColor.g, baseColor.b, missAlpha);
-				myImage.mouseFilter = UI::MouseFilter::IGNORE; 
+				myImage.mouseFilter = UI::MouseFilter::IGNORE;
 			}
 		}
 	}

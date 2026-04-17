@@ -5,7 +5,7 @@
     "Platforms Data": [
         {
             "PreloadData": true,
-            "Stream": false
+            "Stream": true
         }
     ]
 }

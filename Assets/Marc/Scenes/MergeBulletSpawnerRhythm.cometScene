@@ -363,7 +363,7 @@
                     "ScriptID": "16191813735620984180",
                     "Fields": {
                         "string& mapFilePath": {
-                            "Value": "Assets\/Marc\/Maps\/ss_archive_kawai_sprite_-_bopeebo.txt"
+                            "Value": "ss_archive_kawai_sprite_-_bopeebo"
                         },
                         "CometEngine::AudioSample@ audioSample": {
                             "Resource": "7764598212284795533"
@@ -795,6 +795,8 @@
                     "OuterInstanciableEntityID": "9100963568725542786"
                 },
                 {
+                    "ID": "10722007102558433377",
+                    "SharedID": "8058227559854879784",
                     "ParentID": "8044084955212222824",
                     "ParentSharedID": "9287022013520813752",
                     "IsInstanciableEntity": true,
@@ -804,6 +806,8 @@
                     "OuterInstanciableEntityID": "9100963568725542786"
                 },
                 {
+                    "ID": "7134225288957491199",
+                    "SharedID": "1717517894274393889",
                     "ParentID": "8044084955212222824",
                     "ParentSharedID": "9287022013520813752",
                     "IsInstanciableEntity": true,
@@ -815,6 +819,8 @@
                 {
                     "ID": "15887305213839145385",
                     "SharedID": "7406052813324269660",
+                    "ParentID": "7134225288957491199",
+                    "ParentSharedID": "1717517894274393889",
                     "Behaviours": {
                         "985840361594385259": {
                             "Events": {
@@ -836,6 +842,8 @@
                 {
                     "ID": "150067527769269846",
                     "SharedID": "8367981349229451959",
+                    "ParentID": "7134225288957491199",
+                    "ParentSharedID": "1717517894274393889",
                     "IsInstanciableEntity": true,
                     "IsRootInstanciableEntity": false,
                     "InstanciableEntityID": "9100963568725542786",
@@ -1266,7 +1274,7 @@
                     "Bottom": 462.247,
                     "Position": {
                         "x": 662.524,
-                        "y": 487.247,
+                        "y": 487.246,
                         "z": 0
                     },
                     "Rotation": {
@@ -1437,8 +1445,8 @@
                     "Top": 0.001,
                     "Bottom": 0,
                     "Position": {
-                        "x": -0.001,
-                        "y": 0,
+                        "x": 0,
+                        "y": -0.001,
                         "z": 0
                     },
                     "Rotation": {

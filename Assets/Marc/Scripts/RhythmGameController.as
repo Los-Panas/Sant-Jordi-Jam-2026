@@ -2,7 +2,7 @@ using namespace CometEngine;
 
 class RhythmGameController : CometBehaviour
 {
-	string mapFilePath = "Assets/Marc/ss_archive_nelward_hi.txt";
+	string mapFilePath = "ss_archive_nelward_hi.txt";
 	// DEBUG
 	AudioSample audioSample;
 
@@ -24,8 +24,8 @@ class RhythmGameController : CometBehaviour
 	Entity @audioSourceEntity;
 	AudioSource @audioSource;
 
-	float notesDelaySeconds = 0.0f;   // Visual delay before visual spawning loop starts tracking (0 means it starts now)
-	float audioDelaySeconds = 2.0f;   // Absolute delay before audio blasts
+	float notesDelaySeconds = 0.0f; // Visual delay before visual spawning loop starts tracking (0 means it starts now)
+	float audioDelaySeconds = 2.0f; // Absolute delay before audio blasts
 
 	bool isAudioStarted = false;
 	bool isNotesStarted = false;
@@ -55,12 +55,17 @@ class RhythmGameController : CometBehaviour
 
 		if (parserHandle !is null && gridHandle !is null)
 		{
-			if (FileSystem::Exists(mapFilePath))
+			Resource res = RuntimeAssets::LoadResource(mapFilePath, ResourceType::DATA_ASSET);
+			DataAsset mapAssetData = cast<DataAsset>(res);
+			if (mapAssetData !is null)
 			{
-				string rawData = FileSystem::Load(mapFilePath);
-				MapData loadedMap = parserHandle.ParseTxtMap(rawData);
+				MapData loadedMap = parserHandle.ParseTxtMap(mapAssetData.data);
 				gridHandle.SetMap(loadedMap);
 				Debug::Log("[RhythmGameController] Game Started. Map loaded successfully.");
+			}
+			else if (res !is null)
+			{
+				Debug::Log("Res is not null but failed to cast to DataAsset. Check if the resource at " + mapFilePath + " is indeed a DataAsset.");
 			}
 			else
 			{
@@ -98,8 +103,8 @@ class RhythmGameController : CometBehaviour
 		if (!isNotesStarted)
 		{
 			notesDelaySeconds -= Time::GetDeltaTime();
-			currentAudioTimeMs = -notesDelaySeconds * 1000.0f; 
-			
+			currentAudioTimeMs = -notesDelaySeconds * 1000.0f;
+
 			if (notesDelaySeconds <= 0.0f)
 			{
 				isNotesStarted = true;
@@ -142,7 +147,7 @@ class RhythmGameController : CometBehaviour
 		{
 			Vector2 mousePos = Input::GetMousePosition();
 			mousePos.y = Window::GetHeight() - mousePos.y; // Fix Y-Axis Cartesian Inversion
-			
+
 			hitHandle.ProcessHover(mousePos, currentAudioTimeMs, scoreHandle, spawnerHandle);
 		}
 	}
