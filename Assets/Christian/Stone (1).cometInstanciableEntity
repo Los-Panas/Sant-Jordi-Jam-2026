@@ -6,7 +6,7 @@
             "Enabled": true,
             "IsUpEnabled": true,
             "IsStatic": false,
-            "Layer": 1,
+            "Layer": 2,
             "Tag": "Untagged",
             "Valid": true,
             "Selectable": true,
@@ -62,7 +62,7 @@
                     "Type": 15,
                     "Enabled": true,
                     "Radius": 0.05,
-                    "Trigger": false,
+                    "Trigger": true,
                     "Offset": {
                         "x": 0,
                         "y": 0
