@@ -55,7 +55,7 @@
                     "FlipY": false,
                     "Sort": true,
                     "Material": "9",
-                    "OrderInLayer": 0,
+                    "OrderInLayer": 1,
                     "SortingLayerName": "Default"
                 },
                 "1995114864182552631": {
@@ -102,7 +102,7 @@
                             "Min": 0,
                             "Max": 340282346638528859811704183484516925440
                         },
-                        "Value": 0.05
+                        "Value": 0.1
                     },
                     "Start Spped": {
                         "ValueType": 2,
@@ -120,8 +120,9 @@
                         }
                     },
                     "Start Rotation": {
-                        "ValueType": 2,
-                        "Value": 0
+                        "ValueType": 8,
+                        "ValueA": 0,
+                        "ValueB": 1.63
                     },
                     "FlipRotation": false,
                     "Start Color": {
@@ -138,10 +139,18 @@
                             },
                             {
                                 "Mark": [
+                                    0.498,
+                                    0.423,
+                                    0.421,
+                                    0.415
+                                ]
+                            },
+                            {
+                                "Mark": [
                                     1,
-                                    0.419,
-                                    0.641,
-                                    0.919
+                                    0.919,
+                                    0.818,
+                                    0.419
                                 ]
                             }
                         ],
@@ -218,7 +227,7 @@
                         "SpawnMode": 0,
                         "SpawnArea": 1,
                         "Speed": 1,
-                        "Radius": 0.16
+                        "Radius": 0.01
                     },
                     "Velocity Over Lifetime": {
                         "Enabled": false,
@@ -522,6 +531,22 @@
                     "Material": "9",
                     "OrderInLayer": 0,
                     "SortingLayerName": "Default"
+                },
+                "7912223545728159103": {
+                    "Type": 9,
+                    "Enabled": true,
+                    "Body": 2,
+                    "Simulated": true,
+                    "AutoMass": false,
+                    "Mass": 1,
+                    "LinearDrag": 0,
+                    "AngularDrag": 0.05,
+                    "GravityScale": 0,
+                    "IsBullet": false,
+                    "Sleep": 2,
+                    "FreezeRot": false,
+                    "FreezeX": false,
+                    "FreezeY": false
                 }
             }
         }
