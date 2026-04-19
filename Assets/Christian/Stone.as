@@ -9,6 +9,9 @@ class /*@*/ Stone : CometBehaviour
 	float duration = 3.f;
 	[Tooltip("How much bigger the stone should be at the initial state")] float percentSize = 1.5f;
 
+	int maxLife = 3;
+	private int _currentLife = 0;
+
 	private float _timer = 0.f;
 
 	private bool _falling = true;
@@ -19,6 +22,8 @@ class /*@*/ Stone : CometBehaviour
 	{
 		_collider = Collider::Get(this.entity);
 		_particleSystem = ParticleSystem::Get(this.entity);
+
+		_currentLife = maxLife;
 	}
 
 	void Start()
@@ -49,27 +54,15 @@ class /*@*/ Stone : CometBehaviour
 
 	void OnTriggerEnter(Collider collision)
 	{
-		print("AAAAAAAAAAAAAAAAAAAAAAAAAAA");
-		print(collision);
-		// print(collision.colliderA);
-		// print(collision.colliderB);
-		// print(collision.rigidBodyA);
-		// print(collision.rigidBodyB);
-
 		if (collision.entity.CompareTag("Bullet"))
 		{
-			Object::Destroy(this.entity);
-			Object::Destroy(collision.entity);
-		}
-	}
+			if (--_currentLife <= 0)
+			{
+				Object::Destroy(this.entity);
+				// TODO: Destruction effect
+			}
 
-	void OnCollisionEnter(Collision collision)
-	{
-		print("BBBBBBBBBBBBBBBBBBBBB" + collision.entity.name);
-
-		if (collision.entity.CompareTag("Bullet"))
-		{
-			Object::Destroy(this.entity);
+			// TODO: Hit effect
 			Object::Destroy(collision.entity);
 		}
 	}
