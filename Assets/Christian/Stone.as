@@ -7,8 +7,7 @@ class /*@*/ Stone : CometBehaviour
 	private ParticleSystem _particleSystem;
 
 	float duration = 3.f;
-	[Tooltip("How much bigger the stone should be at the initial state")]
-	float percentSize = 1.5f;
+	[Tooltip("How much bigger the stone should be at the initial state")] float percentSize = 1.5f;
 
 	private float _timer = 0.f;
 
@@ -48,16 +47,16 @@ class /*@*/ Stone : CometBehaviour
 		}
 	}
 
-	void OnTriggerEnter(Collision collision)
+	void OnTriggerEnter(Collider collision)
 	{
 		print("AAAAAAAAAAAAAAAAAAAAAAAAAAA");
 		print(collision);
-		print(collision.colliderA);
-		print(collision.colliderB);
-		print(collision.rigidBodyA);
-		print(collision.rigidBodyB);
-		
-		if(collision.entity.CompareTag("Bullet"))
+		// print(collision.colliderA);
+		// print(collision.colliderB);
+		// print(collision.rigidBodyA);
+		// print(collision.rigidBodyB);
+
+		if (collision.entity.CompareTag("Bullet"))
 		{
 			Object::Destroy(this.entity);
 			Object::Destroy(collision.entity);
@@ -68,7 +67,7 @@ class /*@*/ Stone : CometBehaviour
 	{
 		print("BBBBBBBBBBBBBBBBBBBBB" + collision.entity.name);
 
-		if(collision.entity.CompareTag("Bullet"))
+		if (collision.entity.CompareTag("Bullet"))
 		{
 			Object::Destroy(this.entity);
 			Object::Destroy(collision.entity);
