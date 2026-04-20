@@ -21,7 +21,6 @@ class /*@*/ PlayerMovment : CometBehaviour
 	private RigidBody mRigidBody;
 
 	private ePlayerDir mCurrentDir = ePlayerDir::IdleTop;
-	private bool isMoving = false;
 
 	private bool hasHarp = true;
 	[Serialize] private float spawnHarpMinDist = 4.0f;
@@ -29,6 +28,10 @@ class /*@*/ PlayerMovment : CometBehaviour
 	[Serialize] private float immortalTimeAfterHitSeconds = 0.8F;
 	private bool isImmortal = false;
 	private float immortalStartTime = 0.0f;
+
+	private float rotationMovement = 0.f;
+	float maxRotation = 15.f;
+	float rotationSpeed = 10.f;
 
 	// Called before first frame
 	void Start()
@@ -98,6 +101,13 @@ class /*@*/ PlayerMovment : CometBehaviour
 		if (LastDir != mCurrentDir)
 		{
 			mAnim.SetInt("state", mCurrentDir);
+		}
+
+		if (newPos != Vector2::zero)
+		{
+			rotationMovement += Time::GetDeltaTime() * rotationSpeed;
+			float rotationZ = Math::Sin(rotationMovement) * maxRotation;
+			transform.rotation = Quaternion(0.f, 0.f, rotationZ);
 		}
 
 		mRigidBody.velocity = newPos * speed;

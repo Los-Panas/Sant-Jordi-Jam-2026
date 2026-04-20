@@ -89,6 +89,12 @@
                         },
                         "float immortalTimeAfterHitSeconds": {
                             "Value": 0.15
+                        },
+                        "float maxRotation": {
+                            "Value": 15
+                        },
+                        "float rotationSpeed": {
+                            "Value": 10
                         }
                     }
                 },
