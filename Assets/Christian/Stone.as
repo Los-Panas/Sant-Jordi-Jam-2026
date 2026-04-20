@@ -6,6 +6,10 @@ class /*@*/ Stone : CometBehaviour
 	private Collider _collider;
 	private ParticleSystem _particleSystem;
 
+	Sprite hitSprite;
+	private Sprite _initialSprite;
+	private SpriteRenderer _spriteRenderer;
+
 	float duration = 3.f;
 	[Tooltip("How much bigger the stone should be at the initial state")] float percentSize = 1.5f;
 
@@ -22,6 +26,8 @@ class /*@*/ Stone : CometBehaviour
 	{
 		_collider = Collider::Get(this.entity);
 		_particleSystem = ParticleSystem::Get(this.entity);
+		_spriteRenderer = SpriteRenderer::Get(this.entity);
+		_initialSprite = _spriteRenderer.sprite;
 
 		_currentLife = maxLife;
 	}
@@ -61,9 +67,19 @@ class /*@*/ Stone : CometBehaviour
 				Object::Destroy(this.entity);
 				// TODO: Destruction effect
 			}
+			else
+			{
+				// Hit effect
+				_spriteRenderer.sprite = hitSprite;
+				Invoke("ResetSprite", 0.1f);
+			}
 
-			// TODO: Hit effect
 			Object::Destroy(collision.entity);
 		}
+	}
+
+	void ResetSprite()
+	{
+		_spriteRenderer.sprite = _initialSprite;
 	}
 }

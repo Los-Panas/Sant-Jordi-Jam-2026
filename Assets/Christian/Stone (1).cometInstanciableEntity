@@ -75,11 +75,18 @@
                     "Enabled": true,
                     "ScriptID": "11774050753303741157",
                     "Fields": {
+                        "CometEngine::Sprite@ hitSprite": {
+                            "Resource": "17893425414289511544",
+                            "SubResource": "677336783417283639"
+                        },
                         "float duration": {
                             "Value": 3
                         },
                         "float percentSize": {
                             "Value": 1.5
+                        },
+                        "int maxLife": {
+                            "Value": 3
                         }
                     }
                 },
