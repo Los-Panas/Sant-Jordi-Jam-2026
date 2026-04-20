@@ -515,6 +515,29 @@
                     "SharedID": "16299747231775460413",
                     "ParentID": "6452284061448755589",
                     "ChildIndex": 3,
+                    "Behaviours": {
+                        "7838867938346938118": {
+                            "Scale": {
+                                "x": 10,
+                                "y": 10
+                            },
+                            "Position": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "Rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                            }
+                        },
+                        "10787263704767086187": {
+                            "ResourceSprite": "13045942576540710824",
+                            "Sprite": "5120986449060703118"
+                        }
+                    },
                     "IsInstanciableEntity": true,
                     "IsRootInstanciableEntity": true,
                     "InstanciableEntityID": "17453474573027175585",
@@ -538,12 +561,20 @@
                                 "y": 2.628,
                                 "z": 0
                             },
+                            "Scale": {
+                                "x": 10,
+                                "y": 10
+                            },
                             "Rotation": {
                                 "x": 0,
                                 "y": 0,
                                 "z": 0,
                                 "w": 1
                             }
+                        },
+                        "11853957660657751543": {
+                            "ResourceSprite": "1338365155621888284",
+                            "Sprite": "15947792173306513035"
                         },
                         "10306515602996797135": {
                             "Fields": {
@@ -553,6 +584,21 @@
                                     "RootShared": "9287022013520813752"
                                 }
                             }
+                        },
+                        "8631388152226639012": {
+                            "Type": 15,
+                            "Enabled": true,
+                            "Radius": 0.02,
+                            "Trigger": false,
+                            "Offset": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "Density": 1,
+                            "Effector": false
+                        },
+                        "11865856296903978837": {
+                            "Deleted": true
                         }
                     },
                     "IsInstanciableEntity": true,
@@ -565,7 +611,24 @@
                     "ID": "15272819062947786385",
                     "SharedID": "6545397458572384009",
                     "ParentID": "17204181542667911443",
-                    "ParentSharedID": "1630773785051059829"
+                    "ParentSharedID": "1630773785051059829",
+                    "Behaviours": {
+                        "593530194704825055": {
+                            "Type": 15,
+                            "Enabled": true,
+                            "Radius": 0.02,
+                            "Trigger": true,
+                            "Offset": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "Density": 1,
+                            "Effector": false
+                        },
+                        "1390746468281973662": {
+                            "Deleted": true
+                        }
+                    }
                 }
             ]
         },
@@ -1273,7 +1336,7 @@
                     "Top": -512.246,
                     "Bottom": 462.247,
                     "Position": {
-                        "x": 662.524,
+                        "x": 662.523,
                         "y": 487.246,
                         "z": 0
                     },
