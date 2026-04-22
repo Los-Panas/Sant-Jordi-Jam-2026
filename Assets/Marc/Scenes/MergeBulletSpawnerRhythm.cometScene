@@ -1887,64 +1887,10 @@
             }
         },
         {
-            "Name": "Box Collider2",
-            "ID": "13849327788879163801",
-            "ParentID": "4233601863022547043",
-            "ChildIndex": 2,
-            "Enabled": true,
-            "IsUpEnabled": true,
-            "IsStatic": false,
-            "Layer": 1,
-            "Tag": "Untagged",
-            "Valid": true,
-            "Selectable": true,
-            "UpSelectable": true,
-            "Visible": true,
-            "UpVisible": true,
-            "Behaviours": {
-                "13508772986231190857": {
-                    "Type": 0,
-                    "Enabled": true,
-                    "Position": {
-                        "x": 2.931,
-                        "y": -3.197,
-                        "z": 0
-                    },
-                    "Rotation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0.572,
-                        "w": 0.82
-                    },
-                    "Scale": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    }
-                },
-                "6802803559124472724": {
-                    "Type": 10,
-                    "Enabled": true,
-                    "Size": {
-                        "x": 1,
-                        "y": 20.46
-                    },
-                    "Radius": 0,
-                    "Trigger": false,
-                    "Offset": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "Effector": false,
-                    "Packer": false
-                }
-            }
-        },
-        {
             "Name": "Box Collider3",
             "ID": "9918005553210669437",
             "ParentID": "4233601863022547043",
-            "ChildIndex": 3,
+            "ChildIndex": 2,
             "Enabled": true,
             "IsUpEnabled": true,
             "IsStatic": false,
@@ -1998,7 +1944,7 @@
             "Name": "Box Collider4",
             "ID": "4463819125551853732",
             "ParentID": "4233601863022547043",
-            "ChildIndex": 4,
+            "ChildIndex": 3,
             "Enabled": true,
             "IsUpEnabled": true,
             "IsStatic": false,
