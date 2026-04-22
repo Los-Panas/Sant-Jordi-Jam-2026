@@ -301,6 +301,18 @@
                     "SharedID": "4641352388000589464",
                     "ParentID": "10719392999409849580",
                     "ParentSharedID": "15304180570046591912",
+                    "Behaviours": {
+                        "6874977309023590497": {
+                            "Size": {
+                                "x": 611.582
+                            },
+                            "Left": -305.791,
+                            "Right": -305.791
+                        },
+                        "10256335494159725555": {
+                            "Text": "Sant Jordi: The Stone Song"
+                        }
+                    },
                     "IsInstanciableEntity": true,
                     "IsRootInstanciableEntity": false,
                     "InstanciableEntityID": "4530795431395861888",
