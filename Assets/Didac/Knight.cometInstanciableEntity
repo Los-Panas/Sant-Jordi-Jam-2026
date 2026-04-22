@@ -63,6 +63,9 @@
                     "Enabled": true,
                     "ScriptID": "14097825792174501836",
                     "Fields": {
+                        "float maxMoveTimer": {
+                            "Value": 5
+                        },
                         "float speed": {
                             "Value": 5
                         },

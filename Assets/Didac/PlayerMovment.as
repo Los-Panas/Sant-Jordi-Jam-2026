@@ -14,6 +14,9 @@ enum ePlayerDir
 
 class /*@*/ PlayerMovment : CometBehaviour
 {
+	[Serialize] private float maxMoveTimer = 5.0f;
+	private float moveTimer = 0.0f;
+
 	[Serialize] private float speed = 300.0f;
 	[Serialize] private Entity harp;
 
@@ -34,6 +37,11 @@ class /*@*/ PlayerMovment : CometBehaviour
 	float rotationSpeed = 10.f;
 
 	// Called before first frame
+	void Awake()
+	{
+		PlayerMovmentSingleton::get = this;
+	}
+
 	void Start()
 	{
 		deathMenu.enabled = false;
@@ -58,44 +66,58 @@ class /*@*/ PlayerMovment : CometBehaviour
 
 		ePlayerDir LastDir = mCurrentDir;
 
-		if (Input::GetKeyPressed(KeyCode::W))
+		if (moveTimer > 0.0f)
 		{
-			newPos += Vector2::up;
-			mCurrentDir = ePlayerDir::MoveTop;
-		}
-		else if (Input::GetKeyUp(KeyCode::W))
-		{
-			mCurrentDir = ePlayerDir::IdleTop;
-		}
+			moveTimer -= Time::GetDeltaTime();
+			if (moveTimer < 0.0f)
+				moveTimer = 0.0f;
 
-		if (Input::GetKeyPressed(KeyCode::S))
-		{
-			newPos += Vector2::down;
-			mCurrentDir = ePlayerDir::MoveDown;
-		}
-		else if (Input::GetKeyUp(KeyCode::S))
-		{
-			mCurrentDir = ePlayerDir::IdleDown;
-		}
+			if (Input::GetKeyPressed(KeyCode::W))
+			{
+				newPos += Vector2::up;
+				mCurrentDir = ePlayerDir::MoveTop;
+			}
+			else if (Input::GetKeyUp(KeyCode::W))
+			{
+				mCurrentDir = ePlayerDir::IdleTop;
+			}
 
-		if (Input::GetKeyPressed(KeyCode::A))
-		{
-			newPos += Vector2::left;
-			mCurrentDir = ePlayerDir::MoveLeft;
-		}
-		else if (Input::GetKeyUp(KeyCode::A))
-		{
-			mCurrentDir = ePlayerDir::IdleLeft;
-		}
+			if (Input::GetKeyPressed(KeyCode::S))
+			{
+				newPos += Vector2::down;
+				mCurrentDir = ePlayerDir::MoveDown;
+			}
+			else if (Input::GetKeyUp(KeyCode::S))
+			{
+				mCurrentDir = ePlayerDir::IdleDown;
+			}
 
-		if (Input::GetKeyPressed(KeyCode::D))
-		{
-			newPos += Vector2::right;
-			mCurrentDir = ePlayerDir::MoveRight;
+			if (Input::GetKeyPressed(KeyCode::A))
+			{
+				newPos += Vector2::left;
+				mCurrentDir = ePlayerDir::MoveLeft;
+			}
+			else if (Input::GetKeyUp(KeyCode::A))
+			{
+				mCurrentDir = ePlayerDir::IdleLeft;
+			}
+
+			if (Input::GetKeyPressed(KeyCode::D))
+			{
+				newPos += Vector2::right;
+				mCurrentDir = ePlayerDir::MoveRight;
+			}
+			else if (Input::GetKeyUp(KeyCode::D))
+			{
+				mCurrentDir = ePlayerDir::IdleRight;
+			}
 		}
-		else if (Input::GetKeyUp(KeyCode::D))
+		else
 		{
-			mCurrentDir = ePlayerDir::IdleRight;
+			if (mCurrentDir == ePlayerDir::MoveTop) mCurrentDir = ePlayerDir::IdleTop;
+			else if (mCurrentDir == ePlayerDir::MoveDown) mCurrentDir = ePlayerDir::IdleDown;
+			else if (mCurrentDir == ePlayerDir::MoveLeft) mCurrentDir = ePlayerDir::IdleLeft;
+			else if (mCurrentDir == ePlayerDir::MoveRight) mCurrentDir = ePlayerDir::IdleRight;
 		}
 
 		if (LastDir != mCurrentDir)
@@ -183,4 +205,23 @@ class /*@*/ PlayerMovment : CometBehaviour
 		}
 		print("Collided with " + collider.tag);
 	}
+
+	void AddMoveTime(float timeAmount)
+	{
+		moveTimer += timeAmount;
+		if (moveTimer > maxMoveTimer)
+		{
+			moveTimer = maxMoveTimer;
+		}
+	}
+
+	float GetMoveTime()
+	{
+		return moveTimer;
+	}
+}
+
+namespace PlayerMovmentSingleton
+{
+	PlayerMovment get;
 }

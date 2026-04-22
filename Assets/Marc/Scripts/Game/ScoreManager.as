@@ -2,9 +2,14 @@ using namespace CometEngine;
 
 class ScoreManager : CometBehaviour
 {
+	[Serialize] float timePerPerfect = 1.0f;
+	[Serialize] float timePerGood = 0.5f;
+
 	int currentScore = 0;
 	int currentCombo = 0;
 	int maxCombo = 0;
+
+	int lastTimeLeft100 = -1;
 
 	int MULTIPLIER = 10;
 
@@ -29,6 +34,8 @@ class ScoreManager : CometBehaviour
 		int gainedPoints = 100 + (currentCombo * MULTIPLIER);
 		currentScore += gainedPoints;
 
+		PlayerMovmentSingleton::get.AddMoveTime(timePerPerfect);
+
 		UpdateUI();
 	}
 
@@ -44,6 +51,8 @@ class ScoreManager : CometBehaviour
 
 		int gainedPoints = 50 + (currentCombo * MULTIPLIER / 2);
 		currentScore += gainedPoints;
+
+		PlayerMovmentSingleton::get.AddMoveTime(timePerGood);
 
 		UpdateUI();
 	}
@@ -69,7 +78,25 @@ class ScoreManager : CometBehaviour
 	{
 		if (scoreText !is null)
 		{
-			scoreText.text = "" + currentScore;
+			float timeLeft = PlayerMovmentSingleton::get.GetMoveTime();
+			int timeLeft100 = int(timeLeft * 100.0f);
+
+			if (timeLeft100 != lastTimeLeft100) {
+				lastTimeLeft100 = timeLeft100;
+				
+				int whole = timeLeft100 / 100;
+				int decimal = timeLeft100 % 100;
+				
+				string decStr = "" + decimal;
+				if (decimal < 10) decStr = "0" + decimal;
+				
+				scoreText.text = whole + "." + decStr + "s";
+			}
 		}
+	}
+
+	void Update()
+	{
+		UpdateUI();
 	}
 }
