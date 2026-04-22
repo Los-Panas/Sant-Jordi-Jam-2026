@@ -5,6 +5,8 @@ class ScoreManager : CometBehaviour
 	[Serialize] float timePerPerfect = 1.0f;
 	[Serialize] float timePerGood = 0.5f;
 
+	PlayerMovment playerMovement;
+
 	int currentScore = 0;
 	int currentCombo = 0;
 	int maxCombo = 0;
@@ -34,7 +36,7 @@ class ScoreManager : CometBehaviour
 		int gainedPoints = 100 + (currentCombo * MULTIPLIER);
 		currentScore += gainedPoints;
 
-		PlayerMovmentSingleton::get.AddMoveTime(timePerPerfect);
+		playerMovement.AddMoveTime(timePerPerfect);
 
 		UpdateUI();
 	}
@@ -52,7 +54,7 @@ class ScoreManager : CometBehaviour
 		int gainedPoints = 50 + (currentCombo * MULTIPLIER / 2);
 		currentScore += gainedPoints;
 
-		PlayerMovmentSingleton::get.AddMoveTime(timePerGood);
+		playerMovement.AddMoveTime(timePerGood);
 
 		UpdateUI();
 	}
@@ -78,7 +80,7 @@ class ScoreManager : CometBehaviour
 	{
 		if (scoreText !is null)
 		{
-			float timeLeft = PlayerMovmentSingleton::get.GetMoveTime();
+			float timeLeft = playerMovement.GetMoveTime();
 			int timeLeft100 = int(timeLeft * 100.0f);
 
 			if (timeLeft100 != lastTimeLeft100) {

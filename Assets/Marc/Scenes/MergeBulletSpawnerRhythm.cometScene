@@ -267,6 +267,17 @@
                         "float timePerGood": {
                             "Value": 0.5
                         },
+                        "PlayerMovment@ playerMovement": {
+                            "EntID": "17204181542667911443",
+                            "EntSharedID": "1630773785051059829",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "1630773785051059829",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "BehaType": 4,
+                            "BehaID": "10306515602996797135"
+                        },
                         "int currentScore": {
                             "Value": 0
                         },
@@ -894,6 +905,74 @@
             }
         },
         {
+            "Name": "DragonLifeCountdown",
+            "ID": "1949341990106127060",
+            "ParentID": "6452284061448755589",
+            "ChildIndex": 10,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "15233522458361671235": {
+                    "Type": 0,
+                    "Enabled": true,
+                    "Position": {
+                        "x": 493.971,
+                        "y": 275.526,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "6692710130453151080": {
+                    "Type": 4,
+                    "Enabled": true,
+                    "ScriptID": "9602420093240974396",
+                    "Fields": {
+                        "float maxTime": {
+                            "Value": 10
+                        },
+                        "CometEngine::UI::ImageRect@ life": {
+                            "EntID": "5082097852885523741",
+                            "EntSharedID": "5082097852885523741",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "0",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "BehaType": 74,
+                            "BehaID": "29676070431006358"
+                        },
+                        "CometEngine::Entity@ winMenu": {
+                            "EntID": "14444138824269482580",
+                            "EntSharedID": "9287022013520813752",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "0",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false
+                        }
+                    }
+                }
+            }
+        },
+        {
             "InstanciableEntity": "9100963568725542786",
             "Overrides": [
                 {
@@ -975,6 +1054,148 @@
                     "OuterInstanciableEntityID": "9100963568725542786"
                 }
             ]
+        },
+        {
+            "Name": "Dragon Life",
+            "ID": "5082097852885523741",
+            "ParentID": "11321055719085106558",
+            "ChildIndex": 1,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "4994782700982239602": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 1
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 0
+                    },
+                    "Size": {
+                        "x": 1720,
+                        "y": 20
+                    },
+                    "Left": 100,
+                    "Right": 100,
+                    "Top": -50,
+                    "Bottom": 30,
+                    "Position": {
+                        "x": 0,
+                        "y": -500,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "29676070431006358": {
+                    "Type": 74,
+                    "Enabled": true,
+                    "Texture": "16",
+                    "RectUnitType": 0,
+                    "RectPixels": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 1,
+                        "h": 1
+                    },
+                    "Color": {
+                        "r": 1,
+                        "g": 0.896,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                }
+            }
+        },
+        {
+            "Name": "Win",
+            "ID": "14444138824269482580",
+            "SharedID": "9287022013520813752",
+            "ParentID": "11321055719085106558",
+            "ChildIndex": 2,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "1183525347178631460": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 1920,
+                        "y": 1080
+                    },
+                    "Left": 0,
+                    "Right": 0,
+                    "Top": 0,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "12985962335130594749": {
+                    "Type": 4,
+                    "Enabled": true,
+                    "ScriptID": "16050076768188001941"
+                }
+            }
         },
         {
             "Name": "Background",
@@ -1828,6 +2049,158 @@
             }
         },
         {
+            "Name": "Image",
+            "ID": "7906955888889880112",
+            "SharedID": "8058227559854879784",
+            "ParentID": "14444138824269482580",
+            "ParentSharedID": "9287022013520813752",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "7289369959810846851": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 1920,
+                        "y": 1080
+                    },
+                    "Left": 0,
+                    "Right": 0,
+                    "Top": 0,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "3565149989923175417": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "16",
+                    "Sprite": "1",
+                    "RenderMode": 0,
+                    "Color": {
+                        "r": 0.172,
+                        "g": 0.164,
+                        "b": 0.164,
+                        "a": 0.548
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                }
+            }
+        },
+        {
+            "Name": "DeadPanel",
+            "ID": "8208956590456936077",
+            "SharedID": "1717517894274393889",
+            "ParentID": "14444138824269482580",
+            "ParentSharedID": "9287022013520813752",
+            "ChildIndex": 1,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "1907220435952405409": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "Size": {
+                        "x": 500,
+                        "y": 200
+                    },
+                    "Left": -250,
+                    "Right": -250,
+                    "Top": -100,
+                    "Bottom": -100,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "17424365409211702962": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "15",
+                    "Sprite": "1",
+                    "RenderMode": 1,
+                    "FillCenter": true,
+                    "PixelsPerUnitMultiplier": 1,
+                    "Color": {
+                        "r": 0.131,
+                        "g": 0.131,
+                        "b": 0.131,
+                        "a": 0.796
+                    },
+                    "Material": "11",
+                    "MouseFilter": 1
+                }
+            }
+        },
+        {
             "Name": "Background",
             "ID": "16755962761957985933",
             "ParentID": "8595553414022962200",
@@ -2554,6 +2927,364 @@
                     },
                     "Material": "11",
                     "MouseFilter": 0
+                }
+            }
+        },
+        {
+            "Name": "Button",
+            "ID": "16720825565327519434",
+            "SharedID": "7406052813324269660",
+            "ParentID": "8208956590456936077",
+            "ParentSharedID": "1717517894274393889",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "8929316289545834688": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 0
+                    },
+                    "Size": {
+                        "x": 261.5,
+                        "y": 40
+                    },
+                    "Left": -130.75,
+                    "Right": -130.75,
+                    "Top": -60.664,
+                    "Bottom": 20.664,
+                    "Position": {
+                        "x": 0,
+                        "y": -59.336,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "985840361594385259": {
+                    "Type": 48,
+                    "Enabled": true,
+                    "Events": {
+                        "70770709772343870": {
+                            "State": 0,
+                            "EntID": "14444138824269482580",
+                            "EntSharedID": "9287022013520813752",
+                            "OutsideEnt": false,
+                            "Path": [],
+                            "RootShared": "0",
+                            "RootInside": false,
+                            "IsMainInstanciableEntity": false,
+                            "HasData": true,
+                            "ClassName": "DeadMenuManager",
+                            "ClassNamespace": "",
+                            "MethodName": "void LoadMainMenu()",
+                            "HasParameter": false,
+                            "IsDynamic": false,
+                            "IsEntity": false,
+                            "CompIndex": 1
+                        }
+                    },
+                    "SelfInteractable": true,
+                    "State": 0,
+                    "Transition": 1,
+                    "Image": {
+                        "EntID": "16720825565327519434",
+                        "EntSharedID": "7406052813324269660",
+                        "OutsideEnt": false,
+                        "Path": [],
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "IsMainInstanciableEntity": false,
+                        "BehaType": 46,
+                        "BehaID": "12811321228268623014"
+                    },
+                    "Normal": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Highlighted": {
+                        "r": 0.92,
+                        "g": 0.92,
+                        "b": 0.92,
+                        "a": 1
+                    },
+                    "Pressed": {
+                        "r": 0.79,
+                        "g": 0.79,
+                        "b": 0.79,
+                        "a": 1
+                    },
+                    "Selected": {
+                        "r": 0.92,
+                        "g": 0.92,
+                        "b": 0.92,
+                        "a": 1
+                    },
+                    "Disabled": {
+                        "r": 0.79,
+                        "g": 0.79,
+                        "b": 0.79,
+                        "a": 0.5
+                    },
+                    "Fade": 0.1,
+                    "UseScaledTime": false,
+                    "Navigation": 3,
+                    "OnDown": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnLeft": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnRightEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "OnUpEntity": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    }
+                },
+                "12811321228268623014": {
+                    "Type": 46,
+                    "Enabled": true,
+                    "ResourceSprite": "13",
+                    "Sprite": "1",
+                    "RenderMode": 1,
+                    "FillCenter": true,
+                    "PixelsPerUnitMultiplier": 1,
+                    "Color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "Material": "11",
+                    "MouseFilter": 0
+                }
+            }
+        },
+        {
+            "Name": "Text",
+            "ID": "1501420943532604622",
+            "SharedID": "8367981349229451959",
+            "ParentID": "8208956590456936077",
+            "ParentSharedID": "1717517894274393889",
+            "ChildIndex": 1,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "13645544481943310489": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 1
+                    },
+                    "AnchorMin": {
+                        "x": 0.5,
+                        "y": 1
+                    },
+                    "AnchorMax": {
+                        "x": 0.5,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 200,
+                        "y": 50
+                    },
+                    "Left": -100,
+                    "Right": -100,
+                    "Top": 41.332,
+                    "Bottom": -91.332,
+                    "Position": {
+                        "x": 0,
+                        "y": 33.668,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "6486795742637868092": {
+                    "Type": 47,
+                    "Enabled": true,
+                    "Text": "You win!",
+                    "Font": "14",
+                    "FontSize": 36,
+                    "AutoFontSize": false,
+                    "MinAutoFontSize": 1,
+                    "MaxAutoFontSize": 200,
+                    "HorizontalAlignment": 1,
+                    "VerticalAlignment": 1,
+                    "Overflow": 0,
+                    "Wrapping": true,
+                    "AutoContentSizeMode": 0,
+                    "Color": {
+                        "r": 0.887,
+                        "g": 0.808,
+                        "b": 0.132,
+                        "a": 1
+                    },
+                    "Material": "12",
+                    "MouseFilter": 0
+                }
+            }
+        },
+        {
+            "Name": "Text",
+            "ID": "4859739241598712404",
+            "SharedID": "10707332723606115440",
+            "ParentID": "16720825565327519434",
+            "ParentSharedID": "7406052813324269660",
+            "ChildIndex": 0,
+            "Enabled": true,
+            "IsUpEnabled": true,
+            "IsStatic": false,
+            "Layer": 1,
+            "Tag": "Untagged",
+            "Valid": true,
+            "Selectable": true,
+            "UpSelectable": true,
+            "Visible": true,
+            "UpVisible": true,
+            "Behaviours": {
+                "2445744932528153151": {
+                    "Type": 44,
+                    "Enabled": true,
+                    "Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "AnchorMin": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "AnchorMax": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "Size": {
+                        "x": 201.5,
+                        "y": 40
+                    },
+                    "Left": 30,
+                    "Right": 30,
+                    "Top": 0,
+                    "Bottom": 0,
+                    "Position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "Rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "Scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "14791088838920080838": {
+                    "Type": 47,
+                    "Enabled": true,
+                    "Text": "Return Main Menu",
+                    "Font": "14",
+                    "FontSize": 22,
+                    "AutoFontSize": false,
+                    "MinAutoFontSize": 1,
+                    "MaxAutoFontSize": 200,
+                    "HorizontalAlignment": 1,
+                    "VerticalAlignment": 1,
+                    "Overflow": 0,
+                    "Wrapping": true,
+                    "AutoContentSizeMode": 0,
+                    "Color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                    },
+                    "Material": "12",
+                    "MouseFilter": 2
                 }
             }
         }
