@@ -946,7 +946,7 @@
                     "ScriptID": "9602420093240974396",
                     "Fields": {
                         "float maxTime": {
-                            "Value": 120
+                            "Value": 70
                         },
                         "CometEngine::UI::ImageRect@ life": {
                             "EntID": "5082097852885523741",
@@ -1139,7 +1139,7 @@
             "SharedID": "9287022013520813752",
             "ParentID": "11321055719085106558",
             "ChildIndex": 2,
-            "Enabled": false,
+            "Enabled": true,
             "IsUpEnabled": true,
             "IsStatic": false,
             "Layer": 1,
@@ -2002,7 +2002,7 @@
             "ParentSharedID": "9287022013520813752",
             "ChildIndex": 0,
             "Enabled": true,
-            "IsUpEnabled": false,
+            "IsUpEnabled": true,
             "IsStatic": false,
             "Layer": 1,
             "Tag": "Untagged",
@@ -2077,7 +2077,7 @@
             "ParentSharedID": "9287022013520813752",
             "ChildIndex": 1,
             "Enabled": true,
-            "IsUpEnabled": false,
+            "IsUpEnabled": true,
             "IsStatic": false,
             "Layer": 1,
             "Tag": "Untagged",
@@ -2884,7 +2884,7 @@
             "ParentSharedID": "1717517894274393889",
             "ChildIndex": 0,
             "Enabled": true,
-            "IsUpEnabled": false,
+            "IsUpEnabled": true,
             "IsStatic": false,
             "Layer": 1,
             "Tag": "Untagged",
@@ -3076,7 +3076,7 @@
             "ParentSharedID": "1717517894274393889",
             "ChildIndex": 1,
             "Enabled": true,
-            "IsUpEnabled": false,
+            "IsUpEnabled": true,
             "IsStatic": false,
             "Layer": 1,
             "Tag": "Untagged",
@@ -3159,7 +3159,7 @@
             "ParentSharedID": "7406052813324269660",
             "ChildIndex": 0,
             "Enabled": true,
-            "IsUpEnabled": false,
+            "IsUpEnabled": true,
             "IsStatic": false,
             "Layer": 1,
             "Tag": "Untagged",

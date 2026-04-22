@@ -23,7 +23,7 @@ class /*@*/ DragonLifeCountdown : CometBehaviour
 		print(_timer);
 
 		Vector3 size = life.transform.localScale;
-		size.x = 1.0f - Math::Lerp(0.0f, maxTime, _timer/maxTime / 60.0f);
+		size.x = 1.0f - Math::Lerp(0.0f, maxTime, _timer/maxTime) / maxTime;
 		life.transform.localScale = size;
 
 		if(_timer >= maxTime)
