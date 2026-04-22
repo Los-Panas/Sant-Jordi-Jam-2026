@@ -189,7 +189,7 @@ class /*@*/ PlayerMovment : CometBehaviour
 				{
 					immortalStartTime = Time::GetGameTime();
 					isImmortal = true;
-
+					hasHarp = false;
 					//DropHarp();
 				}
 				else

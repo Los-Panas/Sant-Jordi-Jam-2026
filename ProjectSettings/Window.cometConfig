@@ -3,8 +3,8 @@
     "Resizable": true,
     "Bordered": true,
     "Size": {
-        "x": 1024,
-        "y": 768
+        "x": 1280,
+        "y": 720
     },
     "Position": {
         "x": 0,
