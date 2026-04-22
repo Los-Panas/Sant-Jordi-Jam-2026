@@ -34,16 +34,16 @@
                         "w": 1
                     },
                     "Scale": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
+                        "x": 10,
+                        "y": 10,
+                        "z": 10
                     }
                 },
                 "1275111679992074436": {
                     "Type": 3,
                     "Enabled": true,
-                    "ResourceSprite": "2602289790248286789",
-                    "Sprite": "9276073304394369883",
+                    "ResourceSprite": "16039837392363318307",
+                    "Sprite": "1322353708207886106",
                     "RenderMode": 0,
                     "Color": {
                         "r": 1,
@@ -60,7 +60,7 @@
                 },
                 "6314011327241617919": {
                     "Type": 39,
-                    "Enabled": true,
+                    "Enabled": false,
                     "UpdateTimeMode": 0,
                     "RootMotion": false,
                     "Controller": "8831859764498402531",
@@ -84,14 +84,434 @@
                 "1250825851168787563": {
                     "Type": 15,
                     "Enabled": true,
-                    "Radius": 0.33,
+                    "Radius": 0.05,
                     "Trigger": false,
                     "Offset": {
                         "x": 0.1,
                         "y": 0
                     },
-                    "Density": 1,
                     "Effector": false
+                },
+                "9650799850399386164": {
+                    "Type": 55,
+                    "Enabled": true,
+                    "Duration": 5,
+                    "Loop": true,
+                    "Start Delay": {
+                        "ValueType": 2,
+                        "Limits": {
+                            "Min": 0,
+                            "Max": 340282346638528859811704183484516925440
+                        },
+                        "Value": 0
+                    },
+                    "Start Lifetime": {
+                        "ValueType": 2,
+                        "Limits": {
+                            "Min": 0,
+                            "Max": 340282346638528859811704183484516925440
+                        },
+                        "Value": 5
+                    },
+                    "Start Spped": {
+                        "ValueType": 2,
+                        "Value": 0.2
+                    },
+                    "Start Size": {
+                        "ValueType": 2,
+                        "Limits": {
+                            "Min": 0,
+                            "Max": 340282346638528859811704183484516925440
+                        },
+                        "Value": {
+                            "x": 0.02,
+                            "y": 0.02
+                        }
+                    },
+                    "Start Rotation": {
+                        "ValueType": 8,
+                        "ValueA": 0,
+                        "ValueB": 90
+                    },
+                    "FlipRotation": false,
+                    "Start Color": {
+                        "ValueType": 8,
+                        "ValueA": {
+                            "r": 1,
+                            "g": 0,
+                            "b": 0,
+                            "a": 1
+                        },
+                        "ValueB": {
+                            "r": 1,
+                            "g": 0.923,
+                            "b": 0,
+                            "a": 1
+                        }
+                    },
+                    "Gravity Scale": {
+                        "ValueType": 2,
+                        "Value": 0
+                    },
+                    "Space": 1,
+                    "CustomSpace": {
+                        "EntID": "0",
+                        "EntSharedID": "0",
+                        "IsMainInstanciableEntity": false,
+                        "Path": [],
+                        "OutsideEnt": false,
+                        "RootShared": "0",
+                        "RootInside": false,
+                        "BehaType": 0,
+                        "BehaID": "0"
+                    },
+                    "LocalScaleTime": 1,
+                    "UseScaledTime": true,
+                    "ScalingMode": 1,
+                    "PlayOnAwake": true,
+                    "StopOnDisable": true,
+                    "UseRBVelocity": true,
+                    "MaxParticles": 1000,
+                    "AutoRandomSeed": true,
+                    "StopAction": 0,
+                    "AliveMode": 0,
+                    "Emission": {
+                        "Enabled": true,
+                        "RatePerSecond": {
+                            "ValueType": 2,
+                            "Limits": {
+                                "Min": 0,
+                                "Max": 340282346638528859811704183484516925440
+                            },
+                            "Value": 10
+                        }
+                    },
+                    "Shape": {
+                        "Enabled": true,
+                        "Position": {
+                            "x": 0.02,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "Rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 90
+                        },
+                        "Scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        },
+                        "Shape": 2,
+                        "SpawnMode": 0,
+                        "SpawnArea": 1,
+                        "Speed": 1,
+                        "Length": 0.01,
+                        "Angle": 0
+                    },
+                    "Velocity Over Lifetime": {
+                        "Enabled": false,
+                        "Linear": {
+                            "ValueType": 2,
+                            "Value": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        "Space": 0,
+                        "SpeedModifier": {
+                            "ValueType": 2,
+                            "Value": 1
+                        },
+                        "OrbitalVelocity": {
+                            "ValueType": 2,
+                            "Value": 0
+                        },
+                        "OrbitalCenterOffset": {
+                            "ValueType": 2,
+                            "Value": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        }
+                    },
+                    "Limit Velocity Over Lifetime": {
+                        "Enabled": false,
+                        "SeparateAxes": false,
+                        "SpeedLimit": {
+                            "ValueType": 2,
+                            "Limits": {
+                                "Min": 0,
+                                "Max": 340282346638528859811704183484516925440
+                            },
+                            "Value": 0
+                        },
+                        "Dampen": 0,
+                        "MultiplyDragBySize": true,
+                        "Drag": {
+                            "ValueType": 2,
+                            "Limits": {
+                                "Min": 0,
+                                "Max": 340282346638528859811704183484516925440
+                            },
+                            "Value": 0
+                        }
+                    },
+                    "Force Over Lifetime": {
+                        "Enabled": false,
+                        "Force": {
+                            "ValueType": 2,
+                            "Value": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        "Space": 0
+                    },
+                    "Color Over Lifetime": {
+                        "Enabled": false,
+                        "Color": {
+                            "ValueType": 16,
+                            "Mode": 0,
+                            "ColorMarks": [
+                                {
+                                    "Mark": [
+                                        0,
+                                        1,
+                                        1,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "Mark": [
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    ]
+                                }
+                            ],
+                            "AlphaMarks": [
+                                {
+                                    "Mark": [
+                                        0,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "Mark": [
+                                        1,
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "Color By Speed": {
+                        "SpeedRange": {
+                            "x": 0,
+                            "y": 1
+                        },
+                        "Enabled": false,
+                        "Color": {
+                            "ValueType": 16,
+                            "Mode": 0,
+                            "ColorMarks": [
+                                {
+                                    "Mark": [
+                                        0,
+                                        1,
+                                        1,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "Mark": [
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    ]
+                                }
+                            ],
+                            "AlphaMarks": [
+                                {
+                                    "Mark": [
+                                        0,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "Mark": [
+                                        1,
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "Size Over Lifetime": {
+                        "Enabled": false,
+                        "SeparateAxes": false,
+                        "Size": {
+                            "ValueType": 4,
+                            "Limits": {
+                                "Min": 0,
+                                "Max": 340282346638528859811704183484516925440
+                            },
+                            "Curves": [
+                                {
+                                    "Curve": [
+                                        {
+                                            "ValueMult": 1,
+                                            "Points": [
+                                                {
+                                                    "Point": {
+                                                        "x": 0,
+                                                        "y": 1
+                                                    },
+                                                    "In": {
+                                                        "x": 0,
+                                                        "y": 0
+                                                    },
+                                                    "Out": {
+                                                        "x": 0,
+                                                        "y": 0
+                                                    }
+                                                }
+                                            ],
+                                            "BakeInterval": 0.05
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "Size by Speed": {
+                        "SpeedRange": {
+                            "x": 0,
+                            "y": 1
+                        },
+                        "Enabled": false,
+                        "SeparateAxes": false,
+                        "Size": {
+                            "ValueType": 4,
+                            "Limits": {
+                                "Min": 0,
+                                "Max": 340282346638528859811704183484516925440
+                            },
+                            "Curves": [
+                                {
+                                    "Curve": [
+                                        {
+                                            "ValueMult": 1,
+                                            "Points": [
+                                                {
+                                                    "Point": {
+                                                        "x": 0,
+                                                        "y": 1
+                                                    },
+                                                    "In": {
+                                                        "x": 0,
+                                                        "y": 0
+                                                    },
+                                                    "Out": {
+                                                        "x": 0,
+                                                        "y": 0
+                                                    }
+                                                }
+                                            ],
+                                            "BakeInterval": 0.05
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "Rotation Over Lifetime": {
+                        "Enabled": false,
+                        "AngularVelocity": {
+                            "ValueType": 2,
+                            "Value": 0
+                        }
+                    },
+                    "Rotation By Speed": {
+                        "SpeedRange": {
+                            "x": 0,
+                            "y": 1
+                        },
+                        "Enabled": false,
+                        "AngularVelocity": {
+                            "ValueType": 2,
+                            "Value": 0
+                        }
+                    },
+                    "Texture Animation": {
+                        "Enabled": false,
+                        "AnimationType": 0,
+                        "Tiles": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "SheetMode": 0,
+                        "CustomSortPivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "TimeModeType": 0,
+                        "FrameOverTime": {
+                            "ValueType": 4,
+                            "Limits": {
+                                "Min": 0,
+                                "Max": 1
+                            },
+                            "Curves": [
+                                {
+                                    "Curve": [
+                                        {
+                                            "ValueMult": 1,
+                                            "Points": [
+                                                {
+                                                    "Point": {
+                                                        "x": 0,
+                                                        "y": 1
+                                                    },
+                                                    "In": {
+                                                        "x": 0,
+                                                        "y": 0
+                                                    },
+                                                    "Out": {
+                                                        "x": 0,
+                                                        "y": 0
+                                                    }
+                                                }
+                                            ],
+                                            "BakeInterval": 0.05
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Start Frame": {
+                            "ValueType": 2,
+                            "Limits": {
+                                "Min": 0,
+                                "Max": 1
+                            },
+                            "Value": 0
+                        },
+                        "Cycles": 1
+                    },
+                    "Renderer": {
+                        "Enabled": true,
+                        "RenderMode": 0,
+                        "SortMode": 0,
+                        "ShowParticlePivots": false
+                    },
+                    "Material": "9",
+                    "OrderInLayer": 0,
+                    "SortingLayerName": "Default"
                 }
             }
         }

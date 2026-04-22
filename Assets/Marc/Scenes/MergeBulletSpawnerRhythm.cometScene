@@ -1291,6 +1291,7 @@
                     "SharedID": "8000533929010957435",
                     "ParentID": "6318824621031536748",
                     "ChildIndex": 3,
+                    "Enabled": false,
                     "IsInstanciableEntity": true,
                     "IsRootInstanciableEntity": true,
                     "InstanciableEntityID": "11130286038635145799",
@@ -1482,7 +1483,7 @@
                     "Behaviours": {
                         "3458172945959728255": {
                             "Position": {
-                                "x": -7.826,
+                                "x": -6.108,
                                 "y": 0.003,
                                 "z": 0
                             },
@@ -1491,6 +1492,13 @@
                                 "y": 0,
                                 "z": 0,
                                 "w": 1
+                            }
+                        },
+                        "12097185571391361038": {
+                            "Fields": {
+                                "bool startOnGround": {
+                                    "Value": true
+                                }
                             }
                         }
                     },
@@ -1542,7 +1550,7 @@
                     "Top": 0.001,
                     "Bottom": 0,
                     "Position": {
-                        "x": 0,
+                        "x": -0.001,
                         "y": -0.001,
                         "z": 0
                     },
