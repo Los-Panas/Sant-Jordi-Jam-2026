@@ -557,8 +557,8 @@
                     "Behaviours": {
                         "18239157369597650061": {
                             "Position": {
-                                "x": 1.94,
-                                "y": 2.628,
+                                "x": -9.03,
+                                "y": 0.006,
                                 "z": 0
                             },
                             "Scale": {
@@ -582,6 +582,9 @@
                                     "EntID": "8044084955212222824",
                                     "EntSharedID": "9287022013520813752",
                                     "RootShared": "9287022013520813752"
+                                },
+                                "float rotationSpeed": {
+                                    "Value": 30
                                 }
                             }
                         },
@@ -1336,7 +1339,7 @@
                     "Top": -512.246,
                     "Bottom": 462.247,
                     "Position": {
-                        "x": 662.523,
+                        "x": 662.524,
                         "y": 487.246,
                         "z": 0
                     },
@@ -1467,6 +1470,37 @@
                     }
                 }
             }
+        },
+        {
+            "InstanciableEntity": "874052294633368858",
+            "Overrides": [
+                {
+                    "ID": "4135775414959248081",
+                    "SharedID": "15141658524868737036",
+                    "ParentID": "7632102262766568474",
+                    "ChildIndex": 0,
+                    "Behaviours": {
+                        "3458172945959728255": {
+                            "Position": {
+                                "x": -7.826,
+                                "y": 0.003,
+                                "z": 0
+                            },
+                            "Rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                            }
+                        }
+                    },
+                    "IsInstanciableEntity": true,
+                    "IsRootInstanciableEntity": true,
+                    "InstanciableEntityID": "874052294633368858",
+                    "InsideInstanciableEntityID": "0",
+                    "OuterInstanciableEntityID": "874052294633368858"
+                }
+            ]
         },
         {
             "Name": "Background",

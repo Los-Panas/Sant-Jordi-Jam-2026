@@ -19,6 +19,7 @@ class /*@*/ Stone : CometBehaviour
 	private float _timer = 0.f;
 
 	private bool _falling = true;
+	bool startOnGround = false;
 
 	private float _initialSize;
 
@@ -34,9 +35,12 @@ class /*@*/ Stone : CometBehaviour
 
 	void Start()
 	{
-		_collider.enabled = false;
-		_particleSystem.enabled = false;
-		_initialSize = this.entity.transform.scale.x;
+		if(startOnGround){
+			_collider.enabled = false;
+			_particleSystem.enabled = false;
+			_initialSize = this.entity.transform.scale.x;
+			_falling = false;
+		}
 	}
 
 	void Update()

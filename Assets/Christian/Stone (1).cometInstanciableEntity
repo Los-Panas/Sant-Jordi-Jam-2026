@@ -87,6 +87,9 @@
                         },
                         "int maxLife": {
                             "Value": 3
+                        },
+                        "bool startOnGround": {
+                            "Value": false
                         }
                     }
                 },
