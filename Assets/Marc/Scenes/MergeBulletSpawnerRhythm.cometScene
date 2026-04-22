@@ -44,9 +44,9 @@
                     "Enabled": true,
                     "CullingMask": 2147483647,
                     "BackCol": {
-                        "r": 0.192,
-                        "g": 0.302,
-                        "b": 0.475,
+                        "r": 0.386,
+                        "g": 0.435,
+                        "b": 0.512,
                         "a": 1
                     },
                     "FarPlane": 200,
@@ -946,7 +946,7 @@
                     "ScriptID": "9602420093240974396",
                     "Fields": {
                         "float maxTime": {
-                            "Value": 10
+                            "Value": 120
                         },
                         "CometEngine::UI::ImageRect@ life": {
                             "EntID": "5082097852885523741",
@@ -1139,7 +1139,7 @@
             "SharedID": "9287022013520813752",
             "ParentID": "11321055719085106558",
             "ChildIndex": 2,
-            "Enabled": true,
+            "Enabled": false,
             "IsUpEnabled": true,
             "IsStatic": false,
             "Layer": 1,
@@ -1609,7 +1609,7 @@
                     "Bottom": 462.247,
                     "Position": {
                         "x": 662.524,
-                        "y": 487.246,
+                        "y": 487.247,
                         "z": 0
                     },
                     "Rotation": {
@@ -2056,7 +2056,7 @@
             "ParentSharedID": "9287022013520813752",
             "ChildIndex": 0,
             "Enabled": true,
-            "IsUpEnabled": true,
+            "IsUpEnabled": false,
             "IsStatic": false,
             "Layer": 1,
             "Tag": "Untagged",
@@ -2131,7 +2131,7 @@
             "ParentSharedID": "9287022013520813752",
             "ChildIndex": 1,
             "Enabled": true,
-            "IsUpEnabled": true,
+            "IsUpEnabled": false,
             "IsStatic": false,
             "Layer": 1,
             "Tag": "Untagged",
@@ -2241,7 +2241,7 @@
                     "Bottom": 0,
                     "Position": {
                         "x": -0.001,
-                        "y": -0.001,
+                        "y": 0,
                         "z": 0
                     },
                     "Rotation": {
@@ -2938,7 +2938,7 @@
             "ParentSharedID": "1717517894274393889",
             "ChildIndex": 0,
             "Enabled": true,
-            "IsUpEnabled": true,
+            "IsUpEnabled": false,
             "IsStatic": false,
             "Layer": 1,
             "Tag": "Untagged",
@@ -3130,7 +3130,7 @@
             "ParentSharedID": "1717517894274393889",
             "ChildIndex": 1,
             "Enabled": true,
-            "IsUpEnabled": true,
+            "IsUpEnabled": false,
             "IsStatic": false,
             "Layer": 1,
             "Tag": "Untagged",
@@ -3213,7 +3213,7 @@
             "ParentSharedID": "7406052813324269660",
             "ChildIndex": 0,
             "Enabled": true,
-            "IsUpEnabled": true,
+            "IsUpEnabled": false,
             "IsStatic": false,
             "Layer": 1,
             "Tag": "Untagged",
