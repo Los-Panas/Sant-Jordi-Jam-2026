@@ -31,14 +31,18 @@ class /*@*/ Stone : CometBehaviour
 		_initialSprite = _spriteRenderer.sprite;
 
 		_currentLife = maxLife;
+		_initialSize = this.entity.transform.scale.x;
 	}
 
 	void Start()
 	{
-		if(startOnGround){
+		if (!startOnGround)
+		{
 			_collider.enabled = false;
 			_particleSystem.enabled = false;
-			_initialSize = this.entity.transform.scale.x;
+		}
+		else
+		{
 			_falling = false;
 		}
 	}
